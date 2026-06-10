@@ -1,195 +1,244 @@
-// Runs in GitHub Actions — calls Anthropic API, rewrites src/newsData.js
+// Runs in GitHub Actions — fetches real news via RSS, writes src/newsData.js
 const https = require("https");
+const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
 const TEAMS = [
-  { name: "Mexico", flag: "🇲🇽", group: "A", confederation: "CONCACAF" },
-  { name: "South Africa", flag: "🇿🇦", group: "A", confederation: "CAF" },
-  { name: "South Korea", flag: "🇰🇷", group: "A", confederation: "AFC" },
-  { name: "Czechia", flag: "🇨🇿", group: "A", confederation: "UEFA" },
-  { name: "Switzerland", flag: "🇨🇭", group: "B", confederation: "UEFA" },
-  { name: "Canada", flag: "🇨🇦", group: "B", confederation: "CONCACAF" },
-  { name: "Qatar", flag: "🇶🇦", group: "B", confederation: "AFC" },
+  { name: "Mexico",               flag: "🇲🇽", group: "A", confederation: "CONCACAF" },
+  { name: "South Africa",         flag: "🇿🇦", group: "A", confederation: "CAF" },
+  { name: "South Korea",          flag: "🇰🇷", group: "A", confederation: "AFC" },
+  { name: "Czechia",              flag: "🇨🇿", group: "A", confederation: "UEFA" },
+  { name: "Switzerland",          flag: "🇨🇭", group: "B", confederation: "UEFA" },
+  { name: "Canada",               flag: "🇨🇦", group: "B", confederation: "CONCACAF" },
+  { name: "Qatar",                flag: "🇶🇦", group: "B", confederation: "AFC" },
   { name: "Bosnia & Herzegovina", flag: "🇧🇦", group: "B", confederation: "UEFA" },
-  { name: "Brazil", flag: "🇧🇷", group: "C", confederation: "CONMEBOL" },
-  { name: "Morocco", flag: "🇲🇦", group: "C", confederation: "CAF" },
-  { name: "Scotland", flag: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", group: "C", confederation: "UEFA" },
-  { name: "Haiti", flag: "🇭🇹", group: "C", confederation: "CONCACAF" },
-  { name: "USA", flag: "🇺🇸", group: "D", confederation: "CONCACAF" },
-  { name: "Australia", flag: "🇦🇺", group: "D", confederation: "AFC" },
-  { name: "Türkiye", flag: "🇹🇷", group: "D", confederation: "UEFA" },
-  { name: "Paraguay", flag: "🇵🇾", group: "D", confederation: "CONMEBOL" },
-  { name: "Germany", flag: "🇩🇪", group: "E", confederation: "UEFA" },
-  { name: "Ecuador", flag: "🇪🇨", group: "E", confederation: "CONMEBOL" },
-  { name: "Ivory Coast", flag: "🇨🇮", group: "E", confederation: "CAF" },
-  { name: "Curaçao", flag: "🇨🇼", group: "E", confederation: "CONCACAF" },
-  { name: "Netherlands", flag: "🇳🇱", group: "F", confederation: "UEFA" },
-  { name: "Japan", flag: "🇯🇵", group: "F", confederation: "AFC" },
-  { name: "Sweden", flag: "🇸🇪", group: "F", confederation: "UEFA" },
-  { name: "Tunisia", flag: "🇹🇳", group: "F", confederation: "CAF" },
-  { name: "Belgium", flag: "🇧🇪", group: "G", confederation: "UEFA" },
-  { name: "Iran", flag: "🇮🇷", group: "G", confederation: "AFC" },
-  { name: "Egypt", flag: "🇪🇬", group: "G", confederation: "CAF" },
-  { name: "New Zealand", flag: "🇳🇿", group: "G", confederation: "OFC" },
-  { name: "Spain", flag: "🇪🇸", group: "H", confederation: "UEFA" },
-  { name: "Uruguay", flag: "🇺🇾", group: "H", confederation: "CONMEBOL" },
-  { name: "Saudi Arabia", flag: "🇸🇦", group: "H", confederation: "AFC" },
-  { name: "Cape Verde", flag: "🇨🇻", group: "H", confederation: "CAF" },
-  { name: "France", flag: "🇫🇷", group: "I", confederation: "UEFA" },
-  { name: "Senegal", flag: "🇸🇳", group: "I", confederation: "CAF" },
-  { name: "Norway", flag: "🇳🇴", group: "I", confederation: "UEFA" },
-  { name: "Iraq", flag: "🇮🇶", group: "I", confederation: "AFC" },
-  { name: "Argentina", flag: "🇦🇷", group: "J", confederation: "CONMEBOL" },
-  { name: "Austria", flag: "🇦🇹", group: "J", confederation: "UEFA" },
-  { name: "Algeria", flag: "🇩🇿", group: "J", confederation: "CAF" },
-  { name: "Jordan", flag: "🇯🇴", group: "J", confederation: "AFC" },
-  { name: "Portugal", flag: "🇵🇹", group: "K", confederation: "UEFA" },
-  { name: "Colombia", flag: "🇨🇴", group: "K", confederation: "CONMEBOL" },
-  { name: "DR Congo", flag: "🇨🇩", group: "K", confederation: "CAF" },
-  { name: "Uzbekistan", flag: "🇺🇿", group: "K", confederation: "AFC" },
-  { name: "England", flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", group: "L", confederation: "UEFA" },
-  { name: "Croatia", flag: "🇭🇷", group: "L", confederation: "UEFA" },
-  { name: "Panama", flag: "🇵🇦", group: "L", confederation: "CONCACAF" },
-  { name: "Ghana", flag: "🇬🇭", group: "L", confederation: "CAF" },
+  { name: "Brazil",               flag: "🇧🇷", group: "C", confederation: "CONMEBOL" },
+  { name: "Morocco",              flag: "🇲🇦", group: "C", confederation: "CAF" },
+  { name: "Scotland",             flag: "🏴󠁧󠁢󠁳󠁣󠁴󠁿", group: "C", confederation: "UEFA" },
+  { name: "Haiti",                flag: "🇭🇹", group: "C", confederation: "CONCACAF" },
+  { name: "USA",                  flag: "🇺🇸", group: "D", confederation: "CONCACAF" },
+  { name: "Australia",            flag: "🇦🇺", group: "D", confederation: "AFC" },
+  { name: "Türkiye",              flag: "🇹🇷", group: "D", confederation: "UEFA" },
+  { name: "Paraguay",             flag: "🇵🇾", group: "D", confederation: "CONMEBOL" },
+  { name: "Germany",              flag: "🇩🇪", group: "E", confederation: "UEFA" },
+  { name: "Ecuador",              flag: "🇪🇨", group: "E", confederation: "CONMEBOL" },
+  { name: "Ivory Coast",          flag: "🇨🇮", group: "E", confederation: "CAF" },
+  { name: "Curaçao",              flag: "🇨🇼", group: "E", confederation: "CONCACAF" },
+  { name: "Netherlands",          flag: "🇳🇱", group: "F", confederation: "UEFA" },
+  { name: "Japan",                flag: "🇯🇵", group: "F", confederation: "AFC" },
+  { name: "Sweden",               flag: "🇸🇪", group: "F", confederation: "UEFA" },
+  { name: "Tunisia",              flag: "🇹🇳", group: "F", confederation: "CAF" },
+  { name: "Belgium",              flag: "🇧🇪", group: "G", confederation: "UEFA" },
+  { name: "Iran",                 flag: "🇮🇷", group: "G", confederation: "AFC" },
+  { name: "Egypt",                flag: "🇪🇬", group: "G", confederation: "CAF" },
+  { name: "New Zealand",          flag: "🇳🇿", group: "G", confederation: "OFC" },
+  { name: "Spain",                flag: "🇪🇸", group: "H", confederation: "UEFA" },
+  { name: "Uruguay",              flag: "🇺🇾", group: "H", confederation: "CONMEBOL" },
+  { name: "Saudi Arabia",         flag: "🇸🇦", group: "H", confederation: "AFC" },
+  { name: "Cape Verde",           flag: "🇨🇻", group: "H", confederation: "CAF" },
+  { name: "France",               flag: "🇫🇷", group: "I", confederation: "UEFA" },
+  { name: "Senegal",              flag: "🇸🇳", group: "I", confederation: "CAF" },
+  { name: "Norway",               flag: "🇳🇴", group: "I", confederation: "UEFA" },
+  { name: "Iraq",                 flag: "🇮🇶", group: "I", confederation: "AFC" },
+  { name: "Argentina",            flag: "🇦🇷", group: "J", confederation: "CONMEBOL" },
+  { name: "Austria",              flag: "🇦🇹", group: "J", confederation: "UEFA" },
+  { name: "Algeria",              flag: "🇩🇿", group: "J", confederation: "CAF" },
+  { name: "Jordan",               flag: "🇯🇴", group: "J", confederation: "AFC" },
+  { name: "Portugal",             flag: "🇵🇹", group: "K", confederation: "UEFA" },
+  { name: "Colombia",             flag: "🇨🇴", group: "K", confederation: "CONMEBOL" },
+  { name: "DR Congo",             flag: "🇨🇩", group: "K", confederation: "CAF" },
+  { name: "Uzbekistan",           flag: "🇺🇿", group: "K", confederation: "AFC" },
+  { name: "England",              flag: "🏴󠁧󠁢󠁥󠁮󠁧󠁿", group: "L", confederation: "UEFA" },
+  { name: "Croatia",              flag: "🇭🇷", group: "L", confederation: "UEFA" },
+  { name: "Panama",               flag: "🇵🇦", group: "L", confederation: "CONCACAF" },
+  { name: "Ghana",                flag: "🇬🇭", group: "L", confederation: "CAF" },
 ];
 
-function callClaude(prompt) {
-  return new Promise((resolve, reject) => {
-    const body = JSON.stringify({
-      model: "claude-haiku-4-5-20251001",
-      max_tokens: 2000,
-      messages: [{ role: "user", content: prompt }],
-    });
+// Search term overrides for teams whose name alone is ambiguous
+const SEARCH_OVERRIDES = {
+  "USA":                  "USMNT World Cup 2026",
+  "South Korea":          "Korea Republic World Cup 2026",
+  "Bosnia & Herzegovina": "Bosnia football World Cup 2026",
+  "Ivory Coast":          "Ivory Coast football World Cup 2026",
+  "DR Congo":             "DR Congo football World Cup 2026",
+  "Türkiye":              "Turkey football World Cup 2026",
+  "Curaçao":              "Curacao football World Cup 2026",
+  "Scotland":             "Scotland football World Cup 2026",
+};
 
-    const req = https.request({
-      hostname: "api.anthropic.com",
-      path: "/v1/messages",
-      method: "POST",
+function getSearchTerm(teamName) {
+  return SEARCH_OVERRIDES[teamName] || `${teamName} football World Cup 2026`;
+}
+
+function fetchURL(url) {
+  return new Promise((resolve, reject) => {
+    const lib = url.startsWith("https") ? https : http;
+    const req = lib.get(url, {
       headers: {
-        "Content-Type": "application/json",
-        "x-api-key": process.env.ANTHROPIC_API_KEY,
-        "anthropic-version": "2023-06-01",
+        "User-Agent": "Mozilla/5.0 (compatible; WC2026Tracker/1.0)",
+        "Accept": "application/rss+xml, application/xml, text/xml, */*",
       },
+      timeout: 10000,
     }, (res) => {
+      // Follow redirects
+      if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
+        return fetchURL(res.headers.location).then(resolve).catch(reject);
+      }
       let data = "";
       res.on("data", chunk => data += chunk);
-      res.on("end", () => {
-        try {
-          const parsed = JSON.parse(data);
-          if (parsed.type === "error") return reject(new Error(parsed.error.message));
-          const text = parsed.content?.find(b => b.type === "text")?.text;
-          resolve(text || "");
-        } catch (e) { reject(e); }
-      });
+      res.on("end", () => resolve({ status: res.statusCode, body: data }));
     });
     req.on("error", reject);
-    req.write(body);
-    req.end();
+    req.on("timeout", () => { req.destroy(); reject(new Error("Timeout")); });
   });
 }
 
-function extractJSON(raw) {
-  const s = raw.indexOf("[");
-  const e = raw.lastIndexOf("]");
-  if (s === -1 || e === -1) return null;
-  try { return JSON.parse(raw.slice(s, e + 1)); } catch { return null; }
+function parseRSS(xml) {
+  const items = [];
+  const itemBlocks = xml.match(/<item>([\s\S]*?)<\/item>/g) || [];
+  
+  for (const block of itemBlocks) {
+    const getText = (tag) => {
+      const m = block.match(new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>|<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`));
+      return m ? (m[1] || m[2] || "").trim() : "";
+    };
+
+    // Get link — Google RSS wraps the real URL in a redirect
+    const linkMatch = block.match(/<link>([\s\S]*?)<\/link>/) ||
+                      block.match(/<link\s+href="([^"]+)"/);
+    const rawLink = linkMatch ? linkMatch[1].trim() : "";
+
+    // Extract real URL from Google redirect if present
+    let url = rawLink;
+    const urlMatch = rawLink.match(/url=([^&]+)/);
+    if (urlMatch) {
+      try { url = decodeURIComponent(urlMatch[1]); } catch {}
+    }
+
+    const sourceMatch = block.match(/<source[^>]*url="([^"]*)"[^>]*>([\s\S]*?)<\/source>/);
+    const sourceUrl  = sourceMatch ? sourceMatch[1] : "";
+    const sourceName = sourceMatch ? (sourceMatch[2] || "").replace(/<!\[CDATA\[|\]\]>/g, "").trim() : "";
+
+    const pubDate = getText("pubDate");
+    const title   = getText("title");
+    const desc    = getText("description");
+
+    if (!title || !url) continue;
+
+    // Parse date
+    let dateStr = "Recent";
+    if (pubDate) {
+      const d = new Date(pubDate);
+      if (!isNaN(d)) {
+        dateStr = d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
+      }
+    }
+
+    items.push({
+      headline: title.replace(/\s*-\s*[^-]+$/, "").trim(), // strip "- Source Name" suffix
+      summary:  desc.replace(/<[^>]+>/g, "").replace(/&[a-z]+;/g, " ").trim().slice(0, 200),
+      source:   sourceName || "News",
+      sourceUrl: sourceUrl || url,
+      url:      url,
+      date:     dateStr,
+      category: "Other",
+      pubDate:  pubDate,
+    });
+  }
+
+  return items;
+}
+
+function categorize(headline) {
+  const h = headline.toLowerCase();
+  if (/injur|hurt|doubt|miss|ruled out|fitness|hamstring|knee|ankle/.test(h)) return "Injury";
+  if (/squad|call.?up|named|roster|selection|squad list/.test(h)) return "Squad";
+  if (/coach|manager|appoint|sack|resign|tactik|formation/.test(h)) return "Manager";
+  if (/win|beat|defeat|draw|lost|score|goal|result|match/.test(h)) return "Result";
+  if (/transfer|sign|join|contract|deal|move/.test(h)) return "Transfer";
+  if (/preview|predict|preview|face|clash|vs|against|upcoming/.test(h)) return "Preview";
+  if (/visa|cbp|customs|border|entry|state department|passport|travel/.test(h)) return "Entry";
+  if (/form|rank|rating|performance|season|club/.test(h)) return "Form";
+  return "Other";
+}
+
+async function fetchTeamNews(teamName) {
+  const searchTerm = getSearchTerm(teamName);
+  const query = encodeURIComponent(searchTerm);
+  const rssUrl = `https://news.google.com/rss/search?q=${query}&hl=en-US&gl=US&ceid=US:en`;
+
+  try {
+    const { status, body } = await fetchURL(rssUrl);
+    if (status !== 200) {
+      console.warn(`  ${teamName}: HTTP ${status}`);
+      return [];
+    }
+    const items = parseRSS(body);
+    return items.slice(0, 5).map(item => ({
+      ...item,
+      category: categorize(item.headline),
+    }));
+  } catch (e) {
+    console.warn(`  ${teamName}: ${e.message}`);
+    return [];
+  }
 }
 
 function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
-async function generateAllNews() {
-  const today = new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" });
-  console.log(`Generating news for ${TEAMS.length} teams — ${today}`);
-
+async function main() {
+  console.log(`Fetching real news for ${TEAMS.length} teams from Google News RSS...`);
   const allNews = {};
   const overviewItems = [];
 
-  // Process teams in batches of 4 to avoid rate limits
-  for (let i = 0; i < TEAMS.length; i += 4) {
-    const batch = TEAMS.slice(i, i + 4);
-    const teamNames = batch.map(t => t.name).join(", ");
+  for (let i = 0; i < TEAMS.length; i++) {
+    const team = TEAMS[i];
+    process.stdout.write(`[${i+1}/${TEAMS.length}] ${team.name}... `);
+    const items = await fetchTeamNews(team.name);
+    allNews[team.name] = items;
+    console.log(`${items.length} articles`);
 
-    console.log(`Batch ${Math.floor(i/4)+1}: ${teamNames}`);
-
-    const prompt = `Today is ${today}. FIFA World Cup 2026 is underway (June 11 - July 19, 2026) in USA, Canada, Mexico.
-
-Generate news items for these teams: ${teamNames}
-
-For EACH team generate 4 items covering: (1) US entry/CBP/visa status update, (2) match result or upcoming fixture news, (3) squad/injury update, (4) manager or form note.
-
-Return ONLY a valid JSON array, no markdown:
-[{"team":"Mexico","headline":"Short headline max 12 words","summary":"Two sentence summary.","source":"ESPN","date":"${today.split(',')[0]}","category":"Entry"}]
-
-category = Entry | Squad | Injury | Form | Manager | Transfer | Result | Preview | Other
-source = ESPN | BBC Sport | Reuters | AP | Sky Sports | The Athletic | Goal.com
-Include all ${batch.length} teams, 4 items each.`;
-
-    try {
-      const raw = await callClaude(prompt);
-      const items = extractJSON(raw);
-      if (items) {
-        for (const item of items) {
-          if (!allNews[item.team]) allNews[item.team] = [];
-          allNews[item.team].push(item);
-        }
-        // Pick entry item from each team for overview if it has complications
-        for (const team of batch) {
-          const entryItem = items.find(it => it.team === team.name && it.category === "Entry");
-          if (entryItem) overviewItems.push({ ...entryItem });
-        }
-      }
-    } catch (e) {
-      console.error(`Batch failed: ${e.message}`);
+    // Add top story to overview
+    if (items.length > 0) {
+      overviewItems.push({ team: team.name, ...items[0] });
     }
 
-    if (i + 4 < TEAMS.length) await sleep(1500); // rate limit buffer
+    // Small delay to be polite
+    if (i < TEAMS.length - 1) await sleep(300);
   }
 
-  // Build overview — entry complications first, then top football stories
-  const entryComplications = overviewItems.filter(i =>
-    i.summary && (i.summary.includes("held") || i.summary.includes("delay") ||
-    i.summary.includes("scru") || i.summary.includes("review") || i.summary.includes("72"))
-  ).slice(0, 6);
+  // Sort overview by most recent
+  overviewItems.sort((a, b) => {
+    const toMs = s => { const d = new Date(s); return isNaN(d) ? 0 : d.getTime(); };
+    return toMs(b.pubDate) - toMs(a.pubDate);
+  });
+  const overview = overviewItems.slice(0, 14);
 
-  const footballStories = Object.entries(allNews)
-    .flatMap(([team, items]) => items.filter(i => i.category === "Result" || i.category === "Form").map(i => ({...i, team})))
-    .slice(0, 8);
-
-  const overview = [...entryComplications, ...footballStories].slice(0, 14);
-
-  return { allNews, overview };
-}
-
-async function main() {
-  const { allNews, overview } = await generateAllNews();
-
+  // Write newsData.js
   const teamList = TEAMS.map(t =>
     `  { name: ${JSON.stringify(t.name)}, flag: ${JSON.stringify(t.flag)}, group: ${JSON.stringify(t.group)}, confederation: ${JSON.stringify(t.confederation)} }`
   ).join(",\n");
 
-  const newsDataStr = JSON.stringify(allNews, null, 2);
-  const overviewStr = JSON.stringify(overview, null, 2);
-
   const output = `// AUTO-GENERATED by GitHub Actions — do not edit manually
 // Last updated: ${new Date().toISOString()}
 
-const NEWS_DATA = ${newsDataStr};
+const NEWS_DATA = ${JSON.stringify(allNews, null, 2)};
 
-const OVERVIEW_NEWS = ${overviewStr};
+const OVERVIEW_NEWS = ${JSON.stringify(overview, null, 2)};
 
 const TEAMS = [
 ${teamList},
 ];
-
-// Prepend entry story to top of each team's news array (already included above)
 
 export { NEWS_DATA, OVERVIEW_NEWS, TEAMS };
 `;
 
   const outPath = path.join(__dirname, "../src/newsData.js");
   fs.writeFileSync(outPath, output, "utf8");
-  console.log(`✅ newsData.js updated — ${Object.keys(allNews).length} teams, ${overview.length} overview items`);
+
+  const totalArticles = Object.values(allNews).reduce((s, a) => s + a.length, 0);
+  console.log(`\n✅ Done — ${totalArticles} real articles across ${TEAMS.length} teams`);
 }
 
 main().catch(e => { console.error(e); process.exit(1); });

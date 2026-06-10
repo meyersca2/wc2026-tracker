@@ -28,25 +28,8 @@ function CategoryBadge({ category }) {
   );
 }
 
-const SOURCE_URLS = {
-  "ESPN":         "https://www.espn.com/soccer/",
-  "BBC Sport":    "https://www.bbc.com/sport/football/world-cup",
-  "Reuters":      "https://www.reuters.com/sports/soccer/",
-  "AP":           "https://apnews.com/hub/soccer",
-  "Sky Sports":   "https://www.skysports.com/football/world-cup",
-  "The Athletic": "https://www.nytimes.com/athletic/football/international/",
-  "Goal.com":     "https://www.goal.com/en/world-cup",
-};
-
-function getSourceUrl(source, headline) {
-  const base = SOURCE_URLS[source];
-  if (!base) return null;
-  const query = encodeURIComponent(headline + " World Cup 2026");
-  return "https://news.google.com/search?q=" + query;
-}
-
 function NewsItem({ item }) {
-  const searchUrl = "https://news.google.com/search?q=" + encodeURIComponent(item.headline + " " + item.source + " World Cup 2026");
+  const searchUrl = "https://www.google.com/search?q=" + encodeURIComponent(item.headline + " " + item.source + " World Cup 2026");
   return (
     <div style={{ padding: "14px 0", borderBottom: "1px solid #f0f0f0", display: "flex", flexDirection: "column", gap: "5px" }}>
       <div style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
