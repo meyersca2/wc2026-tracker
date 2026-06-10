@@ -129,7 +129,15 @@ function parseRSS(xml) {
       if (!isNaN(d)) dateStr = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     }
     items.push({
-      headline:  title.replace(/\s*[-|]\s*[^-|]+$/, '').trim(),
+      headline: (function(t) {
+        if (!t) return '';
+        // Only strip trailing "- Source Name" if the part after dash looks like a source (short, capitalized, no 'vs')
+        var stripped = t.replace(/\s+[-–]\s+([A-Z][^-]{2,30})$/, function(m, after) {
+          if (/vs\.?|score|goal|\d/.test(after.toLowerCase())) return m; // keep if match content
+          return ''; // strip if looks like source name
+        });
+        return (stripped || t).trim();
+      })(title),
       summary: (function(d) {
         if (!d) return '';
         if (/^\s*<a\s/i.test(d) || /^\s*a href/i.test(d)) return '';

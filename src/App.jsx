@@ -221,7 +221,8 @@ export default function App() {
             {filteredTeams.map(team => {
               // Prefer first non-entry story with a real headline for card preview
               const allStories = NEWS_DATA[team.name] || [];
-              const firstStory = allStories.find(s => s.category !== 'Entry' && (s.headline || '').length > 20) || 
+              const isBadHeadline = (h) => !h || h.length < 20 || /\bvs\.?\s*$/.test(h) || /^[\w\s]+ vs\.?\s*$/.test(h);
+              const firstStory = allStories.find(s => s.category !== 'Entry' && !isBadHeadline(s.headline)) || 
                                  allStories.find(s => s.category !== 'Entry') || 
                                  allStories[0];
               const rawSummary = firstStory?.headline || "";
