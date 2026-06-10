@@ -145,10 +145,21 @@ export default function App() {
               <div style={{ fontSize: "11px", color: "#888", marginTop: "2px" }}>Click any headline to jump to that team's full coverage</div>
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0 24px" }}>
-              {[...OVERVIEW_NEWS].sort((a, b) => {
-                const toMs = s => { const d = new Date(`${s} 2026`); return isNaN(d) ? 0 : d.getTime(); };
-                return toMs(b.date) - toMs(a.date);
-              }).map((item, i) => {
+              {(() => {
+                const sorted = [...OVERVIEW_NEWS].sort((a, b) => {
+                  const toMs = s => { const d = new Date(`${s} 2026`); return isNaN(d) ? 0 : d.getTime(); };
+                  return toMs(b.date) - toMs(a.date);
+                });
+                // Max 2 entry stories in overview, rest football
+                let entryCount = 0;
+                return sorted.filter(item => {
+                  if (item.category === 'Entry') {
+                    if (entryCount >= 2) return false;
+                    entryCount++;
+                  }
+                  return true;
+                });
+              })().map((item, i) => {
                 const team = TEAMS.find(t => t.name === item.team);
                 return (
                   <div key={i} onClick={() => { if (team) { setSelectedTeam(team); setView("team"); } }}
@@ -180,8 +191,10 @@ export default function App() {
           {/* Grid */}
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))", gap: "10px" }}>
             {filteredTeams.map(team => {
-              const firstStory = NEWS_DATA[team.name]?.[0];
-              const rawSummary = firstStory?.summary || firstStory?.headline || "";
+              // Prefer first non-entry story for card preview
+              const allStories = NEWS_DATA[team.name] || [];
+              const firstStory = allStories.find(s => s.category !== 'Entry') || allStories[0];
+              const rawSummary = firstStory?.headline || "";
               const cleanSummary = cleanText(rawSummary);
               const firstSentence = cleanSummary.split(". ")?.[0];
               const topSummary = firstSentence ? firstSentence.slice(0, 100) + "." : null;

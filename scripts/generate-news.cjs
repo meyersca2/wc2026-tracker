@@ -218,15 +218,17 @@ async function main() {
     var team = TEAMS[i];
     process.stdout.write('[' + (i+1) + '/' + TEAMS.length + '] ' + team.name + '... ');
     var items = await fetchTeamNews(team.name);
-    // Try to fetch a real entry/visa story
+    // Fetch entry news and APPEND at end (not prepend) so football news shows first
     var entryItem = await fetchEntryNews(team.name);
     if (entryItem) {
-      items.unshift(entryItem);
+      items.push(entryItem);
       process.stdout.write('(+entry) ');
     }
     allNews[team.name] = items;
     console.log(items.length + ' articles');
-    if (items.length > 0) overviewItems.push(Object.assign({ team: team.name }, items[0]));
+    // For overview, prefer a football story over entry
+    var overviewItem = items.find(function(it) { return it.category !== 'Entry'; }) || items[0];
+    if (overviewItem) overviewItems.push(Object.assign({ team: team.name }, overviewItem));
     if (i < TEAMS.length - 1) await sleep(500);
   }
 
