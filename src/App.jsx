@@ -28,9 +28,20 @@ function CategoryBadge({ category }) {
   );
 }
 
+function cleanText(s) {
+  if (!s) return "";
+  return s.replace(/<[^>]+>/g, "").replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&[a-z]+;/gi," ").trim();
+}
+function getArticleUrl(url, headline, source) {
+  if (!url || url.includes("news.google.com")) {
+    // Fall back to Google News search — reliable and opens real articles
+    return "https://news.google.com/search?q=" + encodeURIComponent((headline || "") + " " + (source || ""));
+  }
+  return url;
+}
 function NewsItem({ item }) {
-  const articleUrl = item.url || null;
-  const cleanSummary = item.summary ? item.summary.replace(/<[^>]+>/g, "").replace(/&[a-z]+;/gi, " ").trim() : "";
+  const articleUrl = getArticleUrl(item.url, item.headline, item.source);
+  const cleanSummary = cleanText(item.summary);
   return (
     <div style={{ padding: "14px 0", borderBottom: "1px solid #f0f0f0", display: "flex", flexDirection: "column", gap: "5px" }}>
       <div style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
@@ -39,14 +50,10 @@ function NewsItem({ item }) {
           {item.date}{item.source ? " · " + item.source : ""}
         </span>
       </div>
-      {articleUrl ? (
-        <a href={articleUrl} target="_blank" rel="noopener noreferrer"
-          style={{ fontSize: "14px", fontWeight: 700, color: "#cc0000", lineHeight: 1.3, textDecoration: "none", display: "block" }}>
-          {item.headline} ↗
-        </a>
-      ) : (
-        <div style={{ fontSize: "14px", fontWeight: 700, color: "#111", lineHeight: 1.3 }}>{item.headline}</div>
-      )}
+      <a href={articleUrl} target="_blank" rel="noopener noreferrer"
+        style={{ fontSize: "14px", fontWeight: 700, color: "#cc0000", lineHeight: 1.3, textDecoration: "none", display: "block" }}>
+        {item.headline} ↗
+      </a>
       {cleanSummary && <div style={{ fontSize: "12px", color: "#555", lineHeight: 1.5, fontFamily: "Georgia,serif" }}>{cleanSummary}</div>}
     </div>
   );
@@ -144,15 +151,11 @@ export default function App() {
                       <CategoryBadge category={item.category} />
                       <span style={{ fontSize: "10px", color: "#aaa" }}>{item.date}</span>
                     </div>
-                    {item.url ? (
-                      <a href={item.url} target="_blank" rel="noopener noreferrer"
+                    <a href={getArticleUrl(item.url, item.headline, item.source)} target="_blank" rel="noopener noreferrer"
                         style={{ fontSize: "12px", fontWeight: 700, color: "#cc0000", lineHeight: 1.35, textDecoration: "none", display: "block" }}
                         onClick={e => e.stopPropagation()}>
                         {item.headline} ↗
                       </a>
-                    ) : (
-                      <div style={{ fontSize: "12px", fontWeight: 700, color: "#111", lineHeight: 1.35 }}>{item.headline}</div>
-                    )}
                   </div>
                 );
               })}
@@ -171,7 +174,7 @@ export default function App() {
             {filteredTeams.map(team => {
               const firstStory = NEWS_DATA[team.name]?.[0];
               const rawSummary = firstStory?.summary || firstStory?.headline || "";
-              const cleanSummary = rawSummary.replace(/<[^>]+>/g, "").replace(/&[a-z]+;/gi, " ").trim();
+              const cleanSummary = rawSummary.replace(/<[^>]+>/g, "").replace(/&amp;/g,"&").replace(/&[a-z]+;/gi," ").replace(/a\s+href="[^"]*"/gi,"").trim();
               const firstSentence = cleanSummary.split(". ")?.[0];
               const topSummary = firstSentence ? firstSentence.slice(0, 100) + "." : null;
               return (
