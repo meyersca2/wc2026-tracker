@@ -185,21 +185,27 @@ function fetchTeamNews(teamName) {
 }
 
 function fetchEntryNews(teamName) {
-  // Search specifically for real reports of entry/visa/CBP/border issues for this team
-  var entryQuery = teamName + ' World Cup 2026 visa entry border customs';
+  // Search for team-SPECIFIC entry/visa/border news — include team name to avoid generic articles
+  var entryQuery = '"' + teamName + '" World Cup 2026 visa OR entry OR border OR customs OR immigration OR passport';
   var q = encodeURIComponent(entryQuery);
   var rssUrl = 'https://news.google.com/rss/search?q=' + q + '&hl=en-US&gl=US&ceid=US:en';
   return fetchURL(rssUrl).then(function(r) {
     if (r.status !== 200) return null;
     var items = parseRSS(r.body);
-    // Only keep items that actually mention entry/visa/border/customs/CBP in headline or summary
+    // Only keep items that mention BOTH the team name AND an entry/border keyword
+    var teamLower = teamName.toLowerCase();
     var relevant = items.filter(function(item) {
       var text = (item.headline + ' ' + item.summary).toLowerCase();
-      return /visa|border|customs|cbp|entry|denied|detained|passport|security.?check|frisk|search|immigration/.test(text);
+      var hasTeam = text.includes(teamLower) ||
+        (teamLower === 'türkiye' && text.includes('turkey')) ||
+        (teamLower === 'usa' && (text.includes('united states') || text.includes('usmnt') || text.includes('american'))) ||
+        (teamLower === 'south korea' && (text.includes('korea') || text.includes('korean'))) ||
+        (teamLower === 'ivory coast' && (text.includes('ivory') || text.includes('cote d')));
+      var hasEntry = /visa|border|customs|cbp|entry|denied|detained|passport|security.?check|frisk|search|immigration|deport/.test(text);
+      return hasTeam && hasEntry;
     });
     if (relevant.length === 0) return null;
-    var item = relevant[0];
-    return Object.assign({}, item, { category: 'Entry' });
+    return Object.assign({}, relevant[0], { category: 'Entry' });
   }).catch(function() { return null; });
 }
 

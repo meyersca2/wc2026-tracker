@@ -5,7 +5,7 @@ const NEWS_DATA = {
   "Mexico": [
     {
       "headline": "Somali referee denied entry to U.S. ahead of World Cup - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUs5czIxa0UxX1VuQ2lGdEU3aUZFVU1uYkhJWHZUWEdLUUFtWFVtV1dsaWlETWxRNUVfakhwY0hwd2Uzc1JRNEQ0Wkg5RmhpNmltTGJHZ19IZ2hzVDBqX2hGNF83azBkRUZIcTU5M2",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUs5czIxa0UxX1VuQ2lGdEU3aUZFVU1uYkhJWHZUWEdLUUFtWFVtV1dsaWlETWxRNUVfakhwY0hwd2Uzc1JRNEQ0Wkg5RmhpNmltTGJHZ19IZ2hzVDBqX2hGNF83azBkRUZIcTU5M2hoQnhVNGdfUjlDeHAwSURGWU02NERES0FtaHdSV2VmYy1RdTI1Y3pnOHFmY1h2WHdIRmNTOGpxblo?oc=5",
@@ -15,7 +15,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026 explained in maps and charts",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVhLbnFSRzhxelpEWE10M0JwN0EtZ0M0Q2JqN3ZfblRWYjhJQ3VsMDROQkJMbkNtZy1WWEJsaTE2V0JwWnZ3U04zTnJVZ1g0UDdUeXRxVVY5c3RDd3BONkRQSE4tTkFJZHY4MERtM1",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVhLbnFSRzhxelpEWE10M0JwN0EtZ0M0Q2JqN3ZfblRWYjhJQ3VsMDROQkJMbkNtZy1WWEJsaTE2V0JwWnZ3U04zTnJVZ1g0UDdUeXRxVVY5c3RDd3BONkRQSE4tTkFJZHY4MERtM1lvSzhtYUVBYjFXQWpEZjQ2ZjNYSnN2ekNBZEw3a2lIZHUzbmJDeUHSAZsBQVVfeXFMTi02bGI5UFhudENGaDBQYlh2TmZNR040VFdIelpTWjctU1hyWHFYZ3hLdWxKdGpBQ2ZHSTU5dl9YeW42bkJmTE9XUVVwRHFFN1VTZHhNRVYwcW1UbnpDMXNPaEdUTWNfZnI5d1I4QUxCeFZyMW51QUVrQldNeEdkQ3hQcWlySWN3Q3NETlpwblBYRGhCNUdzcmFmd1E?oc=5",
@@ -25,7 +25,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Iran's World Cup team lands in Mexico amid US visa row",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzSC1Vb3NEM1EzM3M0aTdUR2o4NERkOW1HMkFGR2hYUXJGa3hmM2ZVUllJR3lFV0hQbFd5YURLSEE3bWRYOEYxN0dFS2l1Z0RNdk5aM1pvUVlQZw?oc=5\" target=\"_blank\">Iran'",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzSC1Vb3NEM1EzM3M0aTdUR2o4NERkOW1HMkFGR2hYUXJGa3hmM2ZVUllJR3lFV0hQbFd5YURLSEE3bWRYOEYxN0dFS2l1Z0RNdk5aM1pvUVlQZw?oc=5",
@@ -35,7 +35,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Mexico vs. South Africa - Kick-off time, team news, how to watch FIFA World Cup opener",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjJiTGhsakxzSHNFTGtqYnFOZ25aT0YzWUMxanRzd0hPXzNVSUc5dDhQWndGREFKSmlzNTlCQ2paZmg5cmE3emhEOWFOSFBQbmN2NE9pSEVUM3Zhc05uYUQ4cXdmT1RQNWdYbUEyaV",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjJiTGhsakxzSHNFTGtqYnFOZ25aT0YzWUMxanRzd0hPXzNVSUc5dDhQWndGREFKSmlzNTlCQ2paZmg5cmE3emhEOWFOSFBQbmN2NE9pSEVUM3Zhc05uYUQ4cXdmT1RQNWdYbUEyaVBlOVUxS3RPYjgybk9VOTZCei01SjQyWXhXZ2duNFlFTVlZTzFkY2Q5Smh4MWNlbjk3QUpuWWxQWUF5R1A5djhTUllZcWJMQQ?oc=5",
@@ -45,7 +45,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 FIFA Men's World Cup: How Mexico can reach the Round of 32",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQbmZ6bUdRUXBFOHRGcHlSMWZhLXZqVFRNeWxMSDJEX2pXMDd3NURxU2Nxa2Zmd2IwYjVZYl9qQk5NalozY092Z0R3MnI0S3NVZ3QxLVYwRXN6bTk2Mi1YaWNDWURhNnEtU2ZRc2Y1Wm",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbmZ6bUdRUXBFOHRGcHlSMWZhLXZqVFRNeWxMSDJEX2pXMDd3NURxU2Nxa2Zmd2IwYjVZYl9qQk5NalozY092Z0R3MnI0S3NVZ3QxLVYwRXN6bTk2Mi1YaWNDWURhNnEtU2ZRc2Y1Wmh5OVA3aGNEcm94VzBXWlRZTmF6SUItOWZXYXYtSlhoNUJGNWR2bDlfWDFyWWNSeFhBdnZIMnBYYXRXaXItemFTY2t0b3hpcm8?oc=5",
@@ -55,7 +55,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Mexico and a history of playing in repeat World Cup opening fixtures | The Knowledge",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirwFBVV95cUxQd1pqN1BpZUhPeTNUTTY5NHJleTRNQTZoSmhsSEEwYjliWmhMX0N6RExuX0UwRDU5QmZueGtWc3BpaHFIbWh4RDkxMGlibHBpTWF2UnliSm54YjB4b1ViUGtiQ0wwUUtFd0FfYmJoWW",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQd1pqN1BpZUhPeTNUTTY5NHJleTRNQTZoSmhsSEEwYjliWmhMX0N6RExuX0UwRDU5QmZueGtWc3BpaHFIbWh4RDkxMGlibHBpTWF2UnliSm54YjB4b1ViUGtiQ0wwUUtFd0FfYmJoWWJKX2tfdDVVcDRfb0lwbU1qSEVIOTllbFduTkFtcnVxZTU3bXlPUlUwUEJsN2lJNUxMZTloZXZ6NERLUV9hYkww?oc=5",
@@ -67,7 +67,7 @@ const NEWS_DATA = {
   "South Africa": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -77,7 +77,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Mexico vs South Africa: World Cup group match – teams, start and lineups",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcGREaHlnQ2paY1ZWUmNPaFY1LUVkM0E3WFgtVnlnelpLZXhhaDFOV3A2OUhrdlh4RnEwMGk2aWFHUHFiSzB3cXltcnJvelRvemVqZS1VV2FYSU9laUg3NEV4cjN4eTh1cXRJajh5RW",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPcGREaHlnQ2paY1ZWUmNPaFY1LUVkM0E3WFgtVnlnelpLZXhhaDFOV3A2OUhrdlh4RnEwMGk2aWFHUHFiSzB3cXltcnJvelRvemVqZS1VV2FYSU9laUg3NEV4cjN4eTh1cXRJajh5RWcyYXpTd3RpWG15VUdvNTRlMWNkeWJRQjlydVN6V0tOa25Cbmw5THZlYWpkVk9DNWZSOGI1anR5UGROSzVGaGVTTnlNbnd2SVpi0gG-AUFVX3lxTE9MYWp2eUIybDNsLUNlODVNcW52Vjhqd3JpbU1BZ3d5SHhZdE44NzdDcVhTYVJjNlVoVDVkWWhMNVFjX0JSdVhkaVNoSktPTldWd0FmOXNKZFdfUUxEcVNvMGdTNTF4MHEzQkMyMXJHZndLb1c5TEJCblYzb1Q4VWpDUjdnWng0ZHYya3puTWZtdDJNT0VyOTZWMmNEZ21BaWVZTXhQM0pCUGFDcmxiNUw5dG9UcmhCam1xOVhOZEE?oc=5",
@@ -87,7 +87,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Mexico vs. South Africa - Kick-off time, team news, how to watch FIFA World Cup opener",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjJiTGhsakxzSHNFTGtqYnFOZ25aT0YzWUMxanRzd0hPXzNVSUc5dDhQWndGREFKSmlzNTlCQ2paZmg5cmE3emhEOWFOSFBQbmN2NE9pSEVUM3Zhc05uYUQ4cXdmT1RQNWdYbUEyaV",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjJiTGhsakxzSHNFTGtqYnFOZ25aT0YzWUMxanRzd0hPXzNVSUc5dDhQWndGREFKSmlzNTlCQ2paZmg5cmE3emhEOWFOSFBQbmN2NE9pSEVUM3Zhc05uYUQ4cXdmT1RQNWdYbUEyaVBlOVUxS3RPYjgybk9VOTZCei01SjQyWXhXZ2duNFlFTVlZTzFkY2Q5Smh4MWNlbjk3QUpuWWxQWUF5R1A5djhTUllZcWJMQQ?oc=5",
@@ -97,7 +97,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "South Africa World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNRWwxSHlMZmxxb3hNOXprOHYtTnV6M2RBSnFia2JFMEJ1XzFtd01wQTRMbXJqWHpFZUpMQUFhV0RZRTlQenZsUHc3VDc0dVo0R1FjXzlfbnlHaFRtWjAtTW1qdExsaktiOHdxbVZqTG",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRWwxSHlMZmxxb3hNOXprOHYtTnV6M2RBSnFia2JFMEJ1XzFtd01wQTRMbXJqWHpFZUpMQUFhV0RZRTlQenZsUHc3VDc0dVo0R1FjXzlfbnlHaFRtWjAtTW1qdExsaktiOHdxbVZqTGJ3dkRxRUVyb04ybVNCVWVmNnp6LXkyNU9rX3NVMXAtS0cydmVPaHF0Y1dB?oc=5",
@@ -107,7 +107,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026: Full schedule, all results, scores and standings – complete list",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPYmgzMlhTVmlKSVo0NTBGRVhiRjl3NWc4OUhTRTNhZlV0SDR1dTBWdnd5NWpMTVd1WGVKNDFZSk8tVkxWeGtOaU5lcjAzeHprZzdwNmFzaXNFN2xNSTFLUk9oYk9mSDFwa2dCTXhldW",
+      "summary": "",
       "source": "olympics.com",
       "sourceUrl": "https://www.olympics.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYmgzMlhTVmlKSVo0NTBGRVhiRjl3NWc4OUhTRTNhZlV0SDR1dTBWdnd5NWpMTVd1WGVKNDFZSk8tVkxWeGtOaU5lcjAzeHprZzdwNmFzaXNFN2xNSTFLUk9oYk9mSDFwa2dCTXhldWNQZEs4TkR5bXBNWk1MMHh2ckk0d21aVmY3Q3J0VzJZWW5IaUZJOWc?oc=5",
@@ -117,7 +117,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Preview: Mexico vs South Africa - prediction, team news, lineups | World Cup 2026",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiywFBVV95cUxQbUY2MTh2VXZ1dTY4NXBpOVMyUHBqWktfWkZYN0pSU3gtTU9UdmpIYktSZVQ1b1R3ZjR4LVdGV1N1WExvTTBMbHlWX0FKaEFkbk5IeVZ2MkdHSTFMR3hUbDZDTVRDNkdfRy1IU3pOZW",
+      "summary": "",
       "source": "Sports Mole",
       "sourceUrl": "https://www.sportsmole.co.uk",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQbUY2MTh2VXZ1dTY4NXBpOVMyUHBqWktfWkZYN0pSU3gtTU9UdmpIYktSZVQ1b1R3ZjR4LVdGV1N1WExvTTBMbHlWX0FKaEFkbk5IeVZ2MkdHSTFMR3hUbDZDTVRDNkdfRy1IU3pOZW00ZWktMUltZmRvQ3haUEh4bEFnX0t6TzFkblF6WmI0ZVpWemZIeTI1SElkRVBqeE1NVm1SRi1rLU9NalBManRyYUd6OUh6bVdKOHh5dUFGcXlUa2dST3R6ZVlkUQ?oc=5",
@@ -129,7 +129,7 @@ const NEWS_DATA = {
   "South Korea": [
     {
       "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -139,7 +139,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "The World Cup is starting. Here's what to know and how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPMW94eXZ1OG9DbTZJNUFMdnFxQ0lOMGZhUS14M09jS1g5aWpiVm5wYkhaQ1RXNzd6WEt1dDROX1BrMkVkM2p3TTNSQnVJSEg5ekQwQmNJT21zZjRTQU5kb0IxM1VzNXdUYVZQZnV2TW",
+      "summary": "",
       "source": "NPR",
       "sourceUrl": "https://www.npr.org",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMW94eXZ1OG9DbTZJNUFMdnFxQ0lOMGZhUS14M09jS1g5aWpiVm5wYkhaQ1RXNzd6WEt1dDROX1BrMkVkM2p3TTNSQnVJSEg5ekQwQmNJT21zZjRTQU5kb0IxM1VzNXdUYVZQZnV2TWVLSExyT1ljSFltRW5qajlNOE5lb1VkUXlmOG9ZcERIN1hsdUNEcnJFQjBLcw?oc=5",
@@ -149,7 +149,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup schedule: Teams, group s, match dates, fixtures, how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbD",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbDF4bl9DY29tN3VWUXAycGV3UG04TmRxNVlseUNGOGtvNkY5UXZOMUR3VFRwR3MwcHl6Uzk0eU5keGM2ODRXb1J2dHppSFBDOE9HYm44eTlEMXlFOThuSEdMWUZ3?oc=5",
@@ -159,7 +159,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "South Korea’s Son Heung-min came to LA last year to prepare for 2026 FIFA World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxNSXJWMHRLa3pOZ2RnRlBOY0VIeXZra0JTUkt5eGtYNDVsOUdRWnBUODQ0cmVzU2xReUZ1WDhDcVFIQ2ZiMmo0Uy1waUVzdkVKcGU5dlFFcFhERnozQzBuM3Jja0NQSEJvVTZRUF9aOG",
+      "summary": "",
       "source": "New York Post",
       "sourceUrl": "https://nypost.com",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSXJWMHRLa3pOZ2RnRlBOY0VIeXZra0JTUkt5eGtYNDVsOUdRWnBUODQ0cmVzU2xReUZ1WDhDcVFIQ2ZiMmo0Uy1waUVzdkVKcGU5dlFFcFhERnozQzBuM3Jja0NQSEJvVTZRUF9aOGtrb052enkyeUJyNGNkcWhmc1NIQU9lc09zdEtvWWl0SXktWU1zQ2FaWTVIdw?oc=5",
@@ -169,7 +169,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026 Team Profile: Haiti",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVUzVV9qSEdyN00wb2R2VzJrOG5aUlJjN0VXSjNCUzh4MG82eGdYX3c1SjU2YW5ZeUc0b3FsNGZETFpCazlBUEtTd2xyZGQ4a09aSXk3dEZhbHZ5WFBRZDZQT2hDd2ZaalNWQUVTTV",
+      "summary": "",
       "source": "Concacaf",
       "sourceUrl": "https://www.concacaf.com",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVUzVV9qSEdyN00wb2R2VzJrOG5aUlJjN0VXSjNCUzh4MG82eGdYX3c1SjU2YW5ZeUc0b3FsNGZETFpCazlBUEtTd2xyZGQ4a09aSXk3dEZhbHZ5WFBRZDZQT2hDd2ZaalNWQUVTTVVZTVhXdjd6UURJZmpNSUxXQnFxTHJiYXkxYUpPOW1kY01DVE9SYkZuMUdhT3Y?oc=5",
@@ -179,7 +179,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "South Korea vs Czechia Prediction: World Cup 2026 Match Preview",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxQSk1GRy1oUXpnOWlVYmxSSm9KdDRZWS1BSU9pOV9ydG5hSFR5SDZTZjBQRWlETEFnTFM5MzNncXBBSlFoNjFhM2xrTS1BbFhELU5ONlIzdTZiYXRmZENxVXEyRzRVc2YwNi01MFdtR2",
+      "summary": "",
       "source": "Opta Analyst",
       "sourceUrl": "https://theanalyst.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQSk1GRy1oUXpnOWlVYmxSSm9KdDRZWS1BSU9pOV9ydG5hSFR5SDZTZjBQRWlETEFnTFM5MzNncXBBSlFoNjFhM2xrTS1BbFhELU5ONlIzdTZiYXRmZENxVXEyRzRVc2YwNi01MFdtR2lnN2lrc2tLVGlMTWFvbHNIcEJKclR0WF9CdWJ1ZGdMd3lhNmdsd2d2WVdB?oc=5",
@@ -191,7 +191,7 @@ const NEWS_DATA = {
   "Czechia": [
     {
       "headline": "World Cup ref denied entry to the US was about to make history for Somalia - The Virginian",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE5yR2FpWFd2YTEwenFuUW00bEVkSlBVU2pJZ3Y0MjRhSy01WlBQZEEzNEx2QUkxdGhQeTJqa1JTWVVDU0s1QTZOWXplMDJ6dzhVdG5VOW8tVmp5SWhqNmhUektJY2dqbG1tTENiTlFzbE",
+      "summary": "",
       "source": "The Virginian-Pilot",
       "sourceUrl": "https://www.pilotonline.com",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5yR2FpWFd2YTEwenFuUW00bEVkSlBVU2pJZ3Y0MjRhSy01WlBQZEEzNEx2QUkxdGhQeTJqa1JTWVVDU0s1QTZOWXplMDJ6dzhVdG5VOW8tVmp5SWhqNmhUektJY2dqbG1tTENiTlFzbExMQUFDUFNUdEVfNjMtV2M?oc=5",
@@ -201,7 +201,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -211,7 +211,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup schedule: Teams, group s, match dates, fixtures, how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbD",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbDF4bl9DY29tN3VWUXAycGV3UG04TmRxNVlseUNGOGtvNkY5UXZOMUR3VFRwR3MwcHl6Uzk0eU5keGM2ODRXb1J2dHppSFBDOE9HYm44eTlEMXlFOThuSEdMWUZ3?oc=5",
@@ -221,7 +221,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "South Korea vs. Czechia live stream: How to watch FIFA World Cup, predictions, odds and lineups",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGhmSlE4aF9SVXVIODk1Y21PYkpIUUlYNDc0bW5Ea3lRY0hsM0k4Uzd0eE9SUFNaMTM1d081VEloQVQ4Sm5XcmtPQVJ5SFBHQjEwQldYQVRGSE5GNVJwRU9BTU9DUDVVQXJIYXFjYT",
+      "summary": "",
       "source": "CBS Sports",
       "sourceUrl": "https://www.cbssports.com",
       "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGhmSlE4aF9SVXVIODk1Y21PYkpIUUlYNDc0bW5Ea3lRY0hsM0k4Uzd0eE9SUFNaMTM1d081VEloQVQ4Sm5XcmtPQVJ5SFBHQjEwQldYQVRGSE5GNVJwRU9BTU9DUDVVQXJIYXFjYTZXbzJKT2toTVdKS2xmRk92MGVNMmFCWmVEV2tXdmNUdTRobGMzOHRNSzdrbWNGLThCS3BqSnVlNnRBanBfMVhJc2Iwa3NtWHJ5bUs0Q3JjUTBQdkVSeXZOWTMtYjZLN0VMNGpnTA?oc=5",
@@ -231,7 +231,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 FIFA World Cup full schedule, when do US soccer, Mexico play",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ1lPWEZTaHBFWjVRNkt3ZWZUSlZVQkQyc19lSWp6V3hSc1p5R2J2RVl6QlJYQ3FlaGRKaEZ1R0R5S3BGTzN4SHV0TnhmQzl3cURuWDIwak1rWkdGeFFkSElwa3lYNDhTbzBNNFd6QU",
+      "summary": "",
       "source": "El Paso Times",
       "sourceUrl": "https://www.elpasotimes.com",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOZ1lPWEZTaHBFWjVRNkt3ZWZUSlZVQkQyc19lSWp6V3hSc1p5R2J2RVl6QlJYQ3FlaGRKaEZ1R0R5S3BGTzN4SHV0TnhmQzl3cURuWDIwak1rWkdGeFFkSElwa3lYNDhTbzBNNFd6QU94MktzX3VOdVRnN2pRb1BSNklrUVoxWTMtMGhoRnRwb0lVRDVGZk9NeTZTbkd6ZEhXUEJSZDk4RF9yUnhCaTBmb0FQdUVOeFFaVy05cDFrejZfVmNacUx6ZQ?oc=5",
@@ -241,7 +241,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026: Full schedule, all results, scores and standings – complete list",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPYmgzMlhTVmlKSVo0NTBGRVhiRjl3NWc4OUhTRTNhZlV0SDR1dTBWdnd5NWpMTVd1WGVKNDFZSk8tVkxWeGtOaU5lcjAzeHprZzdwNmFzaXNFN2xNSTFLUk9oYk9mSDFwa2dCTXhldW",
+      "summary": "",
       "source": "olympics.com",
       "sourceUrl": "https://www.olympics.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYmgzMlhTVmlKSVo0NTBGRVhiRjl3NWc4OUhTRTNhZlV0SDR1dTBWdnd5NWpMTVd1WGVKNDFZSk8tVkxWeGtOaU5lcjAzeHprZzdwNmFzaXNFN2xNSTFLUk9oYk9mSDFwa2dCTXhldWNQZEs4TkR5bXBNWk1MMHh2ckk0d21aVmY3Q3J0VzJZWW5IaUZJOWc?oc=5",
@@ -253,7 +253,7 @@ const NEWS_DATA = {
   "Switzerland": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -263,7 +263,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -273,7 +273,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 FIFA Men's World Cup: How Switzerland can reach the Round of 32",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxNaVBJdlBWbWxjMF9wTDhWZFF5VnJ6THoxWnFJeXJicUFFSTFtTDBMZWc4MUYyX25IWUxScWlIRUZIREdfMVp1SmcxaExPT09iT2RxZS1rQ1h0WGFnS3I1RTVEdDBvRVFsOFpQZjl0Rm",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaVBJdlBWbWxjMF9wTDhWZFF5VnJ6THoxWnFJeXJicUFFSTFtTDBMZWc4MUYyX25IWUxScWlIRUZIREdfMVp1SmcxaExPT09iT2RxZS1rQ1h0WGFnS3I1RTVEdDBvRVFsOFpQZjl0RmNoVWdGWVNPcDhZMXh4d2ZKYTBrSkJSb3pESTZqcVVkYW81T0hmNng4RGRDT1AxWjlLc19VSkZ3RTYtcktWWmJpRmpzWVBhS1VPaFBOV0Rn?oc=5",
@@ -283,7 +283,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 FIFA World Cup predictions, picking every game: England vs. Spain; Messi vs. Ronaldo; USMNT end drought",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnlVY0J0a2p3TW9Ja1JmMkxEU1dMQnRHSXhDekczbFJFUzZlVW90TkpoM2JFUzEyRE1yNTZjS1Atc29VdWNQVU1GeUw1S0Y2ZGJBc2ZuREJGSXZCblZ5TEtJS09XZzJkR3F3MzBwNG",
+      "summary": "",
       "source": "CBS Sports",
       "sourceUrl": "https://www.cbssports.com",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnlVY0J0a2p3TW9Ja1JmMkxEU1dMQnRHSXhDekczbFJFUzZlVW90TkpoM2JFUzEyRE1yNTZjS1Atc29VdWNQVU1GeUw1S0Y2ZGJBc2ZuREJGSXZCblZ5TEtJS09XZzJkR3F3MzBwNGxjQUxjTHR0UVJWMGhIS2p3dTQ1WjRqWUY3QndoWi1qRnhPc2t1dGxzR0pQR1F6VnJZVEphWlFfaHI4cUFQM3g3QnYzbXpWTHhGejhiM3RMWUJuUTFTOTRNQw?oc=5",
@@ -293,7 +293,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Swiss World Cup training camp infested with rattlesnakes",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxQeUJ2aGo3S09lNnBDeXBnSFFJVy0tM1N6V200bVhONE9uMEdacXVYVTk0MkZHYXlCdUozMVQxVDM1QmN3TGhUS3VUZ3hVOVdteDV1NFgzazdaRDJ6eXZuYVlrblc2VmVJQUlZN3NfbW",
+      "summary": "",
       "source": "SWI swissinfo.ch",
       "sourceUrl": "https://www.swissinfo.ch",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeUJ2aGo3S09lNnBDeXBnSFFJVy0tM1N6V200bVhONE9uMEdacXVYVTk0MkZHYXlCdUozMVQxVDM1QmN3TGhUS3VUZ3hVOVdteDV1NFgzazdaRDJ6eXZuYVlrblc2VmVJQUlZN3NfbWdDVk9tNXpNLTNGUFQ2WngxbTUtbk55bFgtZG9XdXdnUHhKV2Q2NHNzTy03UlRxS2FYM05aOA?oc=5",
@@ -303,7 +303,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "This San Francisco World Cup game has some of the tournament's cheapest tickets",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYVltS0RteUphaHR5Q1I3SEI3OXY2enN2SjNCUTUxT1JxaU1wZGFPeE1tWTZ3T2RreHRkSV9mNFo5bUxRUlNxcEVLWklKNXdubUZMYkJLRTBsdTNRZzdVQ25GQlFpUWRadU84dVlUTz",
+      "summary": "",
       "source": "USA Today",
       "sourceUrl": "https://www.usatoday.com",
       "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNYVltS0RteUphaHR5Q1I3SEI3OXY2enN2SjNCUTUxT1JxaU1wZGFPeE1tWTZ3T2RreHRkSV9mNFo5bUxRUlNxcEVLWklKNXdubUZMYkJLRTBsdTNRZzdVQ25GQlFpUWRadU84dVlUTzdmMm1CZEU4UDh6b3d1VG55ZlZoVFlKSVExdllkZUNjeHBzR2t2SzRYZ0RWU2Y0b2tyUWtrS2NUQTJiSU1fekhZUFI3M1dIa25zQ2NHSEtKbGNnUXdCZW9CVWFhMHBIVUtoYkFaeEdvZFpRZ2RPS0RPRXVPZlZFdmNxdWtxSA?oc=5",
@@ -315,7 +315,7 @@ const NEWS_DATA = {
   "Canada": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -325,7 +325,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 FIFA Men's World Cup: How Canada can reach the Round of 32",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVIxUEdid0NqMmdqeVEwR0pKc0xuVkdJVTJkYjRYX2o1TWFYNTYtUkIyX0w4aFREakFjSDIwSnRhVUhET2MzWl9sRERzWDk5Uzk2UkUzN3B6RTVGUlEzMU5RaUR3eG5aYjllVWF6Y0",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNVIxUEdid0NqMmdqeVEwR0pKc0xuVkdJVTJkYjRYX2o1TWFYNTYtUkIyX0w4aFREakFjSDIwSnRhVUhET2MzWl9sRERzWDk5Uzk2UkUzN3B6RTVGUlEzMU5RaUR3eG5aYjllVWF6Y0l3Uk5iR0Robkk3S1pEUklIMnFaSC1STVRXVkVHakQ5cy1PVmVYU1VPaHhaYWcwaDdUbXhkNU9KWDFlNUw4S2QzSjliNXB5WUE?oc=5",
@@ -335,7 +335,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Everything you need to know about the World Cup and how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPR0p6SmQzNC1KT0x2UEozclY2Rnc2dDRobkF1M2ZldEVFNHBxeEVEWTJfNEtrOFk5OF9IZGRORzhBdG9JdEwzYmtKYldBcTBXbTYwTFlDM0c5Qm10RUxiU1J2T2lyWWZuQUVTTEo2Vn",
+      "summary": "",
       "source": "The Globe and Mail",
       "sourceUrl": "https://www.theglobeandmail.com",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR0p6SmQzNC1KT0x2UEozclY2Rnc2dDRobkF1M2ZldEVFNHBxeEVEWTJfNEtrOFk5OF9IZGRORzhBdG9JdEwzYmtKYldBcTBXbTYwTFlDM0c5Qm10RUxiU1J2T2lyWWZuQUVTTEo2VnJXTzZuc1MxSGhmT21MRWVrc2RaTk5veFJGTEVSZmloTzRFQjZLQzRiZzY2alQ?oc=5",
@@ -345,7 +345,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026 explained in maps and charts",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVhLbnFSRzhxelpEWE10M0JwN0EtZ0M0Q2JqN3ZfblRWYjhJQ3VsMDROQkJMbkNtZy1WWEJsaTE2V0JwWnZ3U04zTnJVZ1g0UDdUeXRxVVY5c3RDd3BONkRQSE4tTkFJZHY4MERtM1",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVhLbnFSRzhxelpEWE10M0JwN0EtZ0M0Q2JqN3ZfblRWYjhJQ3VsMDROQkJMbkNtZy1WWEJsaTE2V0JwWnZ3U04zTnJVZ1g0UDdUeXRxVVY5c3RDd3BONkRQSE4tTkFJZHY4MERtM1lvSzhtYUVBYjFXQWpEZjQ2ZjNYSnN2ekNBZEw3a2lIZHUzbmJDeUHSAZsBQVVfeXFMTi02bGI5UFhudENGaDBQYlh2TmZNR040VFdIelpTWjctU1hyWHFYZ3hLdWxKdGpBQ2ZHSTU5dl9YeW42bkJmTE9XUVVwRHFFN1VTZHhNRVYwcW1UbnpDMXNPaEdUTWNfZnI5d1I4QUxCeFZyMW51QUVrQldNeEdkQ3hQcWlySWN3Q3NETlpwblBYRGhCNUdzcmFmd1E?oc=5",
@@ -355,7 +355,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Canada vs Bosnia &amp; Herzegovina in FIFA World Cup 2026: Kick-off time, how to watch, stats, team news",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPM1B2bkVoRzBkcllQYnl1ZXpYaEd0bnFndTMtYkF2SGFoRnNXRzJ5ejFYN2dmbENZdlVKRDc4RzZrOUtTMDhqRHU0UzZ4ODZrak55MUltTW1SYXJFcmxxY04yR2FuY1Y0R2dvRGhXeH",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.co.uk",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPM1B2bkVoRzBkcllQYnl1ZXpYaEd0bnFndTMtYkF2SGFoRnNXRzJ5ejFYN2dmbENZdlVKRDc4RzZrOUtTMDhqRHU0UzZ4ODZrak55MUltTW1SYXJFcmxxY04yR2FuY1Y0R2dvRGhXeHN1NGxhNVRNQUhsamMwSDJGYi1yUklhVm56MVAyMXBnZm5DQV9FbEZoZkVGUjRsZGk2U2c3cjlpM3I2SkI3Z2xkRERlaS1CTnkwbkJhdjBUZzhYSjBuY0xSLUNXSmlvbzQ?oc=5",
@@ -365,7 +365,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026: Full schedule, all results, scores and standings – complete list",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxPYmgzMlhTVmlKSVo0NTBGRVhiRjl3NWc4OUhTRTNhZlV0SDR1dTBWdnd5NWpMTVd1WGVKNDFZSk8tVkxWeGtOaU5lcjAzeHprZzdwNmFzaXNFN2xNSTFLUk9oYk9mSDFwa2dCTXhldW",
+      "summary": "",
       "source": "olympics.com",
       "sourceUrl": "https://www.olympics.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPYmgzMlhTVmlKSVo0NTBGRVhiRjl3NWc4OUhTRTNhZlV0SDR1dTBWdnd5NWpMTVd1WGVKNDFZSk8tVkxWeGtOaU5lcjAzeHprZzdwNmFzaXNFN2xNSTFLUk9oYk9mSDFwa2dCTXhldWNQZEs4TkR5bXBNWk1MMHh2ckk0d21aVmY3Q3J0VzJZWW5IaUZJOWc?oc=5",
@@ -377,7 +377,7 @@ const NEWS_DATA = {
   "Qatar": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -387,7 +387,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026 explained in maps and charts",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVhLbnFSRzhxelpEWE10M0JwN0EtZ0M0Q2JqN3ZfblRWYjhJQ3VsMDROQkJMbkNtZy1WWEJsaTE2V0JwWnZ3U04zTnJVZ1g0UDdUeXRxVVY5c3RDd3BONkRQSE4tTkFJZHY4MERtM1",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVhLbnFSRzhxelpEWE10M0JwN0EtZ0M0Q2JqN3ZfblRWYjhJQ3VsMDROQkJMbkNtZy1WWEJsaTE2V0JwWnZ3U04zTnJVZ1g0UDdUeXRxVVY5c3RDd3BONkRQSE4tTkFJZHY4MERtM1lvSzhtYUVBYjFXQWpEZjQ2ZjNYSnN2ekNBZEw3a2lIZHUzbmJDeUHSAZsBQVVfeXFMTi02bGI5UFhudENGaDBQYlh2TmZNR040VFdIelpTWjctU1hyWHFYZ3hLdWxKdGpBQ2ZHSTU5dl9YeW42bkJmTE9XUVVwRHFFN1VTZHhNRVYwcW1UbnpDMXNPaEdUTWNfZnI5d1I4QUxCeFZyMW51QUVrQldNeEdkQ3hQcWlySWN3Q3NETlpwblBYRGhCNUdzcmFmd1E?oc=5",
@@ -397,7 +397,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -407,7 +407,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup predictions: Champions, Golden Ball, breakout stars and more",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNaUkxRDFjWHh6SXNXcDFVZ2ZWR01KTmF5aHRxd1h5aXV1Sm53TmtweGFHQk5SQTVvYVNCMThHN2luQlo4Y045blBUd3FUZ0owVzZKLVI5azVpVjZtamkwZWx4aV9CTlV5MHFVUV9qRH",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaUkxRDFjWHh6SXNXcDFVZ2ZWR01KTmF5aHRxd1h5aXV1Sm53TmtweGFHQk5SQTVvYVNCMThHN2luQlo4Y045blBUd3FUZ0owVzZKLVI5azVpVjZtamkwZWx4aV9CTlV5MHFVUV9qRHdqMUlqa1hZNWtGMTZFU0d0VWFBbVEwanBPc0NTM0dheFhrdmxpTk8wQVhtb1JDNWtOS2o3WC14U3Y4WnBfRklKdFp1RFRPc1F4LVlLLTdlSnp5eTZkM1VpbHhFZGxrcE0?oc=5",
@@ -417,7 +417,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup: Each team’s chances - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMz",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMzMyWVYyUmUtZVZJbHFTMG5TbllVRE8tV0w1enNSaUZfSjN5STlNN3lJOGN2MmItX0VPYlYxem9nX3Y0OU5LY1lIWXQ3LUgydw?oc=5",
@@ -427,7 +427,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup schedule: Teams, group s, match dates, fixtures, how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbD",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbDF4bl9DY29tN3VWUXAycGV3UG04TmRxNVlseUNGOGtvNkY5UXZOMUR3VFRwR3MwcHl6Uzk0eU5keGM2ODRXb1J2dHppSFBDOE9HYm44eTlEMXlFOThuSEdMWUZ3?oc=5",
@@ -439,7 +439,7 @@ const NEWS_DATA = {
   "Bosnia & Herzegovina": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -449,7 +449,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Canada vs Bosnia &amp; Herzegovina in FIFA World Cup 2026: Kick-off time, how to watch, stats, team news",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQRm53TTVzQ1paWG01dDBYS0t2bFd3eFYxZC1RZkgySFY1c0E4RGMyWXZBSDBIOVM1bWpaS3BRR19yTW9kUU9wLU1nUEtpUExQQU11Q0NtOHh6TEZKNXp4NTQwaWxSeXhYb2pKVlFpM1",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRm53TTVzQ1paWG01dDBYS0t2bFd3eFYxZC1RZkgySFY1c0E4RGMyWXZBSDBIOVM1bWpaS3BRR19yTW9kUU9wLU1nUEtpUExQQU11Q0NtOHh6TEZKNXp4NTQwaWxSeXhYb2pKVlFpM1kyN01fYlhmaUpJd0ppZkpNUmFwYk5wcTV0ZlZBNTdXMU5meG11cHdrdGJnY1J6QmpqOE91WHB0V2pJZnFGN3EwTEpGS2hKVFpOMVV4OUVVWTA2UV9MNE95Y0FR?oc=5",
@@ -459,7 +459,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: How an old song from Bosnia went viral",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxOVlIwVXdOTnEzWGo1aVlfaUFfZE9BMWNoVjJYTEZkbHczV0dSZ0pUTlBEdWRNdkJKeUJqTGNJREd4WDNpdVNQbDZFeXI3ZFRiSTVuRHJBSkNzRi11WFpjUERHNGVhY0NVZnA5QUJMOU",
+      "summary": "",
       "source": "DW",
       "sourceUrl": "https://www.dw.com",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOVlIwVXdOTnEzWGo1aVlfaUFfZE9BMWNoVjJYTEZkbHczV0dSZ0pUTlBEdWRNdkJKeUJqTGNJREd4WDNpdVNQbDZFeXI3ZFRiSTVuRHJBSkNzRi11WFpjUERHNGVhY0NVZnA5QUJMOUJjVHZLcEhMSWVPaENQUmZ2dmxZX0Z2d1B4QlhQR0tsY9IBjwFBVV95cUxORk5oMElna0pZUFA5TDBYNWEtYzdCcmhWSDlWOGYyTkZnRXY2ZUFpOVJzd1RaVFR1WEpRaXRNSjJoVVhTcURZa2l6Sy00dXFFeW1idjFzQUpRNVZTUVhibDg5VXVTLS1DQmNiZlpwM043ejdUOU93eFFrUi1DX2hQM3RFdHlKSUNhMWVTTnZ1MA?oc=5",
@@ -469,7 +469,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup schedule: Teams, group s, match dates, fixtures, how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbD",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbDF4bl9DY29tN3VWUXAycGV3UG04TmRxNVlseUNGOGtvNkY5UXZOMUR3VFRwR3MwcHl6Uzk0eU5keGM2ODRXb1J2dHppSFBDOE9HYm44eTlEMXlFOThuSEdMWUZ3?oc=5",
@@ -479,7 +479,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup: Bracket projection - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNOUR4YklUZU1vNUlEa1FPY05pcXdvdTd4MWx5UUVmb3Q0cW5EODhLeDhHTnNDbTB3OHhTUXRYeV9hMEZrT2ljMzhEUGVZTU1EZkJOSTBDNDdaTkhKRlJUNlZTbVhySHh5YU9jS2NlOE",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNOUR4YklUZU1vNUlEa1FPY05pcXdvdTd4MWx5UUVmb3Q0cW5EODhLeDhHTnNDbTB3OHhTUXRYeV9hMEZrT2ljMzhEUGVZTU1EZkJOSTBDNDdaTkhKRlJUNlZTbVhySHh5YU9jS2NlOEFUQWE1dUN6RU9tQ3EtbW1iR1NRYVZha3c5T1p2NFo2QmRGY1RMY0RLMENTM3BIazUzU2xyRjVGSk5tTlV0UEpFV2hR?oc=5",
@@ -489,7 +489,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 FIFA World Cup predictions, picking every game: England vs. Spain; Messi vs. Ronaldo; USMNT end drought",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnlVY0J0a2p3TW9Ja1JmMkxEU1dMQnRHSXhDekczbFJFUzZlVW90TkpoM2JFUzEyRE1yNTZjS1Atc29VdWNQVU1GeUw1S0Y2ZGJBc2ZuREJGSXZCblZ5TEtJS09XZzJkR3F3MzBwNG",
+      "summary": "",
       "source": "CBS Sports",
       "sourceUrl": "https://www.cbssports.com",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnlVY0J0a2p3TW9Ja1JmMkxEU1dMQnRHSXhDekczbFJFUzZlVW90TkpoM2JFUzEyRE1yNTZjS1Atc29VdWNQVU1GeUw1S0Y2ZGJBc2ZuREJGSXZCblZ5TEtJS09XZzJkR3F3MzBwNGxjQUxjTHR0UVJWMGhIS2p3dTQ1WjRqWUY3QndoWi1qRnhPc2t1dGxzR0pQR1F6VnJZVEphWlFfaHI4cUFQM3g3QnYzbXpWTHhGejhiM3RMWUJuUTFTOTRNQw?oc=5",
@@ -501,7 +501,7 @@ const NEWS_DATA = {
   "Brazil": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -511,7 +511,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Man United-bound Ederson replaces injured Wesley for Brazil",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85Q1N5Yi1WcEVTSmw0a2R4UXU5dGxiOGpDbjg2YVNvektzLVRacGRSbHg0WXJzRC02VENhRVBRZmw3YWR6TVd4THFBeG5MT1NjN1BNaXZlZTJfUUI0a0JsdndmMENQN2s?oc=5\" targ",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85Q1N5Yi1WcEVTSmw0a2R4UXU5dGxiOGpDbjg2YVNvektzLVRacGRSbHg0WXJzRC02VENhRVBRZmw3YWR6TVd4THFBeG5MT1NjN1BNaXZlZTJfUUI0a0JsdndmMENQN2s?oc=5",
@@ -521,7 +521,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Brazil World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVjYzc3dCNDd3Tng0dXRJbDJZN2g0UVFIaDdfbm9Pam85Z1kzZUJ3NFZZYzBCX0ZYQ1c4cUJMOHdjYk0tYzhFclNqdkFreHNnbFpDazhXMWJVZUljOW9wbkJ3bXhlSzJIWkhYSFotcG",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOVjYzc3dCNDd3Tng0dXRJbDJZN2g0UVFIaDdfbm9Pam85Z1kzZUJ3NFZZYzBCX0ZYQ1c4cUJMOHdjYk0tYzhFclNqdkFreHNnbFpDazhXMWJVZUljOW9wbkJ3bXhlSzJIWkhYSFotcG53bVBEVU5GLUdOdmxuRUlmWVlhMEhHWFpk?oc=5",
@@ -531,7 +531,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026 squad lists: England, Scotland, Brazil, USA, Spain, France, Germany, Netherlands, Argentina, Portugal and more",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_wFBVV95cUxPenEzYW1wbXB0enhqc2tNY1NxVHBBc2dWY3YtSVplanFqTk5VZ1NqVW56VnpWeE91djg0TDVyWFVITTBZcGNkdU4zemo5TnVwZFhPNzhSU3EtV2kxVU8zZHNZYTVkNUdZZDVyZDNJZE",
+      "summary": "",
       "source": "Sky Sports",
       "sourceUrl": "https://www.skysports.com",
       "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPenEzYW1wbXB0enhqc2tNY1NxVHBBc2dWY3YtSVplanFqTk5VZ1NqVW56VnpWeE91djg0TDVyWFVITTBZcGNkdU4zemo5TnVwZFhPNzhSU3EtV2kxVU8zZHNZYTVkNUdZZDVyZDNJZEpsT3AyeTBQT1Q0bmxnV3FzcHM1UnNUamZRZHJVR3RaejQ5Qi1Jb3JKbDJNQ3c2LXYxUXY3U2lCcjNOQVhQYWJmb0Y0MkFObjBIZlJxSUhNTm80RzlibG1UN2ozWWR5SThwdkJMdG5UMHF6S3NNUnpDWkg0X0FaVVFIcUo3M2dyRlY1MlRhX0l6YWZxNzB5cVU?oc=5",
@@ -541,7 +541,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Brazil World Cup 2026 team preview: Players to watch, group matches, squad",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxQWWhLOGItUDZmNDFBM21QZDlKc3NheEJJSzBJakxxN3l5Q0oxTXRrWndCTEpxbHhHNmQ2VXd5LXZuTFJzZVpHUENvMFFMNk1LNWdCenB5cC1OX3dYSzVsYjVmcEZMMGFGVTRZTmVGa1",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQWWhLOGItUDZmNDFBM21QZDlKc3NheEJJSzBJakxxN3l5Q0oxTXRrWndCTEpxbHhHNmQ2VXd5LXZuTFJzZVpHUENvMFFMNk1LNWdCenB5cC1OX3dYSzVsYjVmcEZMMGFGVTRZTmVGa1Zhc0VzNUxJeXkxWmFMMklmUUM3Y1ExcGMyeGFmbjdIbXdtZmdYYnBETk9LMXRGM1RvcXNJbkl5QndBTlZRM21zUE1SOUVOQdIBuwFBVV95cUxQc1d3RXBoOW53SVNWUmQxbk9LbWVkWWx1elJDa1BfOWliY2lvWUpwQmxlaE1GaUNETUFHVXFRNWpUekE5ZFgzQnNTOFFfQXFXREpsdkdwLUdhaDBObzR0Zk9jeTNxZmdXNmR6OVpHUmlDbUUxd1ZLMGs4OGU2ZjFYZW5vOGhuSTF3cldSeTV1UVZCWlNqZnlQbmRtS3JWeHk1WmFHN29pTEpncF9lRkdZNWZoTUJZdVZjcHY4?oc=5",
@@ -551,7 +551,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Carlo Ancelotti aiming to end Brazil's wait for a sixth title",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hYWs4V2M4UzVtbDB6VERBZ2RJclhCYnplUW5SQzRCclRpTkRoRGMwZHJfRHpzTkdzX2QxN0dTcDM1X044YXVsSVdJc18zeGpwS0dXQ1MtNVQ2TTdvSGFIN05NTWpJck0?oc=5\" targ",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5hYWs4V2M4UzVtbDB6VERBZ2RJclhCYnplUW5SQzRCclRpTkRoRGMwZHJfRHpzTkdzX2QxN0dTcDM1X044YXVsSVdJc18zeGpwS0dXQ1MtNVQ2TTdvSGFIN05NTWpJck0?oc=5",
@@ -563,7 +563,7 @@ const NEWS_DATA = {
   "Morocco": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -573,7 +573,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Morocco then everyone else - Ranking Africa's 10 FIFA World Cup teams",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGxVa1JVblVvc0RyX0tNbVcydGh0ZkVIUHFlMWRjZWtGU282U1oxOUZCUml3NFllS1Q5TnJHc2JsaklscFpTcEpsalQ3Q1NOQXFwaGUzVml2c24zYnhfUnl2ODFvd1JFbmlGM2w3Vn",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://africa.espn.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGxVa1JVblVvc0RyX0tNbVcydGh0ZkVIUHFlMWRjZWtGU282U1oxOUZCUml3NFllS1Q5TnJHc2JsaklscFpTcEpsalQ3Q1NOQXFwaGUzVml2c24zYnhfUnl2ODFvd1JFbmlGM2w3VnFORkRZeWUyQTlfOHNoWWZNX0ZQYlVrRFhfZVBjRDkwQzFLR1hKdWdfaW14SklRdUlrVWt3Wmh2VXA2YjBDMUE?oc=5",
@@ -583,7 +583,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -593,7 +593,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup: Each team’s chances - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMz",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMzMyWVYyUmUtZVZJbHFTMG5TbllVRE8tV0w1enNSaUZfSjN5STlNN3lJOGN2MmItX0VPYlYxem9nX3Y0OU5LY1lIWXQ3LUgydw?oc=5",
@@ -603,7 +603,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Full Schedule, Key Matches, And Knockout Dates",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxPTlZiYUM5SUtrR2dvNS0xeVMtWEkycHNWR0NPVWdyZkJ1UkJhamZ0dHVwWGFOaUZWd2F2OC1GTjFQekd5cnJDdy1FR1g1VElWS0hqa3ZvejJvM2hDcmhmbVUzUDBhaWwxVHl6Y0xQUG",
+      "summary": "",
       "source": "i24NEWS",
       "sourceUrl": "https://www.i24news.tv",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTlZiYUM5SUtrR2dvNS0xeVMtWEkycHNWR0NPVWdyZkJ1UkJhamZ0dHVwWGFOaUZWd2F2OC1GTjFQekd5cnJDdy1FR1g1VElWS0hqa3ZvejJvM2hDcmhmbVUzUDBhaWwxVHl6Y0xQUGQxNHVUUDZYaHM4UDROV2FubkdTQnkxNlJqRW5UT2hiNDZCVTBmeTV1ZlpkQVhNY2NjU0VEaXVRR0Q4bDZsQ3dFRWpfMzNsQQ?oc=5",
@@ -613,7 +613,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "One of the best World Cup group stage matches has limited tickets remaining",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRTdsVzlaWHNJRVFoeWE3Vk1NMElHeU1ZNnI1RU5zdlRtU2RCWC1aSTdhdXFxN2liNHBEWDVIVjdReFBGWkQ5ZkhCbFpUREQ3cHY2NEJWM3ItUnR3QzVaV1F2VlF1eGVUT3hqT0szT3",
+      "summary": "",
       "source": "USA Today",
       "sourceUrl": "https://www.usatoday.com",
       "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNRTdsVzlaWHNJRVFoeWE3Vk1NMElHeU1ZNnI1RU5zdlRtU2RCWC1aSTdhdXFxN2liNHBEWDVIVjdReFBGWkQ5ZkhCbFpUREQ3cHY2NEJWM3ItUnR3QzVaV1F2VlF1eGVUT3hqT0szT3VkQkl2d05ZWDFIYzlPV3VJY0hRSTlITzRQU2hCNTN4RC1YaElVVGszQTU5aTBxbzM4M21HVDFhNndpX19WSHQ0a2hmMUxTUE1jeEdpWDdfQ0pPUVV1NzhSYURRTTlVcFExbWlWWVVPTk0zMmItZ01j?oc=5",
@@ -625,7 +625,7 @@ const NEWS_DATA = {
   "Scotland": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -635,7 +635,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Norway label Scotland ‘unprofessional’, Somali referee denied entry to US: football news – as it happened",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVNaei04MFJGcmpNdFA5Q29XOVc2b3JENHlFNVNiNHNwQTBtOG5GTEJvdWdEanNCWVRuWFdid0M2S045WXd4T3NZOG9XTnJzcVk5a1lUY1JuWlBnd05jRVV5NjJ5c192QmhBZFdDUE",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVNaei04MFJGcmpNdFA5Q29XOVc2b3JENHlFNVNiNHNwQTBtOG5GTEJvdWdEanNCWVRuWFdid0M2S045WXd4T3NZOG9XTnJzcVk5a1lUY1JuWlBnd05jRVV5NjJ5c192QmhBZFdDUEZ6cEdieUZFY0toRmN1NkNhSTRqOUtNbzFjdEcyYmZZc3ZLTWh0NGFpTjl2SGdES0RLM2tXRGpOeG56Tno0THZCdEhKaGZ1U1JVSEpsZVdRYTRUMUkzR2JV?oc=5",
@@ -645,7 +645,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026 – How to watch Haiti vs Scotland on TV and BBC iPlayer and follow across the BBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNemJXVlhQWFBqRjNVZXdoeEEyLTEybU1hVmFFX1Zkc0oyeGgtU2RPZFdzeVFEa2ZWMi1nVVRZbjR4a0hNa1dRejROd09NZWZBNXdBeTRMNGZNcG1MM1FuZkNkRWk4SHFDN0U1ZERLT1",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNemJXVlhQWFBqRjNVZXdoeEEyLTEybU1hVmFFX1Zkc0oyeGgtU2RPZFdzeVFEa2ZWMi1nVVRZbjR4a0hNa1dRejROd09NZWZBNXdBeTRMNGZNcG1MM1FuZkNkRWk4SHFDN0U1ZERLT1lWZ3lWVG0zLWZGVHd2WERrU1Zod19OQkh6eC1hZDNZRDk3akVadGFzWQ?oc=5",
@@ -655,7 +655,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Scotland in World Cup war of words with Norway over cancelled training match",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd1duSHlCbWUyUDhFaC12ZnFzakF2MXc3MXhxYkFlbWh5bDYtTFlYNmhhMjZWN1c4ZVU0Z2hmd3hmd2ZyN3J2VEczemZoNTdRTFloYUhndjZaY3lvWGwzZlNESXp1eXA0SFFHeHVWdG",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPd1duSHlCbWUyUDhFaC12ZnFzakF2MXc3MXhxYkFlbWh5bDYtTFlYNmhhMjZWN1c4ZVU0Z2hmd3hmd2ZyN3J2VEczemZoNTdRTFloYUhndjZaY3lvWGwzZlNESXp1eXA0SFFHeHVWdGJFRjJES2ZDQi1OUmdKQ3ZhXzA4YjczRFFwc1JqTmtEUzhWOC0wV2JyQjB4RWcwSGR1OFA5TmdWWnRTSU9Yek4tZko5XzFDak9fVG1jcGliM2lkWDQ?oc=5",
@@ -665,7 +665,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Steve Clarke names Craig Gordon, Findlay Curtis, Ross Stewart in Scotland's 26-man squad",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTnozbkxBdjNUM3U0eWUyanh5T1k1aEg1YThmLWg0SmVBVlJDNXVDRC1kZGppd3czQnlnN19STmlGcURJX01Vd0s0ajNQZUNPN1FDc2I4bm1FVm5JcWp4SXdEN0hIX1JCaHM4MmxnR3",
+      "summary": "",
       "source": "Sky Sports",
       "sourceUrl": "https://www.skysports.com",
       "url": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQTnozbkxBdjNUM3U0eWUyanh5T1k1aEg1YThmLWg0SmVBVlJDNXVDRC1kZGppd3czQnlnN19STmlGcURJX01Vd0s0ajNQZUNPN1FDc2I4bm1FVm5JcWp4SXdEN0hIX1JCaHM4MmxnR3hzclRDeklxSFdncWtZVmZobFplTVMwUzh5LWtVOW9CR0hFcWVzT0ZUUXdqTmNUb2RCdE83dE1leGlqenhrT0NYdEhFbUhleEo1LXplY2RTX2ljSElfR21XTXEzS2Z5czE0VkFwSXhlU0J3SEh1TVhveU1wYzdGdm9JSmNR?oc=5",
@@ -675,7 +675,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Bolivia 0-4 Scotland: World Cup 2026 warm-up – as it happened",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiogFBVV95cUxQVFgxeHdWWllPZUhwLVhsNjhkWnp5LWdiUHZrVVlJRnFGX0lpSEliWlZjZnBJQmd3WU5kR3M4MGF2SkxHZHo2RnIwSS1fYTJRWWUzM21TVnU4YU11NUlueFJUZ0Z6UTJmQXNEMGVlMm",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVFgxeHdWWllPZUhwLVhsNjhkWnp5LWdiUHZrVVlJRnFGX0lpSEliWlZjZnBJQmd3WU5kR3M4MGF2SkxHZHo2RnIwSS1fYTJRWWUzM21TVnU4YU11NUlueFJUZ0Z6UTJmQXNEMGVlMmdremY5TE1Kb2lnRDlvZnZtV2s5V01LRnRGaVZoOG1hZ0RjLUh1S2wxNUtmX2dHZ3pvTHc?oc=5",
@@ -687,7 +687,7 @@ const NEWS_DATA = {
   "Haiti": [
     {
       "headline": "A warm World Cup welcome? U.S. immigration policies have chilling effect",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQeW52SHRrOWJWSVZ0ZWpCNnd2OTB3dU1GTVBvdjNtLS03TEJPcjBUeUdyUkFZMk1JNE9jeU00eC1GUHplVHlvQkZZSWRXUU8zNDZDS3otZjJFN0RkU0hiUkZEd1o5aXNTSzY4YnVyRW",
+      "summary": "",
       "source": "NPR",
       "sourceUrl": "https://www.npr.org",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeW52SHRrOWJWSVZ0ZWpCNnd2OTB3dU1GTVBvdjNtLS03TEJPcjBUeUdyUkFZMk1JNE9jeU00eC1GUHplVHlvQkZZSWRXUU8zNDZDS3otZjJFN0RkU0hiUkZEd1o5aXNTSzY4YnVyRWRzQ1NyQ3FvaWtuajRSOWRIbk1vSQ?oc=5",
@@ -697,7 +697,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026 Team Profile: Haiti",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVUzVV9qSEdyN00wb2R2VzJrOG5aUlJjN0VXSjNCUzh4MG82eGdYX3c1SjU2YW5ZeUc0b3FsNGZETFpCazlBUEtTd2xyZGQ4a09aSXk3dEZhbHZ5WFBRZDZQT2hDd2ZaalNWQUVTTV",
+      "summary": "",
       "source": "Concacaf",
       "sourceUrl": "https://www.concacaf.com",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSVUzVV9qSEdyN00wb2R2VzJrOG5aUlJjN0VXSjNCUzh4MG82eGdYX3c1SjU2YW5ZeUc0b3FsNGZETFpCazlBUEtTd2xyZGQ4a09aSXk3dEZhbHZ5WFBRZDZQT2hDd2ZaalNWQUVTTVVZTVhXdjd6UURJZmpNSUxXQnFxTHJiYXkxYUpPOW1kY01DVE9SYkZuMUdhT3Y?oc=5",
@@ -707,7 +707,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Haiti Soccer Team Finds a World Cup Home at Stockton",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0aFhyaGRaTVp0OUpzX0ZQXzY5Ml9WN3NMTkxoZldRZ3FlOXdheW1hZlNSU3g2Q3drN2trdTUwVjB1QU9naElxbjFrOWhKWWhWSE5BdHlMc1JCbGZpeWVHSW5Yd0VSUQ?oc=5\" targe",
+      "summary": "",
       "source": "Stockton University",
       "sourceUrl": "https://stockton.edu",
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB0aFhyaGRaTVp0OUpzX0ZQXzY5Ml9WN3NMTkxoZldRZ3FlOXdheW1hZlNSU3g2Q3drN2trdTUwVjB1QU9naElxbjFrOWhKWWhWSE5BdHlMc1JCbGZpeWVHSW5Yd0VSUQ?oc=5",
@@ -717,7 +717,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Haiti to debut redesigned World Cup jersey after FIFA rejects initial design as ‘political’",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2lzbHUzVW50THFxbTBuQ0dYa251VHlyZ1lGSFRacTFrbkFZalF2ZW1uYURZZ2cwTG5JeTRDc2J2czZxUkF5Z2w0S1ducXZVOFhRdV84X3NTaDVOSTZVVlI3eVo1QXZYelhWbnJqa1",
+      "summary": "",
       "source": "Miami Herald",
       "sourceUrl": "https://www.miamiherald.com",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNV2lzbHUzVW50THFxbTBuQ0dYa251VHlyZ1lGSFRacTFrbkFZalF2ZW1uYURZZ2cwTG5JeTRDc2J2czZxUkF5Z2w0S1ducXZVOFhRdV84X3NTaDVOSTZVVlI3eVo1QXZYelhWbnJqa1ZXRjR2R3lJZjMxN0NXc041TS1XLURaMTRtRS1sRjRWdkwyZ9IBkgFBVV95cUxPM1lRc1dGS211anlLRDJrSDU1aFo2UmwtOVdFMlBZX2lHZVdseFVaX3htMXFpR1JZcDZXc1JITGd3QWxjZ2lmaU9uV0ViSDA3NmxsM1ZTT1FCQ3F1a2oxU0xiM0w4clJUaVhCYTdHUU10eS1yWlN5cDJUaVl0RXVUdnI2Mzc5ZWFoOEdObEE4TTU5Zw?oc=5",
@@ -727,7 +727,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026 – How to watch Haiti vs Scotland on TV and BBC iPlayer and follow across the BBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNemJXVlhQWFBqRjNVZXdoeEEyLTEybU1hVmFFX1Zkc0oyeGgtU2RPZFdzeVFEa2ZWMi1nVVRZbjR4a0hNa1dRejROd09NZWZBNXdBeTRMNGZNcG1MM1FuZkNkRWk4SHFDN0U1ZERLT1",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNemJXVlhQWFBqRjNVZXdoeEEyLTEybU1hVmFFX1Zkc0oyeGgtU2RPZFdzeVFEa2ZWMi1nVVRZbjR4a0hNa1dRejROd09NZWZBNXdBeTRMNGZNcG1MM1FuZkNkRWk4SHFDN0U1ZERLT1lWZ3lWVG0zLWZGVHd2WERrU1Zod19OQkh6eC1hZDNZRDk3akVadGFzWQ?oc=5",
@@ -737,7 +737,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Haiti at the World Cup is more than an underdog tale – it is the story of global migration",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTHNaY1liMG1ld3MyaHJzTGpwb0p5bkV3UngtMlg3Nlo3djhqRnR6LWo0WDF0MUdTeU5JWGlUNVhvR2N6WjU0aHpoT2pzWVVNaXVpbUlqY0NvajVWWTFwVDFXay1kRE1lV1NpYS03cl",
+      "summary": "",
       "source": "The Conversation",
       "sourceUrl": "https://theconversation.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQTHNaY1liMG1ld3MyaHJzTGpwb0p5bkV3UngtMlg3Nlo3djhqRnR6LWo0WDF0MUdTeU5JWGlUNVhvR2N6WjU0aHpoT2pzWVVNaXVpbUlqY0NvajVWWTFwVDFXay1kRE1lV1NpYS03cl9wTi1CeVROSk1SLXJtZHpCSzY4NF85LUtzWDNncmtwM2M2N09xVXFtMEhZdFFoaENCaHRhczg1ZEZQd0F0MDVkdUJieUV6RnhGX3dNN1ZuRzM?oc=5",
@@ -749,7 +749,7 @@ const NEWS_DATA = {
   "USA": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -759,7 +759,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "With just days left, the U.S. opening match at the World Cup is still not sold out",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE9CUlU2aXFtd01uel9hVHpLeUNTRWNYelRub3hVam1hOHBIQTRZOUVZT1VUWExUVFhIdE5VWEFOV3BTbjNtdXUzZ3hBVDhPUGNCWGY0NzU0YzhGb3NOY0U3WlRYUWN5UjF4UXl3NXpfRH",
+      "summary": "",
       "source": "NPR",
       "sourceUrl": "https://www.npr.org",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CUlU2aXFtd01uel9hVHpLeUNTRWNYelRub3hVam1hOHBIQTRZOUVZT1VUWExUVFhIdE5VWEFOV3BTbjNtdXUzZ3hBVDhPUGNCWGY0NzU0YzhGb3NOY0U3WlRYUWN5UjF4UXl3NXpfRHoxQzM2bFREZ3ZlN0pCdEk?oc=5",
@@ -769,7 +769,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup live updates: Latest news before biggest soccer tourney ever",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOOUI4S3VNeFBLVU9hZzVRZXhTbWN4UEdGMC0waEhpQWNwZ1J3dWZXZThRV05BeHdab013ZndEZlpPWlFSU1ZRNF9RWmRnNkZfYngweGcxODd0T2pWRHlPc2hrdTFpVFJSeFJSY2pTMT",
+      "summary": "",
       "source": "USA Today",
       "sourceUrl": "https://www.usatoday.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOUI4S3VNeFBLVU9hZzVRZXhTbWN4UEdGMC0waEhpQWNwZ1J3dWZXZThRV05BeHdab013ZndEZlpPWlFSU1ZRNF9RWmRnNkZfYngweGcxODd0T2pWRHlPc2hrdTFpVFJSeFJSY2pTMTJ6LVEwengtRFc4Q0pCUmtTSnNTSjBVS0JOa3gxYUsyVWZLd2EyLUdMWGppOGJYN3U2UGhtV2V3dDN5cWZFdW1tN3BzNXA?oc=5",
@@ -779,7 +779,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: There isn't much disagreement among Yahoo users on who will win each of the 12 groups",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcWdmTmwyMTAtWHJKaUs0OUZpRC1LdUNWczI2MEh5d1dGdV9iTDdCMXZVQjRaM0dJcHNkZlZrYkJkYWM2UlBRRTFZajVJd09oQThsaExDVkNZS1NzYTl0T0pCZmxGd2JhNHJyNXZBOH",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxOcWdmTmwyMTAtWHJKaUs0OUZpRC1LdUNWczI2MEh5d1dGdV9iTDdCMXZVQjRaM0dJcHNkZlZrYkJkYWM2UlBRRTFZajVJd09oQThsaExDVkNZS1NzYTl0T0pCZmxGd2JhNHJyNXZBOHV1Wk1aWTJ1bzEtaHBPRVdaQmlsakZwNDlJWkxQajlZbFMtOTNxdXY4dVZod2JCYXdyeWZOTldVVkxSY2dWQzV0WTVVSkdIX3hEZFl1eFA2YnRidHZpLURNdDF2Rm00SkdwTnZTRVZDa3gxYlhMVThUbXYzYzNpQVo4VGc?oc=5",
@@ -789,7 +789,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Who Could Be the USMNT’s Breakout Star at the 2026 World Cup?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMickFVX3lxTE5pZjJmM3lPNVZ2SjA5N3JLNnUxRTNIQ0hnYVdCdThyb1dzU1NFXy14NDB3SzVKV1pSaGdjNExxSnd2b20zamMyS0dLZ1pJWVlZY3NFOUh3dG94cFkyeDdicWhuZUFLa19UTkF2aFZ5eG",
+      "summary": "",
       "source": "Sports Illustrated",
       "sourceUrl": "https://www.si.com",
       "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5pZjJmM3lPNVZ2SjA5N3JLNnUxRTNIQ0hnYVdCdThyb1dzU1NFXy14NDB3SzVKV1pSaGdjNExxSnd2b20zamMyS0dLZ1pJWVlZY3NFOUh3dG94cFkyeDdicWhuZUFLa19UTkF2aFZ5eGFfdw?oc=5",
@@ -799,7 +799,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Everything you need to know about the United States’ 2026 World Cup team",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxPajhaYUZFbEU5TUtJUF9VNmZ0UG1JSHJ0T29WLXo3anlyMGJjT1dwWXhZdURRVDB3Z1FPT0JlTlFUREF4UVBFTFNYNHM1UFlYd0J6UC1fTTlQU2hOaFM0TGU5NG1RV2hFQ1Q0MllDa3",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPajhaYUZFbEU5TUtJUF9VNmZ0UG1JSHJ0T29WLXo3anlyMGJjT1dwWXhZdURRVDB3Z1FPT0JlTlFUREF4UVBFTFNYNHM1UFlYd0J6UC1fTTlQU2hOaFM0TGU5NG1RV2hFQ1Q0MllDa3FHLTIyMHRGYThGOWlUZmRFVzg5RWVMcks5UDQzb2tDWQ?oc=5",
@@ -811,7 +811,7 @@ const NEWS_DATA = {
   "Australia": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -821,7 +821,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: how and where to watch Socceroos matches from Australia",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOckk1NGVkM2g5aGw0NVlJOUVlX1Fvcl9WLVJPSHdFZ29aTG1vUmxGQTRqOVRjcUtsLURRNkw4S2VFekhJd3hvaE81QTlUUkswQVhoSHkwWTViSVBaM3c5U3otbjktMjlSOFJZVkxjUC",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOckk1NGVkM2g5aGw0NVlJOUVlX1Fvcl9WLVJPSHdFZ29aTG1vUmxGQTRqOVRjcUtsLURRNkw4S2VFekhJd3hvaE81QTlUUkswQVhoSHkwWTViSVBaM3c5U3otbjktMjlSOFJZVkxjUC02XzZXM0tLMkhwZjVXcDRPMng3VGhJSjFoZFlOazk4ckl2VE9jaHlmYVJXOGs2RXVCWXgzYUwxSWtMdjFEZGVObWprNU4zcEhDbDBJbGJ4a2k2RzFL?oc=5",
@@ -831,7 +831,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -841,7 +841,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup schedule: Teams, group s, match dates, fixtures, how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbD",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbDF4bl9DY29tN3VWUXAycGV3UG04TmRxNVlseUNGOGtvNkY5UXZOMUR3VFRwR3MwcHl6Uzk0eU5keGM2ODRXb1J2dHppSFBDOE9HYm44eTlEMXlFOThuSEdMWUZ3?oc=5",
@@ -851,7 +851,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup: Each team’s chances - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMz",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMzMyWVYyUmUtZVZJbHFTMG5TbllVRE8tV0w1enNSaUZfSjN5STlNN3lJOGN2MmItX0VPYlYxem9nX3Y0OU5LY1lIWXQ3LUgydw?oc=5",
@@ -861,7 +861,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "How to watch World Cup 2026 in Australia: TV channels, live streams and fixture schedule for FIFA tournament",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxORDM4NnRRNTlOUTNaOVJjQWZJVEFxekZORGc5THA0djlYRlZsT0JnYVlLT1pYUHNWdnhGLU5YbWxHTkVBZXVWWERyVU5qYWZ6cFQ1QmV4aS15RXBvYVQ3VkxmUkZ1NEFZUUlzYUNMNn",
+      "summary": "",
       "source": "sportingnews.com",
       "sourceUrl": "https://www.sportingnews.com",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxORDM4NnRRNTlOUTNaOVJjQWZJVEFxekZORGc5THA0djlYRlZsT0JnYVlLT1pYUHNWdnhGLU5YbWxHTkVBZXVWWERyVU5qYWZ6cFQ1QmV4aS15RXBvYVQ3VkxmUkZ1NEFZUUlzYUNMNnEyckJnLVlDcS1fYWlHajlGbFdjbEdGaE8wbklSZzFEUUxmT3BMZ2czb1lwM0Nka2wzT1NNclZOOUxvSUdKdG5FRTZnRE8tdWtHSWw0MlBhV0JSVzY3cHpJ?oc=5",
@@ -873,7 +873,7 @@ const NEWS_DATA = {
   "Türkiye": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -883,7 +883,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup: Each team’s chances - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMz",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMzMyWVYyUmUtZVZJbHFTMG5TbllVRE8tV0w1enNSaUZfSjN5STlNN3lJOGN2MmItX0VPYlYxem9nX3Y0OU5LY1lIWXQ3LUgydw?oc=5",
@@ -893,7 +893,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup schedule: Where to watch every game",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQWW1Rb0hNLTRmOHI5V3RyTTJKT1FPbk9RYndBdGFCYmpneDFadmEwSGMwMHhTTUU1M0ZibWV0QVR1ejRFMnBTR1NEc3B0THlEMGpFeVNlRlZpYTEtYXpDR2lBLTZFa2tyZ19jRVlzUD",
+      "summary": "",
       "source": "Syracuse.com",
       "sourceUrl": "https://www.syracuse.com",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWW1Rb0hNLTRmOHI5V3RyTTJKT1FPbk9RYndBdGFCYmpneDFadmEwSGMwMHhTTUU1M0ZibWV0QVR1ejRFMnBTR1NEc3B0THlEMGpFeVNlRlZpYTEtYXpDR2lBLTZFa2tyZ19jRVlzUDc0V3dvYnFSdlVOWW9xSG1DalJESVVZblE2Tm9lVkZUbUpaNmtm0gGoAUFVX3lxTE1haVVYTE5rM3ZTc3NWdHJuUGkzLXJpYTFRbDZ0U281YWRIQ09TV0VSekFFdW5HYmpMQzg2WEFScWRJM0ZZTjZQTUZJZjR1X2Nnb25VeGowLVRWSWpBb1hPM3BSbnJjOTVmakowZ3dVd1h3bE5RUXdya1E0bGs2ZUxhS0oxOFo3bHNXa2dVNkpvUVRFWDlhNzJ2N1lON3JKVWlBeFFGYS1LVw?oc=5",
@@ -903,7 +903,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026 Group D preview: Prediction, odds, full team overviews",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxPWVVDblM0MEl0VzhLYnNqZC1lYkZtazJiWXNRNDctaG51NTRQcFJob3VlTzZjUElHVGVBLVpsR3ZzRVRxM1JjSE1YZ3NxSkpVU3RNa0RaV2Y3RkpRV2xRcGFuUk9aeHM3d0Q0NGxNS2",
+      "summary": "",
       "source": "New York Post",
       "sourceUrl": "https://nypost.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPWVVDblM0MEl0VzhLYnNqZC1lYkZtazJiWXNRNDctaG51NTRQcFJob3VlTzZjUElHVGVBLVpsR3ZzRVRxM1JjSE1YZ3NxSkpVU3RNa0RaV2Y3RkpRV2xRcGFuUk9aeHM3d0Q0NGxNS2Y2a3VTcXNiTnZTTjlGN3NVNUhqS0lKS01EQXRsZ3Nzc2pzODk4bnM3V2tacG1BRlBuYzlfdkRFdw?oc=5",
@@ -913,7 +913,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Turkish football team continues World Cup practice in Arizona",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHdEQjRWbG9nazlSdXpnQW5BeDVhQjBXUi1sLUVkbTdKcjBVTlZYTm1tTWhmZnB0bFY4SGlXclNzRy1ERWpaNW9aTUtGd3h1MC1zWXRNdlBKMW91dEFkQlVLMERuNmdtQ2Fkb3lMSV",
+      "summary": "",
       "source": "Türkiye Today",
       "sourceUrl": "https://www.turkiyetoday.com",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHdEQjRWbG9nazlSdXpnQW5BeDVhQjBXUi1sLUVkbTdKcjBVTlZYTm1tTWhmZnB0bFY4SGlXclNzRy1ERWpaNW9aTUtGd3h1MC1zWXRNdlBKMW91dEFkQlVLMERuNmdtQ2Fkb3lMSVBMcnE2UnhlOHpzdGx4WWRYVVM1Tlc1NmNKLUFOQlkzSVZKWkZFb2FLeHNHdXJvMnB3RGdPOGF6LTU?oc=5",
@@ -923,7 +923,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: how and where to watch Socceroos matches from Australia",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixAFBVV95cUxOckk1NGVkM2g5aGw0NVlJOUVlX1Fvcl9WLVJPSHdFZ29aTG1vUmxGQTRqOVRjcUtsLURRNkw4S2VFekhJd3hvaE81QTlUUkswQVhoSHkwWTViSVBaM3c5U3otbjktMjlSOFJZVkxjUC",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOckk1NGVkM2g5aGw0NVlJOUVlX1Fvcl9WLVJPSHdFZ29aTG1vUmxGQTRqOVRjcUtsLURRNkw4S2VFekhJd3hvaE81QTlUUkswQVhoSHkwWTViSVBaM3c5U3otbjktMjlSOFJZVkxjUC02XzZXM0tLMkhwZjVXcDRPMng3VGhJSjFoZFlOazk4ckl2VE9jaHlmYVJXOGs2RXVCWXgzYUwxSWtMdjFEZGVObWprNU4zcEhDbDBJbGJ4a2k2RzFL?oc=5",
@@ -935,7 +935,7 @@ const NEWS_DATA = {
   "Paraguay": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -945,7 +945,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "How to watch: Miguel Almíron, Matías Galarza represent Paraguay at FIFA 2026 World Cup™",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxPaXJfVzUxZDNiMDlKSXZYbGNhQ2dYN2lFdWRKMmlYSlhhY0d6ZmotQVNDdnUxYWU3UWhRU3dmWEo2YVVjUVNMMGxqUmxZZEtQa1NBNHdrNkE4MXZLTlBRbFF5ZjdJTFhkRWhDMUEybU",
+      "summary": "",
       "source": "Atlanta United FC",
       "sourceUrl": "https://www.atlutd.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaXJfVzUxZDNiMDlKSXZYbGNhQ2dYN2lFdWRKMmlYSlhhY0d6ZmotQVNDdnUxYWU3UWhRU3dmWEo2YVVjUVNMMGxqUmxZZEtQa1NBNHdrNkE4MXZLTlBRbFF5ZjdJTFhkRWhDMUEybUxtTnRERmlpMXFDc0VFQ1NzcUhaYTN3T0JzT0V1RG00dFFMYTdXc1dUSGJpdU81a0lu?oc=5",
@@ -955,7 +955,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "USMNT vs Paraguay in World Cup 2026: Kick-off time, how to watch, stats, team news",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaE9YT3JRT1E0WXJJRE03VEFzNTRWLWZSTnNGYkh0QS1hWnY5VlBzbjFSYmdjcEhYelA3NGg0Vjl0ZTBqcnE2S0NTelV1TkNoS1FXalRIQU5zZEtYbVowZ2pia1B4eWtNME5ZaDZuYm",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.com",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaE9YT3JRT1E0WXJJRE03VEFzNTRWLWZSTnNGYkh0QS1hWnY5VlBzbjFSYmdjcEhYelA3NGg0Vjl0ZTBqcnE2S0NTelV1TkNoS1FXalRIQU5zZEtYbVowZ2pia1B4eWtNME5ZaDZuYmZQMHRTME9wbXlHWnhaaXc2dHJibjA5cGl0bVFuN2ZKYnBEbHZqdkRFY1VzNTUwTTB2RzFKRHlrX2xFeEZEb0tvNFZCVkhTUlJRbUVr?oc=5",
@@ -965,7 +965,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -975,7 +975,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026 – How to watch USA v Paraguay on TV and BBC iPlayer and follow across the BBC",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQMlF6T0lYcVBfd09QWjd6SmdyRzI0Tk9hYTl4OWtTWWVFeFRsMWQ2SlZYU0hqMExVZUFib0ZZRkdpajE4QzBNdFRwVGN1ZjRmenNjNU9wNFdJMVEzSFE1cW9VR2hraGhDMHBIcy1IMW",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQMlF6T0lYcVBfd09QWjd6SmdyRzI0Tk9hYTl4OWtTWWVFeFRsMWQ2SlZYU0hqMExVZUFib0ZZRkdpajE4QzBNdFRwVGN1ZjRmenNjNU9wNFdJMVEzSFE1cW9VR2hraGhDMHBIcy1IMWdxTWJ4MkpReUNZZG0ya3V0cTM4TzVjV0JWeG94eGh4ME0yMFhLMmc?oc=5",
@@ -985,7 +985,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "USA vs. Paraguay, 2026 World Cup: Scouting Paraguay",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxNTzViWTI5UmJiZHpGNE9oSGlTRTY0ckFlTTdWZUJUaHVIcDZ5bjRUTm5rMnlIaVFCTGFrX1lSbzlMZ3FYYlNSd2h1ZHJBS25LZko3QkU5eUFxUWpqMlNtZ2FyNzgzQ0lIaDJ3cUZ3YW",
+      "summary": "",
       "source": "Stars and Stripes FC",
       "sourceUrl": "https://www.starsandstripesfc.com",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTzViWTI5UmJiZHpGNE9oSGlTRTY0ckFlTTdWZUJUaHVIcDZ5bjRUTm5rMnlIaVFCTGFrX1lSbzlMZ3FYYlNSd2h1ZHJBS25LZko3QkU5eUFxUWpqMlNtZ2FyNzgzQ0lIaDJ3cUZ3YWlKX2FrMElrTkk1MkhDUDVoLU1zdURyV1ZZdVVxWE8zUUpMM0FyOG5tY01xcXRUcEM2LXNEeWV3?oc=5",
@@ -997,7 +997,7 @@ const NEWS_DATA = {
   "Germany": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -1007,7 +1007,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 FIFA Men's World Cup: How Germany can reach the Round of 32",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdTNWUzFQbmZkRnJrendDc05VT2JKU0Q1Z0JXOFVvRnJRNWlwa3ZpV1pYdzBYSGdLVDVxcWZKVi0tcWxDZFh6bExWOWU2UXQ2aWxPU3ZFcXRUel9oczFBWGVpX1A5RzdRR3loNXRYVW",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQdTNWUzFQbmZkRnJrendDc05VT2JKU0Q1Z0JXOFVvRnJRNWlwa3ZpV1pYdzBYSGdLVDVxcWZKVi0tcWxDZFh6bExWOWU2UXQ2aWxPU3ZFcXRUel9oczFBWGVpX1A5RzdRR3loNXRYVWhrOXN0QWFsUE1FOUxBZFlYZXlnNUo4OFozNTRfM3dMcUpEU05tcy1oVm0zWlpWdkJrb3Zxcm9mZEhVbDVfTl92MmlJcldSNG5B?oc=5",
@@ -1017,7 +1017,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Germany World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxOYllJOHlWSFlTWjZURWYxOTdHamN6OXU0cmZfV3JVTmxMVklubEF2SFRDSFhtd1BUSlNkYkdudGVTX3BpN3B2dHgyOUtQWG9PRGdpX3NFV2lYMTN2UkJaeWIxME9uX0VQTWJ4aVZ6SD",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYllJOHlWSFlTWjZURWYxOTdHamN6OXU0cmZfV3JVTmxMVklubEF2SFRDSFhtd1BUSlNkYkdudGVTX3BpN3B2dHgyOUtQWG9PRGdpX3NFV2lYMTN2UkJaeWIxME9uX0VQTWJ4aVZ6SDNPelNENUU4SzVxd2o0ZmpVWEJMZFlVelkzSnc?oc=5",
@@ -1027,7 +1027,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Germany are no longer inevitable as painful World Cup failures loom large - the",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFMyYWREU01uUjBweFFrSWwxUE5adDRKQVJ4eG9nMnRCTW9XNi12TXRpSmd6b0ttLW9zU0x2MHE3aXVHR0k4RjNOcHZITFJXaXJEWkdaMmU4M0k1RUpfX3NpaTBhMFhQQkdHbTFFaG",
+      "summary": "",
       "source": "the-independent.com",
       "sourceUrl": "https://www.the-independent.com",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPbFMyYWREU01uUjBweFFrSWwxUE5adDRKQVJ4eG9nMnRCTW9XNi12TXRpSmd6b0ttLW9zU0x2MHE3aXVHR0k4RjNOcHZITFJXaXJEWkdaMmU4M0k1RUpfX3NpaTBhMFhQQkdHbTFFaG1zbmZOTExXci1BMWJWTTN4aFh4SGlFVnpCd0d5dXNFczBJaHpKeVIta0F3dGNCaUJ1eG9zRVY4ZXUzUjQ0UlAzb0NxQkYtNVJSNmtN?oc=5",
@@ -1037,7 +1037,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Germany's 2026 World Cup knockout path: Potential opponents after the group stage and the route to the final",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi7gFBVV95cUxPY2ljMGY1S0JsSm40MkFQNlU5TUZSU1UxeGwxRUtmY005R0xjLXR4Ty1XblBKdGlSdEYwNXY5Qzd3am02TTJrYVB5UURIMnRpVWpQR2xCZGlmd2RBS3haU3lBZ1pLTE1GNlRFQVY2RT",
+      "summary": "",
       "source": "Goal.com",
       "sourceUrl": "https://www.goal.com",
       "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPY2ljMGY1S0JsSm40MkFQNlU5TUZSU1UxeGwxRUtmY005R0xjLXR4Ty1XblBKdGlSdEYwNXY5Qzd3am02TTJrYVB5UURIMnRpVWpQR2xCZGlmd2RBS3haU3lBZ1pLTE1GNlRFQVY2RTlZYUZTelNnZDZXYkRuREh0YVBXZWZtYjE1eXdkTTNvZHk4Sy1CeEdJSm5rVDF0eGEyc3BYQnJjZTZ0cW1NS05jdWpqOXV2bXdaejc4Z2xpeXhoUXJoVWdsQVUyWXZKX0hTQ1EySUxhQlp4SlV4SFZWMzlCd000cW40dEdYYlFR?oc=5",
@@ -1047,7 +1047,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Germany forward Lennart Karl ruled out of World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBobTZjZEVuaTVWbE1WejlrYVVCZllpMnJoOV90LXp2Z1g3WXNtbENiS2J1WWlnVnZmTUV4SHhyaGZrbnQwLWdaZmg1SDhJekNtcEZMUzc2ejFscHl6VWt5OVdLbHdPaWM?oc=5\" targ",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBobTZjZEVuaTVWbE1WejlrYVVCZllpMnJoOV90LXp2Z1g3WXNtbENiS2J1WWlnVnZmTUV4SHhyaGZrbnQwLWdaZmg1SDhJekNtcEZMUzc2ejFscHl6VWt5OVdLbHdPaWM?oc=5",
@@ -1059,7 +1059,7 @@ const NEWS_DATA = {
   "Ecuador": [
     {
       "headline": "World Cup 2026 visa chaos: from referee Omar Artan to Iranian officials – who is affected?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjJWcnJZWlpVLUs1Vll2dmt4cWU5QTQzTkFPU0JRaUx5TzR2UVpPdHVlWTFkeERqTDZxSWxacW1tQmNzcDJwek5vLTNxcjhJSTRPTnRxeGdoN181Ym9qSEVETWR5aXlmckRTVHN3OW",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjJWcnJZWlpVLUs1Vll2dmt4cWU5QTQzTkFPU0JRaUx5TzR2UVpPdHVlWTFkeERqTDZxSWxacW1tQmNzcDJwek5vLTNxcjhJSTRPTnRxeGdoN181Ym9qSEVETWR5aXlmckRTVHN3OWNMZnA0M21MOW44TlZKZTZiTnZHallyUTFnZ0p3RnY0UGs1R0RsS1NiWksxREp0c2xRaXFqazN4MTQ1TW5HQ3JMTEVEVkxmZw?oc=5",
@@ -1069,7 +1069,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Why Ecuador, Japan and Norway are the dark horses at this World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOekNIU0dWZzczaFQ3a0lRNGNzR0tlMVdubTAxdzZDMUZFQUEwSHVhTUJ3d3BxaWtaelVTY0czTHJSRkJwZ1RFa0VKdGxfcGFjUFoybTNlendQQ09DdEtmQWlSSzMtOGluRGJHdHJOMX",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOekNIU0dWZzczaFQ3a0lRNGNzR0tlMVdubTAxdzZDMUZFQUEwSHVhTUJ3d3BxaWtaelVTY0czTHJSRkJwZ1RFa0VKdGxfcGFjUFoybTNlendQQ09DdEtmQWlSSzMtOGluRGJHdHJOMXBkc1ByRGdCYko5YjVTbVkwNGJZOVlmaWd1Z3Q1NVNQdXo4dTQwdUhfOTNFV1JKWHZFTHktazMtbTBzQ3lzWEF6bWFVdzFQSUVYSWwtMDdSbkdjNnFUOTNHVkVQNkljdzA?oc=5",
@@ -1079,7 +1079,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Top 100 Players In The 2026 FIFA World Cup, Ranked",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOTXRzV19hZThDcmp2Z3NkalctRkJWNC1vQ2puaERDMnJGdnIyUzItdkRzVWg4S2FTdTlRUU1GUDV6TDQtSW81RXRyZ3Z3V3oyOWlxT3RlVFhqQXF6clYtRmg3SGkzbDE5OWdrWjB5X0",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOTXRzV19hZThDcmp2Z3NkalctRkJWNC1vQ2puaERDMnJGdnIyUzItdkRzVWg4S2FTdTlRUU1GUDV6TDQtSW81RXRyZ3Z3V3oyOWlxT3RlVFhqQXF6clYtRmg3SGkzbDE5OWdrWjB5X0FUNXBuamgxNjdZdl9hZmJrbV9KZkpyOG8?oc=5",
@@ -1089,7 +1089,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup: Each team’s chances - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMz",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMzMyWVYyUmUtZVZJbHFTMG5TbllVRE8tV0w1enNSaUZfSjN5STlNN3lJOGN2MmItX0VPYlYxem9nX3Y0OU5LY1lIWXQ3LUgydw?oc=5",
@@ -1099,7 +1099,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Where to watch Ecuador in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxQOFI0eEQ4aGVsR2ZCTlFjbVQzUHYtNXE4STJSZ0k4bGJpNERrRXpURk5waTFRb1dvNEJOV2EtSGdsWTlMYTYwbEM1WmRZVkh0VWd0TUdTbjcwcTJoYW9Yb2VEMWlUb2cxcm9Jdmk2Zj",
+      "summary": "",
       "source": "Goal.com",
       "sourceUrl": "https://www.goal.com",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOFI0eEQ4aGVsR2ZCTlFjbVQzUHYtNXE4STJSZ0k4bGJpNERrRXpURk5waTFRb1dvNEJOV2EtSGdsWTlMYTYwbEM1WmRZVkh0VWd0TUdTbjcwcTJoYW9Yb2VEMWlUb2cxcm9Jdmk2ZjlKU1lTZUJWVTMxS0VYVHNOR1ZfWm5TR3pjS3k5cGtIWQ?oc=5",
@@ -1109,7 +1109,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 FIFA World Cup predictions, picking every game: England vs. Spain; Messi vs. Ronaldo; USMNT end drought",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnlVY0J0a2p3TW9Ja1JmMkxEU1dMQnRHSXhDekczbFJFUzZlVW90TkpoM2JFUzEyRE1yNTZjS1Atc29VdWNQVU1GeUw1S0Y2ZGJBc2ZuREJGSXZCblZ5TEtJS09XZzJkR3F3MzBwNG",
+      "summary": "",
       "source": "CBS Sports",
       "sourceUrl": "https://www.cbssports.com",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOUnlVY0J0a2p3TW9Ja1JmMkxEU1dMQnRHSXhDekczbFJFUzZlVW90TkpoM2JFUzEyRE1yNTZjS1Atc29VdWNQVU1GeUw1S0Y2ZGJBc2ZuREJGSXZCblZ5TEtJS09XZzJkR3F3MzBwNGxjQUxjTHR0UVJWMGhIS2p3dTQ1WjRqWUY3QndoWi1qRnhPc2t1dGxzR0pQR1F6VnJZVEphWlFfaHI4cUFQM3g3QnYzbXpWTHhGejhiM3RMWUJuUTFTOTRNQw?oc=5",
@@ -1121,7 +1121,7 @@ const NEWS_DATA = {
   "Ivory Coast": [
     {
       "headline": "World Cup referee from Somalia denied entry to the US 'due to vetting concerns': CBP - ABC News",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxOZGNLR0Fsa2tkekhTelRnSlFiVXNUa3FQR1ZxY1BsanVpRzRQRGV1X25YM0pteUFiRE9QTnRxckVoSlNvYXRLekNqeVlRQ2tsZGUtOGlBS0V3R2FTdW5VWnVCay1lLWZSZzBUY0UxWU",
+      "summary": "",
       "source": "ABC News - Breaking News, Latest News and Videos",
       "sourceUrl": "https://abcnews.com",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZGNLR0Fsa2tkekhTelRnSlFiVXNUa3FQR1ZxY1BsanVpRzRQRGV1X25YM0pteUFiRE9QTnRxckVoSlNvYXRLekNqeVlRQ2tsZGUtOGlBS0V3R2FTdW5VWnVCay1lLWZSZzBUY0UxWUNTM2Zva0FfVlJ3MmVFVkhCXzdhR2tyNlMtMm5RMGNOeGgyV0tIdGxLbFFpVGtjb3fSAaQBQVVfeXFMTVdpV0U0LXVIYUMwNkpYZkkwUmRHdzVuNjdWOE5lZWZUNDJBdDJwalRhSVhKYUpnLWFjS1lBZlJrem1vOHhZb3RrOHMwT2loOV9KSUZKdFBXTEJMZUs0MkUzYms5VWtTQXMxNHRJYkNweml2TUc2emNCbjE4MHltaURBSUduS2N5b0ZBdjVVLXZKbUxRS1g2TU42b20xUThYT09xLXM?oc=5",
@@ -1131,7 +1131,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "How to watch the 2026 Men’s World Cup: TV, streaming, full schedule for all 104 matches - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxQYURHWHlSSjlNdE9NeFIwRk9VN2JXeE92cThpRFUwUXNZWGpXNEJSQk82NExrblQwZXRYanIxTzVyQUZNTHNlZ25wa2g5d3VyQ2JwenlMcmFGUzJzdGo5N3pXUUxQMk9aMlZqXzVRVk",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQYURHWHlSSjlNdE9NeFIwRk9VN2JXeE92cThpRFUwUXNZWGpXNEJSQk82NExrblQwZXRYanIxTzVyQUZNTHNlZ25wa2g5d3VyQ2JwenlMcmFGUzJzdGo5N3pXUUxQMk9aMlZqXzVRVkx5bWtDMEdWdEhiRExhUlJROE9EOFZuOVk?oc=5",
@@ -1141,7 +1141,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -1151,7 +1151,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Philadelphia World Cup games start Sunday, shop Ecuador vs Ivory Coast tickets",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizAFBVV95cUxPU0xJYXMxRDAwVjJkVjVVQmlvNmtLRkNDSlhYbWwydko4VHJILVYxRzgyTUJaWWlSMlp4Z25QczFmVklXc0hKNUE1TW1wWVpmM3FZejZXLWNXMkNwbG1yZ3g3b2Z5cXJpUmZNejl3a0",
+      "summary": "",
       "source": "USA Today",
       "sourceUrl": "https://www.usatoday.com",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPU0xJYXMxRDAwVjJkVjVVQmlvNmtLRkNDSlhYbWwydko4VHJILVYxRzgyTUJaWWlSMlp4Z25QczFmVklXc0hKNUE1TW1wWVpmM3FZejZXLWNXMkNwbG1yZ3g3b2Z5cXJpUmZNejl3a0NmbXhvY3Y0eUsyVEtmT3poajRPbWlkb3B2SjdhNDJ5ejIta0VqaUc2UUtpZExHT3JtejlFRm1xTTRLT2pEUlJKT2dJdFUyN2NEbEdYVG53Z3YwYmsxenNvcG5uWEc?oc=5",
@@ -1161,7 +1161,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Ivory Coast’s World Cup run puts Philly’s Ivorian roots, food and football pride on display",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxQMnJ6YURWRk84TkoyQlpXVTdDUk9VOHM5WGQ5UVRNRU4yTGVzOWhIQ1U5U0F4S1M3ZWxQQVVRelRDUzVfMGt1aWpfLVI5T2ZHVENBU3ZXcnR5SlBUYWJYdk5hZGwtemg5RVdOMG40X1",
+      "summary": "",
       "source": "FOX 29 Philadelphia",
       "sourceUrl": "https://www.fox29.com",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQMnJ6YURWRk84TkoyQlpXVTdDUk9VOHM5WGQ5UVRNRU4yTGVzOWhIQ1U5U0F4S1M3ZWxQQVVRelRDUzVfMGt1aWpfLVI5T2ZHVENBU3ZXcnR5SlBUYWJYdk5hZGwtemg5RVdOMG40X1RpQkJ1M1l4R084SVM4X0U4Z0lnOW5oRGVSbzc0TkRRMnozZHhFNU44YjltbHhDZGdQMVo3RHU3RVpScHdI0gGyAUFVX3lxTE05OC1Rc0VBdFVIMEl1dDZYSk1JTWdhdVFGbE03eTkxMVJQX01ZMm5FWi1ha001YllCY0hOTDBoNTNwZUNlRjdXM0tLcFF6UXczNi1tQk5JTlhDRWNJYnNLdDVGbk81OEpBUlNES2pqQWNOcEJSQlBTc3hBU0lQOC1oYnBxMXk0ZFVTNmladWttNTJlMWVfRlNoeDZmVEc0aklrYVJlX0o2aGFfZjNYLWh5UkE?oc=5",
@@ -1171,7 +1171,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026 Group E preview: Prediction, odds, full team overviews",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQYTJSR0diRU5DeEo2TzFnQTNZbVhUcUotS2dtT1gtc0xNeXRSYkdEUm5pM2dIa1FKTkZRZ0VXVTFlbTl4Z2dpRTFTcjhyQ0JWbW9WYXBQajloNjJfZHRYOG5JeU9ITnFNbHRaTFZpQn",
+      "summary": "",
       "source": "New York Post",
       "sourceUrl": "https://nypost.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQYTJSR0diRU5DeEo2TzFnQTNZbVhUcUotS2dtT1gtc0xNeXRSYkdEUm5pM2dIa1FKTkZRZ0VXVTFlbTl4Z2dpRTFTcjhyQ0JWbW9WYXBQajloNjJfZHRYOG5JeU9ITnFNbHRaTFZpQnpadEh5QmRfblRCMFpmMjNYeDRtbUlrVFJTVkppaGRTWndGb2NkdXRPdU9MVHBRTFpHZmt3TjVWWQ?oc=5",
@@ -1183,7 +1183,7 @@ const NEWS_DATA = {
   "Curaçao": [
     {
       "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -1193,7 +1193,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: All you need to know about Dick Advocaat's Curacao - the tournament's smallest ever nation",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPQlB4SjVVbEY1VnNtYlNfUnlKVnhKWUdMWjROcTExbl8yUmVQZWFmdjdKcE1jeWVORnRvYkJISHNkc0pJT3dKb3hkNTdmRFBoX0RoQnJkOUQwcjZPQXNLNWNLbVJlbHV6UEtyT2REbn",
+      "summary": "",
       "source": "Sky Sports",
       "sourceUrl": "https://www.skysports.com",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQlB4SjVVbEY1VnNtYlNfUnlKVnhKWUdMWjROcTExbl8yUmVQZWFmdjdKcE1jeWVORnRvYkJISHNkc0pJT3dKb3hkNTdmRFBoX0RoQnJkOUQwcjZPQXNLNWNLbVJlbHV6UEtyT2REbno5M3NOWVZlamNQSGR5SmhYZnNJUVNEVXduU2ZNY3VqX0t3UTA2d1plNmZ0S0JQY05tZDJ6TnRHY3ZjVWwtelZiZVBERUZPS3FUTDhrci13?oc=5",
@@ -1203,7 +1203,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Football Manager team up with FIFAe to launch Curaçao Challenge for FIFA World Cup 2026™",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxQS1ppR0VXNU5za1ROQ00zODFMZVNTQnVGbzNUQW15cVFaN2d3V1JNUHNYdDM1cElwNl9UZjBoR1pzQmYwWnVRUmFHVWFVNVo5YmpCUC0zUXZkWHpfRG5VRW5hV3lETWUwWVBpTGFkSm",
+      "summary": "",
       "source": "Football Manager",
       "sourceUrl": "https://www.footballmanager.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQS1ppR0VXNU5za1ROQ00zODFMZVNTQnVGbzNUQW15cVFaN2d3V1JNUHNYdDM1cElwNl9UZjBoR1pzQmYwWnVRUmFHVWFVNVo5YmpCUC0zUXZkWHpfRG5VRW5hV3lETWUwWVBpTGFkSm5GZVFxX3dzU0dRVnlYMElpa1VCQ3ozeU9teEhMa2xoT2p6MFVlVEZ5SE1WSDRoRW5Zcl9mNkNnN2JkZmZTT2d4Zg?oc=5",
@@ -1213,7 +1213,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Curaçao World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxPd2dkWnZQODg3TDZSdTJzRVlySmo3X3UyYWNPeTFuYXNTZmoxTHdQYW9FaXVIdWk0RTlPTU1XeGZ5VW9vTXdFdUJfc25vSmRfUldjeUg5MTAzTVl6MTBzbUw2NENWTW9MUUJZUV9BNT",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPd2dkWnZQODg3TDZSdTJzRVlySmo3X3UyYWNPeTFuYXNTZmoxTHdQYW9FaXVIdWk0RTlPTU1XeGZ5VW9vTXdFdUJfc25vSmRfUldjeUg5MTAzTVl6MTBzbUw2NENWTW9MUUJZUV9BNTFGUEdwMlZkMllZQjhrOTFfUWhZRnlGUUpLb2c?oc=5",
@@ -1223,7 +1223,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Dick Advocaat returns as Curacao coach after Fred Rutten exit",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSMGM5OHA1RHJobDJ6VzlSTVh5RVdwNWFwNUpLYkpYNFFxbWNwSXVBaml1cWFBZllNTUI4TUZwWnY3dUVSSUpZZjYxcENocTQ5cGFuY1NPalRHZXVqa3JyM05ULWVoQ1k?oc=5\" targ",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBSMGM5OHA1RHJobDJ6VzlSTVh5RVdwNWFwNUpLYkpYNFFxbWNwSXVBaml1cWFBZllNTUI4TUZwWnY3dUVSSUpZZjYxcENocTQ5cGFuY1NPalRHZXVqa3JyM05ULWVoQ1k?oc=5",
@@ -1233,7 +1233,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "What to know about Curacao at the FIFA World Cup 2026",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinAFBVV95cUxObkVoUVZVMXdKSTM3aXN5aVdYNFVOV2xFRkxJWWluQzVzNFRuNTZHWHVJbHRvNjBvMTRlaUp3WWhuR0ozRVVtWnI3M2FTUkpTUk8yUllpYjdVUTNiNEdQZWF2MUxzcjBGUXRxSXltaz",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObkVoUVZVMXdKSTM3aXN5aVdYNFVOV2xFRkxJWWluQzVzNFRuNTZHWHVJbHRvNjBvMTRlaUp3WWhuR0ozRVVtWnI3M2FTUkpTUk8yUllpYjdVUTNiNEdQZWF2MUxzcjBGUXRxSXltazVNdWVOVE9yM2tTM3J2SVJSdjg1MVJyTllUMmtKcnJibGpfVS0zRHgzb1J5SFPSAaIBQVVfeXFMTThKODVKTG5jcllEdDdydW1wMmpad3lMel9ueTlzSU5iTWpwaVUxajk1RHBrWDBDUXdDeXY0d2hUSHVPT3JIZDhvbm14cl9RYXdlWFU2dnZSTDNQUXNVaW4za1VpTmlxTnBpX3dZbDItUFJoMkhGa1dpSFFwcnd6ZkpBYjl3X3htNC1NUklZbUpxVjJwQi10RFhXb095R2VIRUhR?oc=5",
@@ -1245,7 +1245,7 @@ const NEWS_DATA = {
   "Netherlands": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -1255,7 +1255,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Netherlands’ Jurrien Timber to miss World Cup through injury, Lutsharel Geertruida called up - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQeFFVUnQwbjVaU3k0WjhlOFluTFRrWldpYVRWRDVSWjVISWw1WVk1VXNLZkJnQUMydExYelZ4eDFuSXRkYVBHWDFHRFN5dmpUZk9wZXpSLS15ZDc4cG5MdnFhc3JOaE8tMkpUWGNZRG",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeFFVUnQwbjVaU3k0WjhlOFluTFRrWldpYVRWRDVSWjVISWw1WVk1VXNLZkJnQUMydExYelZ4eDFuSXRkYVBHWDFHRFN5dmpUZk9wZXpSLS15ZDc4cG5MdnFhc3JOaE8tMkpUWGNZRGxvYmx2YnhDeTZ1Sno5aXpCazNlX0VhdTcyU1RIam1zQzBrVzk0RHV1d0ZkekREWWxE?oc=5",
@@ -1265,7 +1265,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Group F at the 2026 World Cup: Teams, records, stats to know",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxPck5LV0paeUE0aE5QWlh4Szk5bnpNWEFBVkZBRDlyRlBQZk1KaE5Ndkd4MUpSemtkMzlOZlVLVk9GSkNIQUhocU9aeHRTVml6Ul9qNXRQSUNZV21EQlJrbXhtZFhVbEpncndoZk9Sb2",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.com",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPck5LV0paeUE0aE5QWlh4Szk5bnpNWEFBVkZBRDlyRlBQZk1KaE5Ndkd4MUpSemtkMzlOZlVLVk9GSkNIQUhocU9aeHRTVml6Ul9qNXRQSUNZV21EQlJrbXhtZFhVbEpncndoZk9Sb2JsTkh0SWFhV0pYNk9yXzNzU0FjMUVaVnk2NEJfV05NTS1mb3NxUEI0dWViQ0ZYVThRY1NkYTF6c29tdm5KTWctUHVkTklCWERKcUNuSDJ2cGN6UnRrbDV3?oc=5",
@@ -1275,7 +1275,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Team Netherlands arrives at Kansas City’s downtown airport Tuesday for World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxPdlBxZnBqcUdnVjg3MUtYMFF4OUhFNTJzRnIwQ1BPQXUwREpWbXFYeF9RYmRPWGRIaHo4bnl3LU9JQ0lOSVRQUDBTT0ZOc2s0U3c2R2VULVk2cERhSnNHZHdFRHVQQ1dqRTVuR1MtUC",
+      "summary": "",
       "source": "FOX4KC.com",
       "sourceUrl": "https://fox4kc.com",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdlBxZnBqcUdnVjg3MUtYMFF4OUhFNTJzRnIwQ1BPQXUwREpWbXFYeF9RYmRPWGRIaHo4bnl3LU9JQ0lOSVRQUDBTT0ZOc2s0U3c2R2VULVk2cERhSnNHZHdFRHVQQ1dqRTVuR1MtUC0zd0U0RDlqUWNtQlNTSXZ3eEN3Wm5oM1FjWndva1QxN2lHYnhFOTVJa09YLWNGRVhnM2lJMUxJRm95WmpWMkhPMFZyYzdBTlFLdlFOSFVn0gHDAUFVX3lxTE1FMk93SExDeXJSUHJFRnprUDhhYUF0R3g0SGdrZV9lVUdwMFdrSXp5UHJaYVBGOTA4N1diZnJyMWd1R2M4RnJRamhuYU1wYVJOOTFQYlhzRWlwMlE2R3NWMml1bTE1YllkNExRa2JCR0xndUVVZ2FzejBZbFdQS285dmpQUUVtQ1IzbjRYM2dyMFFDRTFNaGFZb3dlZzd3TzFOb09PX1dRLVE3Q0ZfYWRiNVA0VXd2WWl0RE00aV8yOW5wVQ?oc=5",
@@ -1285,7 +1285,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Netherlands fans welcome Dutch national team to Kansas City",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxQdWo5UjZfa3V2SGJxa1hVeHdHTzNuZlRGeGpBS1lBbWdXMXp6X2Y5Y0NkeXh0R2ViWUFrbXQtSldxOU1ZU19mMFFZTm9jVHh5WUxUOFZza1VHTkVjTG93dFRhRTVIQXJNaUdWYVlsU1",
+      "summary": "",
       "source": "KSHB 41 Kansas City",
       "sourceUrl": "https://www.kshb.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQdWo5UjZfa3V2SGJxa1hVeHdHTzNuZlRGeGpBS1lBbWdXMXp6X2Y5Y0NkeXh0R2ViWUFrbXQtSldxOU1ZU19mMFFZTm9jVHh5WUxUOFZza1VHTkVjTG93dFRhRTVIQXJNaUdWYVlsU1hVWnJvVmhQbDlpOWdJQmQybTFrVDhiMjJ3WlFXSEk3VW9BcjBPRGhzTHN6aU5qUQ?oc=5",
@@ -1295,7 +1295,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "The Oranje is here: Watch as the Netherlands soccer team arrives in Kansas City for the World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxPcFdWMm96OGhGd3g1QmU3OXA4V09IeHVQdGIzMjBoNFFpLXUwZ3RGbnUzOG1oOTR3UlIyb2dlSWJHSlNlX0NJSl9NQXhKT25GdS1HcHNrekxzeE9fb2tPalVRRnlfUnBZa3Y2OS0xMm",
+      "summary": "",
       "source": "KMBC",
       "sourceUrl": "https://www.kmbc.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcFdWMm96OGhGd3g1QmU3OXA4V09IeHVQdGIzMjBoNFFpLXUwZ3RGbnUzOG1oOTR3UlIyb2dlSWJHSlNlX0NJSl9NQXhKT25GdS1HcHNrekxzeE9fb2tPalVRRnlfUnBZa3Y2OS0xMmFnYkM1UzJJZUduT2pFaVRXUEd3emw1WUpwV2UxbA?oc=5",
@@ -1307,7 +1307,7 @@ const NEWS_DATA = {
   "Japan": [
     {
       "headline": "The 2026 World Cup Is Being Decided at Passport Control, Not on the Pitch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQOWdyWEFzUkQyNUxRdGlMNU0xalpncTZQdW1saVpHdGtDT2loaVp1QWpSbEFOQ1ZERndiT2dRb1E2RTlFNFRocFY3QWZUWmtEa2RWSDR6Ym9QTk53TkZoLWlYRERZcnM4WXQ0bWVCek",
+      "summary": "",
       "source": "WIRED Middle East",
       "sourceUrl": "https://www.wired.me",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOWdyWEFzUkQyNUxRdGlMNU0xalpncTZQdW1saVpHdGtDT2loaVp1QWpSbEFOQ1ZERndiT2dRb1E2RTlFNFRocFY3QWZUWmtEa2RWSDR6Ym9QTk53TkZoLWlYRERZcnM4WXQ0bWVCekswZTA3cnpHS3RRc0VMNHYxaWo3Y05KdFk1VEt6MEQ5eGNQTExVUVBiUVpOSzFnQnpo?oc=5",
@@ -1317,7 +1317,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup schedule: Teams, group s, match dates, fixtures, how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbD",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbDF4bl9DY29tN3VWUXAycGV3UG04TmRxNVlseUNGOGtvNkY5UXZOMUR3VFRwR3MwcHl6Uzk0eU5keGM2ODRXb1J2dHppSFBDOE9HYm44eTlEMXlFOThuSEdMWUZ3?oc=5",
@@ -1327,7 +1327,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -1337,7 +1337,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup predictions: Champions, Golden Ball, breakout stars and more",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNaUkxRDFjWHh6SXNXcDFVZ2ZWR01KTmF5aHRxd1h5aXV1Sm53TmtweGFHQk5SQTVvYVNCMThHN2luQlo4Y045blBUd3FUZ0owVzZKLVI5azVpVjZtamkwZWx4aV9CTlV5MHFVUV9qRH",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaUkxRDFjWHh6SXNXcDFVZ2ZWR01KTmF5aHRxd1h5aXV1Sm53TmtweGFHQk5SQTVvYVNCMThHN2luQlo4Y045blBUd3FUZ0owVzZKLVI5azVpVjZtamkwZWx4aV9CTlV5MHFVUV9qRHdqMUlqa1hZNWtGMTZFU0d0VWFBbVEwanBPc0NTM0dheFhrdmxpTk8wQVhtb1JDNWtOS2o3WC14U3Y4WnBfRklKdFp1RFRPc1F4LVlLLTdlSnp5eTZkM1VpbHhFZGxrcE0?oc=5",
@@ -1347,7 +1347,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Why Ecuador, Japan and Norway are the dark horses at this World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxOekNIU0dWZzczaFQ3a0lRNGNzR0tlMVdubTAxdzZDMUZFQUEwSHVhTUJ3d3BxaWtaelVTY0czTHJSRkJwZ1RFa0VKdGxfcGFjUFoybTNlendQQ09DdEtmQWlSSzMtOGluRGJHdHJOMX",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOekNIU0dWZzczaFQ3a0lRNGNzR0tlMVdubTAxdzZDMUZFQUEwSHVhTUJ3d3BxaWtaelVTY0czTHJSRkJwZ1RFa0VKdGxfcGFjUFoybTNlendQQ09DdEtmQWlSSzMtOGluRGJHdHJOMXBkc1ByRGdCYko5YjVTbVkwNGJZOVlmaWd1Z3Q1NVNQdXo4dTQwdUhfOTNFV1JKWHZFTHktazMtbTBzQ3lzWEF6bWFVdzFQSUVYSWwtMDdSbkdjNnFUOTNHVkVQNkljdzA?oc=5",
@@ -1357,7 +1357,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026 explained in maps and charts",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVhLbnFSRzhxelpEWE10M0JwN0EtZ0M0Q2JqN3ZfblRWYjhJQ3VsMDROQkJMbkNtZy1WWEJsaTE2V0JwWnZ3U04zTnJVZ1g0UDdUeXRxVVY5c3RDd3BONkRQSE4tTkFJZHY4MERtM1",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVhLbnFSRzhxelpEWE10M0JwN0EtZ0M0Q2JqN3ZfblRWYjhJQ3VsMDROQkJMbkNtZy1WWEJsaTE2V0JwWnZ3U04zTnJVZ1g0UDdUeXRxVVY5c3RDd3BONkRQSE4tTkFJZHY4MERtM1lvSzhtYUVBYjFXQWpEZjQ2ZjNYSnN2ekNBZEw3a2lIZHUzbmJDeUHSAZsBQVVfeXFMTi02bGI5UFhudENGaDBQYlh2TmZNR040VFdIelpTWjctU1hyWHFYZ3hLdWxKdGpBQ2ZHSTU5dl9YeW42bkJmTE9XUVVwRHFFN1VTZHhNRVYwcW1UbnpDMXNPaEdUTWNfZnI5d1I4QUxCeFZyMW51QUVrQldNeEdkQ3hQcWlySWN3Q3NETlpwblBYRGhCNUdzcmFmd1E?oc=5",
@@ -1369,7 +1369,7 @@ const NEWS_DATA = {
   "Sweden": [
     {
       "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -1379,7 +1379,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup schedule: Teams, group s, match dates, fixtures, how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbD",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbDF4bl9DY29tN3VWUXAycGV3UG04TmRxNVlseUNGOGtvNkY5UXZOMUR3VFRwR3MwcHl6Uzk0eU5keGM2ODRXb1J2dHppSFBDOE9HYm44eTlEMXlFOThuSEdMWUZ3?oc=5",
@@ -1389,7 +1389,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Sweden and Tunisia face off in Monterrey, Mexico, shop World Cup tickets now",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdW4wQ2htcFE2SDhvWUJrUzJ3RmVyUG1uZ2RZSFhPOG4xOVFPOThDVW9qZHVkUndhb2tnb0VpSmw5SEJqcE5kZVdxc2lBMUVXcEI5QlJhLTI3VXppem9ldGMtSlVLREx4UmdlRU5Fa2",
+      "summary": "",
       "source": "USA Today",
       "sourceUrl": "https://www.usatoday.com",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdW4wQ2htcFE2SDhvWUJrUzJ3RmVyUG1uZ2RZSFhPOG4xOVFPOThDVW9qZHVkUndhb2tnb0VpSmw5SEJqcE5kZVdxc2lBMUVXcEI5QlJhLTI3VXppem9ldGMtSlVLREx4UmdlRU5Fa2ZXVlV1S1J5MDRLMEdDQlNJUXF1Z2tuU1p4UDhzUkpLY00yeHF6aGsyUTZ4TXFtbVB6OTFyc0hvcXdSRnNndXkzb3M1Tk1KS2J5SEQwY2wzd3g2ZE5LVkl3N0lSYVNuYllXRU10SkhQQmE1MS02N2c?oc=5",
@@ -1399,7 +1399,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup: Each team’s chances - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMz",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMzMyWVYyUmUtZVZJbHFTMG5TbllVRE8tV0w1enNSaUZfSjN5STlNN3lJOGN2MmItX0VPYlYxem9nX3Y0OU5LY1lIWXQ3LUgydw?oc=5",
@@ -1409,7 +1409,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "How can you watch the 2026 men's football World Cup in Sweden?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingNBVV95cUxOOEFYaDRDUVpMa01Yb3RzYU9kVFVXNDJhdFVSREp3emEzT2N1MVNqZ3JXRElWNTNTLWIyRm1CNnNQZkN2cEpwYnZnd3cxRVdLMWxmQ0VkMHJvZ2dWRUxXdGVfZkFhQUlRYldkdDlVaU",
+      "summary": "",
       "source": "The Local Sweden",
       "sourceUrl": "https://www.thelocal.se",
       "url": "https://news.google.com/rss/articles/CBMingNBVV95cUxOOEFYaDRDUVpMa01Yb3RzYU9kVFVXNDJhdFVSREp3emEzT2N1MVNqZ3JXRElWNTNTLWIyRm1CNnNQZkN2cEpwYnZnd3cxRVdLMWxmQ0VkMHJvZ2dWRUxXdGVfZkFhQUlRYldkdDlVaU5GaDhFdk9OaUV2Z2xxdkpDVUhTbFhycExrZ2xTOE1tc2cxZ0Q3OHVkYXQzN3VxeUpfTmtQS1BHaldNSHlyTmZIX1FZODY5RW42NWJYdTBCeDdDLU5kcTdrbzI5ZVk1cDQwc1JmUHY0aEF4RUs0MnVtU2pIeVhTZk4teTVPVlVNOWlwUm81SHpXcU9heU5abE96MUd5Q0szZ19zSFlyY1pnSkEydy1XYnFCR2w5dzU1cWYwVVBYLVphenRya05zM2VZZUJYRm9kRW5VUnZ3Z0FPYnZxWU5jaE1iNlhhNFVOdUNNbTFkWm5vVHIzbEc5SkFWWkpLR28zRkpkeGxHX0JjUEpaTmhuXzFaZ2pmMnpHYWNNbzJRaDdpSXdPRTFtZjJNSjFyTldJaXFOTDBuenc?oc=5",
@@ -1419,7 +1419,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Sweden FIFA World Cup 2026 TV Schedule: Live soccer streams, channels, fixtures, dates, kick-off times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb0NGSHdpQnpIbnRBRkZEMERINmVUNHRwSTdGYkpwa1EwOVpoejhJSjBaOEIzNi1tSUg1c1RTd3BiVlBZQU9tZUdzdUl1YlNaNEhpVlNiWnNOZVRGc19rSmFkSXYta19MQjR1YmhSQl",
+      "summary": "",
       "source": "Goal.com",
       "sourceUrl": "https://www.goal.com",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOb0NGSHdpQnpIbnRBRkZEMERINmVUNHRwSTdGYkpwa1EwOVpoejhJSjBaOEIzNi1tSUg1c1RTd3BiVlBZQU9tZUdzdUl1YlNaNEhpVlNiWnNOZVRGc19rSmFkSXYta19MQjR1YmhSQlVXbGxLRGpVendwaGM3RFJ4SWdXeWxldm0ydGVJ?oc=5",
@@ -1431,7 +1431,7 @@ const NEWS_DATA = {
   "Tunisia": [
     {
       "headline": "World Cup 2026 visa chaos: from referee Omar Artan to Iranian officials – who is affected?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjJWcnJZWlpVLUs1Vll2dmt4cWU5QTQzTkFPU0JRaUx5TzR2UVpPdHVlWTFkeERqTDZxSWxacW1tQmNzcDJwek5vLTNxcjhJSTRPTnRxeGdoN181Ym9qSEVETWR5aXlmckRTVHN3OW",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjJWcnJZWlpVLUs1Vll2dmt4cWU5QTQzTkFPU0JRaUx5TzR2UVpPdHVlWTFkeERqTDZxSWxacW1tQmNzcDJwek5vLTNxcjhJSTRPTnRxeGdoN181Ym9qSEVETWR5aXlmckRTVHN3OWNMZnA0M21MOW44TlZKZTZiTnZHallyUTFnZ0p3RnY0UGs1R0RsS1NiWksxREp0c2xRaXFqazN4MTQ1TW5HQ3JMTEVEVkxmZw?oc=5",
@@ -1441,7 +1441,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Sweden and Tunisia face off in Monterrey, Mexico, shop World Cup tickets now",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdW4wQ2htcFE2SDhvWUJrUzJ3RmVyUG1uZ2RZSFhPOG4xOVFPOThDVW9qZHVkUndhb2tnb0VpSmw5SEJqcE5kZVdxc2lBMUVXcEI5QlJhLTI3VXppem9ldGMtSlVLREx4UmdlRU5Fa2",
+      "summary": "",
       "source": "USA Today",
       "sourceUrl": "https://www.usatoday.com",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOdW4wQ2htcFE2SDhvWUJrUzJ3RmVyUG1uZ2RZSFhPOG4xOVFPOThDVW9qZHVkUndhb2tnb0VpSmw5SEJqcE5kZVdxc2lBMUVXcEI5QlJhLTI3VXppem9ldGMtSlVLREx4UmdlRU5Fa2ZXVlV1S1J5MDRLMEdDQlNJUXF1Z2tuU1p4UDhzUkpLY00yeHF6aGsyUTZ4TXFtbVB6OTFyc0hvcXdSRnNndXkzb3M1Tk1KS2J5SEQwY2wzd3g2ZE5LVkl3N0lSYVNuYllXRU10SkhQQmE1MS02N2c?oc=5",
@@ -1451,7 +1451,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "WATCH: Tunisia forward Rayan Elloumi | 2026 FIFA World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOX25JdG5yMXlKdXNBMExOOUxXOUhkTWxCQWhnTmJzOUVuWVJGMVdpWTRiLWJBMmZfNFRqeEhZUjZJUkFxcEdQQzBMMkhTS0I0Ql9hRjVtaTk0cFBidEZxUWpTYWFmVXJpUVNCZzZTVn",
+      "summary": "",
       "source": "MLSsoccer.com",
       "sourceUrl": "https://www.mlssoccer.com",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOX25JdG5yMXlKdXNBMExOOUxXOUhkTWxCQWhnTmJzOUVuWVJGMVdpWTRiLWJBMmZfNFRqeEhZUjZJUkFxcEdQQzBMMkhTS0I0Ql9hRjVtaTk0cFBidEZxUWpTYWFmVXJpUVNCZzZTVnZJcmR0OTR2VDNIRHY3WDZrYWNfYkNaQUh6QkhwdHg4eVhhUQ?oc=5",
@@ -1461,7 +1461,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026 Group F: what Japan, Netherlands, Tunisia, and Sweden mean for crypto markets",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMic0FVX3lxTE1Hb2oxZEQ4NnV1dEFZNnprWnRqS3UyT19LQ3dYWk1SNGFvd2lIVnNKU0picm1vd3VFSWMtOHFxUUtMMm1oZkZ4VTBBMlF3MnY5TjUya3VaczBfTzZGOW91c2N0NVM4N1RuT3RsdV94VW",
+      "summary": "",
       "source": "Crypto Briefing",
       "sourceUrl": "https://cryptobriefing.com",
       "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1Hb2oxZEQ4NnV1dEFZNnprWnRqS3UyT19LQ3dYWk1SNGFvd2lIVnNKU0picm1vd3VFSWMtOHFxUUtMMm1oZkZ4VTBBMlF3MnY5TjUya3VaczBfTzZGOW91c2N0NVM4N1RuT3RsdV94VWVabE0?oc=5",
@@ -1471,7 +1471,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Ranking the Middle East and North African teams at World Cup 2026",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGlMVndUaVBlck1xUUhtZFk2bE5DUlM2czZFcUJoUV96SGhscl91d1FVY0RndlUxWXBqUzVpWGRMMUloV3h3TFJGaVpGaUZWVUtLZW1NSE55T0Z6bDdIYVpBTVNWaHVJcHpVVUJrUW",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGlMVndUaVBlck1xUUhtZFk2bE5DUlM2czZFcUJoUV96SGhscl91d1FVY0RndlUxWXBqUzVpWGRMMUloV3h3TFJGaVpGaUZWVUtLZW1NSE55T0Z6bDdIYVpBTVNWaHVJcHpVVUJrUWZubGw1aEVIcTBOT0FVMXlsTHpCcW9fbFdZM0ozSmFDT1VzbF9xdEFyRllQT3o1TUp0bmtmZzktZTZ6TnfSAbABQVVfeXFMUHROVTctaWRSX3VqWEVxTl9GYzFlOTJoNHRsWWtnNjNiTEtLSmVzUkhIdWItaWVCX2xQREFsU0lDT0c2NDdSTHlSaDByalB1TGk3bEM5QWtqb002TlNZVXRfd2JiQ0dJSTRMTnQwVXJKSUwtd0xma1pIVU56VVFKemg3d1l0eE45YzczS0JJeFlVUjZuRnhZdEVUc2UzOFFfU2RKNlo2SE9mVjlHbEdYVGs?oc=5",
@@ -1481,7 +1481,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Fifa World Cup 2026: What you need to know about Tunisia",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBuSms0ZHBhMlpNRU82ZEhEdWJla21vM0JhcTZvazdGMk4tVzJmWkVKaUJEbHM1OXFBa3JiOGwzZ2k5UDhWb3ZZSk5Za3J3UDBNQ1ZiR28yWWV0bkNOazJSQkJYa0dta28?oc=5\" targ",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBuSms0ZHBhMlpNRU82ZEhEdWJla21vM0JhcTZvazdGMk4tVzJmWkVKaUJEbHM1OXFBa3JiOGwzZ2k5UDhWb3ZZSk5Za3J3UDBNQ1ZiR28yWWV0bkNOazJSQkJYa0dta28?oc=5",
@@ -1493,7 +1493,7 @@ const NEWS_DATA = {
   "Belgium": [
     {
       "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -1503,7 +1503,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Belgium vs Egypt FIFA World Cup 2026 Preview: Everything you need to know",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxOSUJhcjdOaFNmVjNyTzhMbWw2b3l4VHB0ZHFVdy04VnMwajU4aHh4SVZnMFhQb2c5UWVYbkFYcHpCSHg3T0syVm1wZFVJOXFRT21rTHplWjVZSEJRZmt2MzN2RjFDQ2tYX2o4X082SD",
+      "summary": "",
       "source": "Goal.com",
       "sourceUrl": "https://www.goal.com",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSUJhcjdOaFNmVjNyTzhMbWw2b3l4VHB0ZHFVdy04VnMwajU4aHh4SVZnMFhQb2c5UWVYbkFYcHpCSHg3T0syVm1wZFVJOXFRT21rTHplWjVZSEJRZmt2MzN2RjFDQ2tYX2o4X082SDFCYkYtNUplMmZDbnVTQ1lYSHJVdktKTGc?oc=5",
@@ -1513,7 +1513,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Can Belgium’s Next Generation Get the Golden Generation Over the Line?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxNTVJnUjY2R194VmhseTZVNE9uNkNnZXhuVFNMblpRYW1SZUIxS3V2eGNUc1cwRE9hX3JqWUdjTk42bUE1NnFmUUNlNFlTOUtTV1phWmsyb1pwbnBQeVg1dUlCUUp6TmlKaTdsVTc4ZV",
+      "summary": "",
       "source": "Opta Analyst",
       "sourceUrl": "https://theanalyst.com",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNTVJnUjY2R194VmhseTZVNE9uNkNnZXhuVFNMblpRYW1SZUIxS3V2eGNUc1cwRE9hX3JqWUdjTk42bUE1NnFmUUNlNFlTOUtTV1phWmsyb1pwbnBQeVg1dUlCUUp6TmlKaTdsVTc4ZVlzbUlsNV9tOUtGNGNuV0sxeFdmWEp0a0lvYVd4Z093?oc=5",
@@ -1523,7 +1523,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026 | Will this be a tournament to remember for Belgium?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxNN1BZUXdVeUltX0hKMUVmYVR4amlkUklmeW5MSnNZMDFzZkhkSWlRWkNCTGJVLTYtZzAwY3Q5UDE1My1DYmZocTFocTF2NlBaRUtTUWsxTmdmMmQ2N1o2UG1rRWdfQWFDY2VhNUU4Z1",
+      "summary": "",
       "source": "Deccan Herald",
       "sourceUrl": "https://www.deccanherald.com",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNN1BZUXdVeUltX0hKMUVmYVR4amlkUklmeW5MSnNZMDFzZkhkSWlRWkNCTGJVLTYtZzAwY3Q5UDE1My1DYmZocTFocTF2NlBaRUtTUWsxTmdmMmQ2N1o2UG1rRWdfQWFDY2VhNUU4Z1UxcTgtODRiclpTaXQwUUw2aUFEZ3ZpX1VTazJTX015bFVWQXdWSnM4M1hPdGpOejA4Sjc1OE1EczZ3VUJzNXN2cktjd1h6VjFqQVRNcFdBQQ?oc=5",
@@ -1533,7 +1533,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Axel Witsel speaks exclusively on treating last World Cup as ‘first one’ ahead of Belgium’s tilt at glory",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi8AFBVV95cUxOd2NHT1FJZUNNTTR2OVRXZ1RaNU13VHhfSC1KbWJvZllLeElyMlVvUkZreXlfeUlTbElybnYtMlNRZktEeVMtSGJIMFhPQ0RaZ3BsMVAyRTdzLVpwMElDbUVLWEgyRkt6ajFUd3QzUH",
+      "summary": "",
       "source": "Flashscore.com",
       "sourceUrl": "https://www.flashscore.com",
       "url": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOd2NHT1FJZUNNTTR2OVRXZ1RaNU13VHhfSC1KbWJvZllLeElyMlVvUkZreXlfeUlTbElybnYtMlNRZktEeVMtSGJIMFhPQ0RaZ3BsMVAyRTdzLVpwMElDbUVLWEgyRkt6ajFUd3QzUHFwWHY4YkhtSW1aUHpuUTRmbXE4eGtDWFJabjAySmlkOHduOHdmLWpBREYwTXNYQ3JITVdKU25reVg4QmZnaFFhSzlRNGFIT0ZUdm1uek44SG90Ukt5ajVIYmYzeWtFUUpsY2dHQ2ptQThZd3FqV3hxbk12Y1QzRUJWeVJtQmw3TEk?oc=5",
@@ -1543,7 +1543,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Belgium Football Team 2026 World Cup Preview: Can Kevin de Bruyne Guide Them To A Magical Finish?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNEhJT2pLNWJXZEhleW5lakFBcWxhb0ZFZGhDNWpWUkxvZ190MkE0dnMyMjIxYzZ6ZGJ6X1QxWFc3Z252alpRVWQ2aGJMTzEzalN5anlMRnh2NjZ0Q2Jqd1hSdldzQks1ZTZ1cUNveG",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPNEhJT2pLNWJXZEhleW5lakFBcWxhb0ZFZGhDNWpWUkxvZ190MkE0dnMyMjIxYzZ6ZGJ6X1QxWFc3Z252alpRVWQ2aGJMTzEzalN5anlMRnh2NjZ0Q2Jqd1hSdldzQks1ZTZ1cUNveG5TQURwSlR6VFZtaUNrU1JiTFp4dzZSaW41?oc=5",
@@ -1555,7 +1555,7 @@ const NEWS_DATA = {
   "Iran": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -1565,7 +1565,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Fifa working to resolve revoked Iran tickets",
-      "summary": "<ol><li><a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQdFJlMjZJSjFtVTBQVjFTam9TRE9RNnZvaC1jUXhNNnVsQmthVUphaVZ1Njc5Nkl5NEFydUhlaXVaZjdKTFdnYTFOeHRoQk1aRkFDcUhLZkpMcHFTQ2hvb2N1R09sUHM?oc",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQdFJlMjZJSjFtVTBQVjFTam9TRE9RNnZvaC1jUXhNNnVsQmthVUphaVZ1Njc5Nkl5NEFydUhlaXVaZjdKTFdnYTFOeHRoQk1aRkFDcUhLZkpMcHFTQ2hvb2N1R09sUHM?oc",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQdFJlMjZJSjFtVTBQVjFTam9TRE9RNnZvaC1jUXhNNnVsQmthVUphaVZ1Njc5Nkl5NEFydUhlaXVaZjdKTFdnYTFOeHRoQk1aRkFDcUhLZkpMcHFTQ2hvb2N1R09sUHM?oc=5",
@@ -1575,7 +1575,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026 visa chaos: from referee Omar Artan to Iranian officials – who is affected?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjJWcnJZWlpVLUs1Vll2dmt4cWU5QTQzTkFPU0JRaUx5TzR2UVpPdHVlWTFkeERqTDZxSWxacW1tQmNzcDJwek5vLTNxcjhJSTRPTnRxeGdoN181Ym9qSEVETWR5aXlmckRTVHN3OW",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjJWcnJZWlpVLUs1Vll2dmt4cWU5QTQzTkFPU0JRaUx5TzR2UVpPdHVlWTFkeERqTDZxSWxacW1tQmNzcDJwek5vLTNxcjhJSTRPTnRxeGdoN181Ym9qSEVETWR5aXlmckRTVHN3OWNMZnA0M21MOW44TlZKZTZiTnZHallyUTFnZ0p3RnY0UGs1R0RsS1NiWksxREp0c2xRaXFqazN4MTQ1TW5HQ3JMTEVEVkxmZw?oc=5",
@@ -1585,7 +1585,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Iran threatens to stop World Cup games if faced with unauthorised flags or slogans",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRFI1QzFrdGxzMzdaSks1VWhIYV9GbWR2RkFEZXBwSmU3QWphd3BYU0xKQnFIYWRNUk55Z09KX0NsU2ZRTkF6TEJ0YzMtbUx3MnFuYkM2bFVEY2htYlk0TlVZWGZoeFZaTGFtZFRyQk",
+      "summary": "",
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRFI1QzFrdGxzMzdaSks1VWhIYV9GbWR2RkFEZXBwSmU3QWphd3BYU0xKQnFIYWRNUk55Z09KX0NsU2ZRTkF6TEJ0YzMtbUx3MnFuYkM2bFVEY2htYlk0TlVZWGZoeFZaTGFtZFRyQkxjUXYwRlF3dGlYNVpCUlFOSzFITktZcVRmMGJGZk85S1JNQWNiVXFzSEhGT05zcGlRM0Q5bjZkR0pPQ3MtZ3hYZU1lZEpObm52V1d1SzdSZFE0ejRXb010eg?oc=5",
@@ -1595,7 +1595,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Everything wrong with the 2026 World Cup - the",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxQRFI2YW9wb29TOWo1dmVwdUxhM2IyWHRxM2dCSTRONXNIRWZ1TFBYSGhnbkRhSXB6dHJSTUVoQzhseDhCZ2pSZ0NPeHpLR01kc0RwV285QnItMW03akt1Qmo3TzZPYzczY241VTRsR3",
+      "summary": "",
       "source": "the-independent.com",
       "sourceUrl": "https://www.the-independent.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQRFI2YW9wb29TOWo1dmVwdUxhM2IyWHRxM2dCSTRONXNIRWZ1TFBYSGhnbkRhSXB6dHJSTUVoQzhseDhCZ2pSZ0NPeHpLR01kc0RwV285QnItMW03akt1Qmo3TzZPYzczY241VTRsR3ExcmNHMm4wS0lUOHFzZF8yM2Q5MjRwaUhqYl84Uk9BRXNIck0tSWxGa3JjbTluTXFKSFNCUEZ2Q19oVUJwLVE?oc=5",
@@ -1605,7 +1605,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "What’s happening at the World Cup one day before tournament starts?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirAFBVV95cUxNajVEZDRWbGkxVl82NEsxZkFxLTVLdlkyWG1SNXhKNVYtbHB5cWkzQkdibDJOQ1J6RFhuT3BQU1RWRU1zSzE0cXBaNXR6SFVuMFhOMEdiOWtGRVh3d1ZaMDhRTEFKRHdFa0tVR2Fuei",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNajVEZDRWbGkxVl82NEsxZkFxLTVLdlkyWG1SNXhKNVYtbHB5cWkzQkdibDJOQ1J6RFhuT3BQU1RWRU1zSzE0cXBaNXR6SFVuMFhOMEdiOWtGRVh3d1ZaMDhRTEFKRHdFa0tVR2Fuei15R01VQzRsa19aekVLZGdtTVdWV04tZi1ZZ2hzYjk0Njl0LVVfamRmZE8zZkFVWkpJRDd3dzkxZ2RGUmFy0gGyAUFVX3lxTFB6YVRhd0hNWVpHRndRclJ4UkRMWm1oMmxnVWJlTk1GMUxGdWdveDg2enpXcHZscTRnVVFBblFtTHlBY28tZllabFpjaXFjRnRLWWx5WmF1RnJ0bElCWklRNy01N3RNbHd0ZWY3ZGRDeDctUkgwMEVtMXhIMWt2YkFaRlQ3RURnakZsZkFBZHc5aHFuWGloZlJTX2NwSnlqMWFHZkJRWDdLbUpCei0tRkZMaHc?oc=5",
@@ -1617,7 +1617,7 @@ const NEWS_DATA = {
   "Egypt": [
     {
       "headline": "Iran players: U.S. visa policies creating World Cup 'tension'",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd2w4a05RWTA2MDBhYTFjZWROeGxpTG81RktaNVRJdVo0TEVGU0VwMzZfd1pjSUpKQWpzN0kteU05S1Nwa0R1eDZCd1hzcFBhUW5jblZhaTFKU25yeXVmcHBqZDFZclBBTFJ5WXFLR3",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.com",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd2w4a05RWTA2MDBhYTFjZWROeGxpTG81RktaNVRJdVo0TEVGU0VwMzZfd1pjSUpKQWpzN0kteU05S1Nwa0R1eDZCd1hzcFBhUW5jblZhaTFKU25yeXVmcHBqZDFZclBBTFJ5WXFLR3RELWd3T1Zxb1h4OW5pVm9GaWVRMnNUdnptOHdNR1R5Mmh4Mzc4ZGZ3UnBNcm53NHFzNURQZzVfQlY0dw?oc=5",
@@ -1627,7 +1627,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Iran threatens to stop World Cup games if faced with unauthorised flags or slogans",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRFI1QzFrdGxzMzdaSks1VWhIYV9GbWR2RkFEZXBwSmU3QWphd3BYU0xKQnFIYWRNUk55Z09KX0NsU2ZRTkF6TEJ0YzMtbUx3MnFuYkM2bFVEY2htYlk0TlVZWGZoeFZaTGFtZFRyQk",
+      "summary": "",
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRFI1QzFrdGxzMzdaSks1VWhIYV9GbWR2RkFEZXBwSmU3QWphd3BYU0xKQnFIYWRNUk55Z09KX0NsU2ZRTkF6TEJ0YzMtbUx3MnFuYkM2bFVEY2htYlk0TlVZWGZoeFZaTGFtZFRyQkxjUXYwRlF3dGlYNVpCUlFOSzFITktZcVRmMGJGZk85S1JNQWNiVXFzSEhGT05zcGlRM0Q5bjZkR0pPQ3MtZ3hYZU1lZEpObm52V1d1SzdSZFE0ejRXb010eg?oc=5",
@@ -1637,7 +1637,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Egypt, Iran demand FIFA cancel Pride events at Seattle World Cup match",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTFBEclFUaE5NT2l0c09FTGZKZ3YwQnJxTmZyUTMwS1lwMlJlbGFna0w2aFVfZV9tV0c5WEhoZng0cmp3SGNhWldPcXJySGM2SjZsYkd5eGRMemZuMGZxRjdkUVVqRE9LcFV6Sk1xSi1EcW",
+      "summary": "",
       "source": "FāVS News",
       "sourceUrl": "https://favs.news",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBEclFUaE5NT2l0c09FTGZKZ3YwQnJxTmZyUTMwS1lwMlJlbGFna0w2aFVfZV9tV0c5WEhoZng0cmp3SGNhWldPcXJySGM2SjZsYkd5eGRMemZuMGZxRjdkUVVqRE9LcFV6Sk1xSi1EcW5ZN0RWX1M4Yw?oc=5",
@@ -1647,7 +1647,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Egypt FIFA World Cup 2026 TV Schedule: Live soccer streams, channels, fixtures, dates, kick-off times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQRXZlTllJRF93X3Nwa0U5eDhwUFdnVUhZQzFWYmxBT2dGQldZX0NaaWlJTjFJTndoRFlHa0Zpby1pTktOTWdpOHpMQWxyY1A2UHFhYkhqVzdYX3hVcXVxZHJOczFtdnJzRVBDRjJjTm",
+      "summary": "",
       "source": "Goal.com",
       "sourceUrl": "https://www.goal.com",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQRXZlTllJRF93X3Nwa0U5eDhwUFdnVUhZQzFWYmxBT2dGQldZX0NaaWlJTjFJTndoRFlHa0Zpby1pTktOTWdpOHpMQWxyY1A2UHFhYkhqVzdYX3hVcXVxZHJOczFtdnJzRVBDRjJjTm9KeElKeUppMl9HTjBGS0c4WTlZcVBtUWZuZVE?oc=5",
@@ -1657,7 +1657,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Egypt, the power of ‘Masr! Masr! Masr!’ and the fans’ rollercoaster relationship with their team - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5mVzRuWENBOUl4YUU5NXNUTjhfZlhRcWZBdUhZNTNuWTFmcWZjLUs4TnlfTFNRdlZuZEl3UkVyV25aRlFtMVllS0t1VDViSVVGNnRwdjhqUmlXQnNIZ192VzNyOXMzMm1ZaUtLSzFkRD",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5mVzRuWENBOUl4YUU5NXNUTjhfZlhRcWZBdUhZNTNuWTFmcWZjLUs4TnlfTFNRdlZuZEl3UkVyV25aRlFtMVllS0t1VDViSVVGNnRwdjhqUmlXQnNIZ192VzNyOXMzMm1ZaUtLSzFkRDQ0ZGlSa1ljRGZzYzktZw?oc=5",
@@ -1667,7 +1667,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Ranking the Middle East and North African teams at World Cup 2026",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGlMVndUaVBlck1xUUhtZFk2bE5DUlM2czZFcUJoUV96SGhscl91d1FVY0RndlUxWXBqUzVpWGRMMUloV3h3TFJGaVpGaUZWVUtLZW1NSE55T0Z6bDdIYVpBTVNWaHVJcHpVVUJrUW",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVGlMVndUaVBlck1xUUhtZFk2bE5DUlM2czZFcUJoUV96SGhscl91d1FVY0RndlUxWXBqUzVpWGRMMUloV3h3TFJGaVpGaUZWVUtLZW1NSE55T0Z6bDdIYVpBTVNWaHVJcHpVVUJrUWZubGw1aEVIcTBOT0FVMXlsTHpCcW9fbFdZM0ozSmFDT1VzbF9xdEFyRllQT3o1TUp0bmtmZzktZTZ6TnfSAbABQVVfeXFMUHROVTctaWRSX3VqWEVxTl9GYzFlOTJoNHRsWWtnNjNiTEtLSmVzUkhIdWItaWVCX2xQREFsU0lDT0c2NDdSTHlSaDByalB1TGk3bEM5QWtqb002TlNZVXRfd2JiQ0dJSTRMTnQwVXJKSUwtd0xma1pIVU56VVFKemg3d1l0eE45YzczS0JJeFlVUjZuRnhZdEVUc2UzOFFfU2RKNlo2SE9mVjlHbEdYVGs?oc=5",
@@ -1679,7 +1679,7 @@ const NEWS_DATA = {
   "New Zealand": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -1689,7 +1689,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Simmonds Called Up to Jamaica Men’s National Team",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiekFVX3lxTE11VUlRS3FmUlR3Zjg3VjhfOHE1djR1ZEUzd25xX0tqRnZDSFdMakV2WmRLclpiLXBhVmR1MG1RcUNGcnhpc1hjamQ4MF9JV2pLZ1VtSFpmazIwYS1hVTIyeWp3U2FRUmZyY0xPVGtyRk",
+      "summary": "",
       "source": "virginiasports.com",
       "sourceUrl": "https://virginiasports.com",
       "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11VUlRS3FmUlR3Zjg3VjhfOHE1djR1ZEUzd25xX0tqRnZDSFdMakV2WmRLclpiLXBhVmR1MG1RcUNGcnhpc1hjamQ4MF9JV2pLZ1VtSFpmazIwYS1hVTIyeWp3U2FRUmZyY0xPVGtyRkkwbzlnTG8zQXhR?oc=5",
@@ -1699,7 +1699,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -1709,7 +1709,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup schedule: Teams, group s, match dates, fixtures, how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbD",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbDF4bl9DY29tN3VWUXAycGV3UG04TmRxNVlseUNGOGtvNkY5UXZOMUR3VFRwR3MwcHl6Uzk0eU5keGM2ODRXb1J2dHppSFBDOE9HYm44eTlEMXlFOThuSEdMWUZ3?oc=5",
@@ -1719,7 +1719,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup: Each team’s chances - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMz",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMzMyWVYyUmUtZVZJbHFTMG5TbllVRE8tV0w1enNSaUZfSjN5STlNN3lJOGN2MmItX0VPYlYxem9nX3Y0OU5LY1lIWXQ3LUgydw?oc=5",
@@ -1729,7 +1729,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026 Group G preview: Prediction, odds, full team overviews",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxQY2pyVExoZ2haSTNZMnIwNXJoMzZscV9pTUQta0c2RWdjM1AybjhuQkZ0YnE0TnUxcDRNRWJFQ2RVWVA5ZFR5bXlfVXVmeENTYUxrNGN1eEcxUVdsS0ZBQk9lMldCQ21fOWd4NlgtZE",
+      "summary": "",
       "source": "New York Post",
       "sourceUrl": "https://nypost.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQY2pyVExoZ2haSTNZMnIwNXJoMzZscV9pTUQta0c2RWdjM1AybjhuQkZ0YnE0TnUxcDRNRWJFQ2RVWVA5ZFR5bXlfVXVmeENTYUxrNGN1eEcxUVdsS0ZBQk9lMldCQ21fOWd4NlgtZEdraDBXZXJjdlp3c0QzMnlSUkZiRUpfckpWQzBOWndFVVNZNGVhTkVZX3plVXdOWkxTRkhRaHlXOA?oc=5",
@@ -1741,7 +1741,7 @@ const NEWS_DATA = {
   "Spain": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -1751,7 +1751,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Spain cruise past Peru in final World Cup 2026 warm-up match",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNVEMyN0tSUVJRT1NxMjlPck5PdnpZbzlXaVF1bV9ON2ItaklXLTY2TjBUcGxlaUdMcElLcGhHZEtsTGtuN2VjRFY0bWN5OEpQQTNaSjk3R3dKczdVTlZra2U5bGRpNnlhQW9NaG9pej",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVEMyN0tSUVJRT1NxMjlPck5PdnpZbzlXaVF1bV9ON2ItaklXLTY2TjBUcGxlaUdMcElLcGhHZEtsTGtuN2VjRFY0bWN5OEpQQTNaSjk3R3dKczdVTlZra2U5bGRpNnlhQW9NaG9pejEyV1JJTFNrMmV4dTBXVnY5UGZjSmpRQ242dkxkQjVaLWpWeFNSLW0xUFRGQU9rdHNCRXBlWtIBqgFBVV95cUxNS01NSTRtTGZ6SnRMeE1Ca2VwSjE4azd1NFB3QUNCS0NIN1JyQ3VfQnBOYXZSVGo5aVdZM1VEWEtXMVpQYWJqaE5PSGx1NHJaWlZLdnMyNGJHNVhabnJxbWY3cVJlUmhfQnlIQzZRM2ZYSkVvZko5R2txS3ZsQ1BmU3JnYjgxVGROcXE1SWZTZTlRU0RfcndESUtoN3d6XzBRU2k4alBXM281Zw?oc=5",
@@ -1761,7 +1761,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Spain is a complex country with many challenges. The national team offers a ‘unity that makes us stronger’ - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE5LVXNCcF9UbHR0eXBkd20xSUNCTHNLdGlfQ0ZNU0gzYWZFV3ZYdEVZTDF0amdpUFZXVTMzeWtiaERDMS04Qi1ObEx2NkxuVS1IOGFjWVFIdzNiVW5RSHhxaFRRQWt5WWpocWdMYzNvUW",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5LVXNCcF9UbHR0eXBkd20xSUNCTHNLdGlfQ0ZNU0gzYWZFV3ZYdEVZTDF0amdpUFZXVTMzeWtiaERDMS04Qi1ObEx2NkxuVS1IOGFjWVFIdzNiVW5RSHhxaFRRQWt5WWpocWdMYzNvUW9rSlhZT2pQd3V6a2JyZw?oc=5",
@@ -1771,7 +1771,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Spain squad includes Lamine Yamal but no Real Madrid players",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zUU8zQ2dmLUFUOTNZdG5lN0c5TFY1cW03SWRzZ1A5SUE0VThpcDA0LTZ6cC1PVkJmUWRLS0FlYVgzZXlUT0xVbnU2UnVTTTZvNERXMTJqM0UwZTVtN3BqblBfRF8zb2c?oc=5\" targ",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8zUU8zQ2dmLUFUOTNZdG5lN0c5TFY1cW03SWRzZ1A5SUE0VThpcDA0LTZ6cC1PVkJmUWRLS0FlYVgzZXlUT0xVbnU2UnVTTTZvNERXMTJqM0UwZTVtN3BqblBfRF8zb2c?oc=5",
@@ -1781,7 +1781,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026 news; Al-Mubarak on City’s 134 charges; Spurs sign Robertson – as it happened",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxPMVVTSjkxQjQtTDl6YWhNeUQwNDhqN2RsS0g0ZmtCdkY0MzZqUGFieTgyS0hkZHA2SzJrQ184TU5kSWN3VFh4SVUxdkEzcjNBeFZFaV95Z1BoZU8wS3h6T3Q2V0pNaEZaMDF0WGNYOF",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMVVTSjkxQjQtTDl6YWhNeUQwNDhqN2RsS0g0ZmtCdkY0MzZqUGFieTgyS0hkZHA2SzJrQ184TU5kSWN3VFh4SVUxdkEzcjNBeFZFaV95Z1BoZU8wS3h6T3Q2V0pNaEZaMDF0WGNYOF9OUGxUZTRGZDI2UFM4UXIyYVFQS3pTZXVhaEMxVmdZSDlQTHc2b2g1QzExeVRZMGJtdWdZVXJrLUcyWjEwUkRfU25KQW12dlRHUng4M3RicDQyS1ZEMVBHQUc3Zk5fOFk?oc=5",
@@ -1791,7 +1791,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Spain favorites to win 2026 World Cup, Goldman model shows",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYng5YXNBRGhPZXJtNlA0b3h1ak5ocW03bFNlY3lKYjN0cEVDbWozTG5ybEFydm9hRXVZWjZGbURjc1B1bVBLWDlVWWFCZWU3eXVJZHpUbHgxMVFuUlFpSG1KalV6N1pFTXhzQmxMUG",
+      "summary": "",
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYng5YXNBRGhPZXJtNlA0b3h1ak5ocW03bFNlY3lKYjN0cEVDbWozTG5ybEFydm9hRXVZWjZGbURjc1B1bVBLWDlVWWFCZWU3eXVJZHpUbHgxMVFuUlFpSG1KalV6N1pFTXhzQmxMUGNtS0J0LW1uRHJ1YXlWNEtXUThpM2J6TE9tT0dIUzZ6VEhhaG5GRFQxVWNKMy1IZjFsdWxhN05mZHp6Zw?oc=5",
@@ -1803,7 +1803,7 @@ const NEWS_DATA = {
   "Uruguay": [
     {
       "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -1813,7 +1813,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Odds: Spain Narrowly Favored Over France",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1mZHhGU0hWQmRpVVU0UUlEYmduSkxhVk94dGg5eEctenMzUjlHblB6TzBrLVBIUUwtZjk0UHJsVkVlVk5jUkpmSWlHTEtjWXV3T3EwR0IwT3dxSTVFYmtkclotWURpQXpOVVNvdnJRcl",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mZHhGU0hWQmRpVVU0UUlEYmduSkxhVk94dGg5eEctenMzUjlHblB6TzBrLVBIUUwtZjk0UHJsVkVlVk5jUkpmSWlHTEtjWXV3T3EwR0IwT3dxSTVFYmtkclotWURpQXpOVVNvdnJRcllpNEFqbTMzONIBeEFVX3lxTE40aldNZG1OMF8tZU4tVURfWkFsSUhPTFJBVjlxUnFYSDIwaEdZbGV0ZDVMZXBFV0tzQ0tDVXZEbngyYW5vM0JSU2RLX2pLNk1TZjd5bVFIR3JBQjhWc2l1clFNMTRYYWxLR3dheWNtT1lQaXhoTk40OA?oc=5",
@@ -1823,7 +1823,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Uruguay World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxNdThrTkQxY29NYU84cm9mc3pHaWIxVjMyWnNQbE9NSUZINGRwZ3hFRXJuZktfOVBnYTFaQXllbnFyaldTUzV0VFZmSjhYeE5veDdsUDQ0NldfRkxoQzc4bE1QLTZOZ3pKZkZ2dm1jSn",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNdThrTkQxY29NYU84cm9mc3pHaWIxVjMyWnNQbE9NSUZINGRwZ3hFRXJuZktfOVBnYTFaQXllbnFyaldTUzV0VFZmSjhYeE5veDdsUDQ0NldfRkxoQzc4bE1QLTZOZ3pKZkZ2dm1jSnItMG9sVnc5aWZVSjdYU19JYnVBVXJpcFNxbkE?oc=5",
@@ -1833,7 +1833,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Match dates, kick-off times and how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQeWtsU05oXzVYcmhEbkJablBkVk5Oa1p3R2tGMWdoaVotUXVhMklzdWlidjRMZGRUX0lfRnNXVzFYTTBYVnhQX3h4SmJUWnlVWF9BNFp2aXpGMTRxNlNRQTVhajhiQkdhQ3Izejkybm",
+      "summary": "",
       "source": "Middle East Eye",
       "sourceUrl": "https://www.middleeasteye.net",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeWtsU05oXzVYcmhEbkJablBkVk5Oa1p3R2tGMWdoaVotUXVhMklzdWlidjRMZGRUX0lfRnNXVzFYTTBYVnhQX3h4SmJUWnlVWF9BNFp2aXpGMTRxNlNRQTVhajhiQkdhQ3Izejkybm10MHVQaWcxTjFZYTZmQTdKMy1wWHBVZDc1NDZtc1dORWQ2LXct?oc=5",
@@ -1843,7 +1843,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026: Why does Uruguay have four stars on its jersey?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMifkFVX3lxTE1wQ2dyRURTQ0VGcTRNNG5pRTQ1Snc4T09Nb2g0RTBWTXpjVVdndkUxVmZDV0xuOEFVNGRCdDJVYi1XcDlmU3hTRnZNeUNPamJ2X2xhal9JNmd3em1aNGVTUngwQlRYaXV0WktrVkZLWn",
+      "summary": "",
       "source": "olympics.com",
       "sourceUrl": "https://www.olympics.com",
       "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1wQ2dyRURTQ0VGcTRNNG5pRTQ1Snc4T09Nb2g0RTBWTXpjVVdndkUxVmZDV0xuOEFVNGRCdDJVYi1XcDlmU3hTRnZNeUNPamJ2X2xhal9JNmd3em1aNGVTUngwQlRYaXV0WktrVkZLWnVwU1FNSGZEWmhQdWFEZw?oc=5",
@@ -1853,7 +1853,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "‘Uruguay noma’ is a battle cry, a conviction that this small country can compete with anyone - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAFBVV95cUxPZlJ4UmRyMFU0NmE4WnZQNlR2enBCN0VZMzVqOURkaENBR1RDdjM5ZW1RYU1TRUl1QWhjbU5leE50OVZpSzJYTS0tWEtXb0JScmJzUDI4cU9VcHJ6YlNmTE9sb2dySDVEOWljZDNhTl",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPZlJ4UmRyMFU0NmE4WnZQNlR2enBCN0VZMzVqOURkaENBR1RDdjM5ZW1RYU1TRUl1QWhjbU5leE50OVZpSzJYTS0tWEtXb0JScmJzUDI4cU9VcHJ6YlNmTE9sb2dySDVEOWljZDNhTlZXZWFvd24xV2tyaDRZLTZYaA?oc=5",
@@ -1865,7 +1865,7 @@ const NEWS_DATA = {
   "Saudi Arabia": [
     {
       "headline": "Iran players: U.S. visa policies creating World Cup 'tension'",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd2w4a05RWTA2MDBhYTFjZWROeGxpTG81RktaNVRJdVo0TEVGU0VwMzZfd1pjSUpKQWpzN0kteU05S1Nwa0R1eDZCd1hzcFBhUW5jblZhaTFKU25yeXVmcHBqZDFZclBBTFJ5WXFLR3",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.com",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd2w4a05RWTA2MDBhYTFjZWROeGxpTG81RktaNVRJdVo0TEVGU0VwMzZfd1pjSUpKQWpzN0kteU05S1Nwa0R1eDZCd1hzcFBhUW5jblZhaTFKU25yeXVmcHBqZDFZclBBTFJ5WXFLR3RELWd3T1Zxb1h4OW5pVm9GaWVRMnNUdnptOHdNR1R5Mmh4Mzc4ZGZ3UnBNcm53NHFzNURQZzVfQlY0dw?oc=5",
@@ -1875,7 +1875,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "‘World Cup fever’ hits San Antonio with international games at Toyota Field, watch parties at Pearl, The Rock",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxNWkt3VE9vNUowYU53MldpSC1adlF0RTFVNjBGQTdTMG1mQWtPd0RpeVJuYUUtNVBxQU9EVlJxZWFqdjJVUFZHX0Q5Mm9SX0U3RnpOc0hZUWJvWHo4NThLbUJ1MDYtVDdsT2VFYWo5aG",
+      "summary": "",
       "source": "San Antonio Report",
       "sourceUrl": "https://sanantonioreport.org",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWkt3VE9vNUowYU53MldpSC1adlF0RTFVNjBGQTdTMG1mQWtPd0RpeVJuYUUtNVBxQU9EVlJxZWFqdjJVUFZHX0Q5Mm9SX0U3RnpOc0hZUWJvWHo4NThLbUJ1MDYtVDdsT2VFYWo5aG8wN3NCdlNYOTh5dVA0b05Fc2lRV25HSG1fSmhXOVQ5aWlfUG5K?oc=5",
@@ -1885,7 +1885,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -1895,7 +1895,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup schedule: Teams, group s, match dates, fixtures, how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbD",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbDF4bl9DY29tN3VWUXAycGV3UG04TmRxNVlseUNGOGtvNkY5UXZOMUR3VFRwR3MwcHl6Uzk0eU5keGM2ODRXb1J2dHppSFBDOE9HYm44eTlEMXlFOThuSEdMWUZ3?oc=5",
@@ -1905,7 +1905,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Match dates, kick-off times and how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilAFBVV95cUxQeWtsU05oXzVYcmhEbkJablBkVk5Oa1p3R2tGMWdoaVotUXVhMklzdWlidjRMZGRUX0lfRnNXVzFYTTBYVnhQX3h4SmJUWnlVWF9BNFp2aXpGMTRxNlNRQTVhajhiQkdhQ3Izejkybm",
+      "summary": "",
       "source": "Middle East Eye",
       "sourceUrl": "https://www.middleeasteye.net",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQeWtsU05oXzVYcmhEbkJablBkVk5Oa1p3R2tGMWdoaVotUXVhMklzdWlidjRMZGRUX0lfRnNXVzFYTTBYVnhQX3h4SmJUWnlVWF9BNFp2aXpGMTRxNlNRQTVhajhiQkdhQ3Izejkybm10MHVQaWcxTjFZYTZmQTdKMy1wWHBVZDc1NDZtc1dORWQ2LXct?oc=5",
@@ -1915,7 +1915,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026 Group H preview: Prediction, odds, full team overviews",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOZFhqMThhejVobVNtOEFFSjlQSV9HR2FVMEMzN3pHNy1oa2tNWWVJZEpzZEFRZ3gzMThMbDhoeWpKQ0NuVy12Mzg3V0RFUWFSamJ0V01OazJhYU85eEVCVlBiMl9lS21fTHZKMnlMdE",
+      "summary": "",
       "source": "New York Post",
       "sourceUrl": "https://nypost.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZFhqMThhejVobVNtOEFFSjlQSV9HR2FVMEMzN3pHNy1oa2tNWWVJZEpzZEFRZ3gzMThMbDhoeWpKQ0NuVy12Mzg3V0RFUWFSamJ0V01OazJhYU85eEVCVlBiMl9lS21fTHZKMnlMdEgtemZmeWhDYTRqRGI3MEVzNXJ3U1NuYW5aT2J1OUw0blJEN2xMd3pPQlpWbXh2azFmanhWUm1FVQ?oc=5",
@@ -1927,7 +1927,7 @@ const NEWS_DATA = {
   "Cape Verde": [
     {
       "headline": "World Cup 2026 visa chaos: from referee Omar Artan to Iranian officials – who is affected?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjJWcnJZWlpVLUs1Vll2dmt4cWU5QTQzTkFPU0JRaUx5TzR2UVpPdHVlWTFkeERqTDZxSWxacW1tQmNzcDJwek5vLTNxcjhJSTRPTnRxeGdoN181Ym9qSEVETWR5aXlmckRTVHN3OW",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjJWcnJZWlpVLUs1Vll2dmt4cWU5QTQzTkFPU0JRaUx5TzR2UVpPdHVlWTFkeERqTDZxSWxacW1tQmNzcDJwek5vLTNxcjhJSTRPTnRxeGdoN181Ym9qSEVETWR5aXlmckRTVHN3OWNMZnA0M21MOW44TlZKZTZiTnZHallyUTFnZ0p3RnY0UGs1R0RsS1NiWksxREp0c2xRaXFqazN4MTQ1TW5HQ3JMTEVEVkxmZw?oc=5",
@@ -1937,7 +1937,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "The World Cup is starting. Here's what to know and how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimwFBVV95cUxPMW94eXZ1OG9DbTZJNUFMdnFxQ0lOMGZhUS14M09jS1g5aWpiVm5wYkhaQ1RXNzd6WEt1dDROX1BrMkVkM2p3TTNSQnVJSEg5ekQwQmNJT21zZjRTQU5kb0IxM1VzNXdUYVZQZnV2TW",
+      "summary": "",
       "source": "NPR",
       "sourceUrl": "https://www.npr.org",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMW94eXZ1OG9DbTZJNUFMdnFxQ0lOMGZhUS14M09jS1g5aWpiVm5wYkhaQ1RXNzd6WEt1dDROX1BrMkVkM2p3TTNSQnVJSEg5ekQwQmNJT21zZjRTQU5kb0IxM1VzNXdUYVZQZnV2TWVLSExyT1ljSFltRW5qajlNOE5lb1VkUXlmOG9ZcERIN1hsdUNEcnJFQjBLcw?oc=5",
@@ -1947,7 +1947,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026 Group H preview: Prediction, odds, full team overviews",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxOZFhqMThhejVobVNtOEFFSjlQSV9HR2FVMEMzN3pHNy1oa2tNWWVJZEpzZEFRZ3gzMThMbDhoeWpKQ0NuVy12Mzg3V0RFUWFSamJ0V01OazJhYU85eEVCVlBiMl9lS21fTHZKMnlMdE",
+      "summary": "",
       "source": "New York Post",
       "sourceUrl": "https://nypost.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZFhqMThhejVobVNtOEFFSjlQSV9HR2FVMEMzN3pHNy1oa2tNWWVJZEpzZEFRZ3gzMThMbDhoeWpKQ0NuVy12Mzg3V0RFUWFSamJ0V01OazJhYU85eEVCVlBiMl9lS21fTHZKMnlMdEgtemZmeWhDYTRqRGI3MEVzNXJ3U1NuYW5aT2J1OUw0blJEN2xMd3pPQlpWbXh2azFmanhWUm1FVQ?oc=5",
@@ -1957,7 +1957,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -1967,7 +1967,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Morocco then everyone else - Ranking Africa's 10 FIFA World Cup teams",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGxVa1JVblVvc0RyX0tNbVcydGh0ZkVIUHFlMWRjZWtGU282U1oxOUZCUml3NFllS1Q5TnJHc2JsaklscFpTcEpsalQ3Q1NOQXFwaGUzVml2c24zYnhfUnl2ODFvd1JFbmlGM2w3Vn",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://africa.espn.com",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVGxVa1JVblVvc0RyX0tNbVcydGh0ZkVIUHFlMWRjZWtGU282U1oxOUZCUml3NFllS1Q5TnJHc2JsaklscFpTcEpsalQ3Q1NOQXFwaGUzVml2c24zYnhfUnl2ODFvd1JFbmlGM2w3VnFORkRZeWUyQTlfOHNoWWZNX0ZQYlVrRFhfZVBjRDkwQzFLR1hKdWdfaW14SklRdUlrVWt3Wmh2VXA2YjBDMUE?oc=5",
@@ -1977,7 +1977,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Guardian writers’ predictions for the tournament",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNX1JYd0lLQllYZzFLaTFVUF9vS1RNSGRXczU4cC1QXzZaZFVqNEZIRURNSEdUQVJjZ0NjQkZ6YlpILTY3MzB2bVpGNjFRb1phRmxoLXRXcktRNXZ0N3lmVWFJR012b2oyTVItWkExbW",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX1JYd0lLQllYZzFLaTFVUF9vS1RNSGRXczU4cC1QXzZaZFVqNEZIRURNSEdUQVJjZ0NjQkZ6YlpILTY3MzB2bVpGNjFRb1phRmxoLXRXcktRNXZ0N3lmVWFJR012b2oyTVItWkExbWJscklmV3VQNU1ubXU3UTZHWHc3TkJSSDI3WEpVSW1RcXdTT1RFX3QwOEdxOXhXQW9YUVQ1enZlZlVFRGI3ZEJBbA?oc=5",
@@ -1989,7 +1989,7 @@ const NEWS_DATA = {
   "France": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -1999,7 +1999,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "France Football Team 2026 World Cup Preview: Can Mbappe And Dembele Secure Their Second Title?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihwFBVV95cUxNQTdUa2dXUks1VWNvaDFmSXZQaHZYVXEzMkw4c0J4SHRBY2xmOU5lb0xtMzg3R3lLZXlJcmpwQWRpRzFnRmJQSXRoeC0wRTJFd0V4cWJwSzNaVV81RGxURHRiRXA2WnlWcnlDS2NHMH",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNQTdUa2dXUks1VWNvaDFmSXZQaHZYVXEzMkw4c0J4SHRBY2xmOU5lb0xtMzg3R3lLZXlJcmpwQWRpRzFnRmJQSXRoeC0wRTJFd0V4cWJwSzNaVV81RGxURHRiRXA2WnlWcnlDS2NHMHozT2QySTlDQ2VQb25xWEN1TWY3c25xanc?oc=5",
@@ -2009,7 +2009,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Revenge On Their Minds, Greatness In Sight: France's FIFA World Cup 2026 Mission",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ0RZcjlvYUxGcXRzOHdWdzRxV3lTaTRCOVZVd2VUYVhBNTNkWGNPQkJPWXVZSkZPTnI3RXcxMWZFc3BKOUdWdWVKQmwxM3RFMHFEdGxJejNlWFBJdXQ2dWNyVFlSUDZ1R2xJVk5nMD",
+      "summary": "",
       "source": "NDTV Sports",
       "sourceUrl": "https://sports.ndtv.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZ0RZcjlvYUxGcXRzOHdWdzRxV3lTaTRCOVZVd2VUYVhBNTNkWGNPQkJPWXVZSkZPTnI3RXcxMWZFc3BKOUdWdWVKQmwxM3RFMHFEdGxJejNlWFBJdXQ2dWNyVFlSUDZ1R2xJVk5nMDRWMC1EazBxVEw5VW1jYnhXWFJzbzZnLXdhY0VkVjJFQ1J3WDQ1ZlRodXY2U2R2aFM2UU1SN1lXZF91UFoydHpGSVhnWUo4MHhmV0hkVnFWcGhiNDZqY2VRX3Zn?oc=5",
@@ -2019,7 +2019,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: How France created football’s deepest talent pool",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGNUcXF0RHFkRXhSaFVhLU9xUEFBZ2VxdEcxeHFMLVQtcXFFR3gxbkhtQ3M2Nnl5TmFHUTI3Wk9NV1ptN285MDF6Tms2eU1xY0Y1TjcwaTVWRGFuQ3cxSUZ0eEw3ZTc0VWxNTldJTk",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTGNUcXF0RHFkRXhSaFVhLU9xUEFBZ2VxdEcxeHFMLVQtcXFFR3gxbkhtQ3M2Nnl5TmFHUTI3Wk9NV1ptN285MDF6Tms2eU1xY0Y1TjcwaTVWRGFuQ3cxSUZ0eEw3ZTc0VWxNTldJTkZKaExleEV1NmVaZUhQSnVMX0Q5VTY0NDBpbURvSnRsZG5FUG1SeHdYYzliMl9ycVllU2hOOWhTNXgxd9IBrwFBVV95cUxOSzMtVGhvZWQwZDhzWHRsRTBSNGVScVNYSTF6MU1sdTh3bWU1c09OMWg1a2t5UElleHNVYkpKU1ExQklKV3FkVENYSmphNmpnM3o2cFJCMjN3LWpobS03cDcyQVczSnFINk8zMUx3TDBsS0VpNW1HXzUxbldVVXFOOXJfdGVKVGt5VTdsbE9OREdXWWJoeTdkS1oxNXBfTlBqTDEtMnI0NWV5bktFb2NV?oc=5",
@@ -2029,7 +2029,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Odds: Spain Narrowly Favored Over France",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMieEFVX3lxTE1mZHhGU0hWQmRpVVU0UUlEYmduSkxhVk94dGg5eEctenMzUjlHblB6TzBrLVBIUUwtZjk0UHJsVkVlVk5jUkpmSWlHTEtjWXV3T3EwR0IwT3dxSTVFYmtkclotWURpQXpOVVNvdnJRcl",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1mZHhGU0hWQmRpVVU0UUlEYmduSkxhVk94dGg5eEctenMzUjlHblB6TzBrLVBIUUwtZjk0UHJsVkVlVk5jUkpmSWlHTEtjWXV3T3EwR0IwT3dxSTVFYmtkclotWURpQXpOVVNvdnJRcllpNEFqbTMzONIBeEFVX3lxTE40aldNZG1OMF8tZU4tVURfWkFsSUhPTFJBVjlxUnFYSDIwaEdZbGV0ZDVMZXBFV0tzQ0tDVXZEbngyYW5vM0JSU2RLX2pLNk1TZjd5bVFIR3JBQjhWc2l1clFNMTRYYWxLR3dheWNtT1lQaXhoTk40OA?oc=5",
@@ -2039,7 +2039,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Mbappe and Dembele lead France World Cup squad",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2Q2QtelNwMWF6MFh5cUdaS0xrUG1fdS10dnltQ1p4TGJZTG9pdjR0SlZadV9lZGdLeW91bVZibklseDJSSWpZN0ZJeS1tTjdnc3dwR3ZMaUw2dzltam41MUctLVNzTWs?oc=5\" targ",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA2Q2QtelNwMWF6MFh5cUdaS0xrUG1fdS10dnltQ1p4TGJZTG9pdjR0SlZadV9lZGdLeW91bVZibklseDJSSWpZN0ZJeS1tTjdnc3dwR3ZMaUw2dzltam41MUctLVNzTWs?oc=5",
@@ -2051,7 +2051,7 @@ const NEWS_DATA = {
   "Senegal": [
     {
       "headline": "A warm World Cup welcome? U.S. immigration policies have chilling effect",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQeW52SHRrOWJWSVZ0ZWpCNnd2OTB3dU1GTVBvdjNtLS03TEJPcjBUeUdyUkFZMk1JNE9jeU00eC1GUHplVHlvQkZZSWRXUU8zNDZDS3otZjJFN0RkU0hiUkZEd1o5aXNTSzY4YnVyRW",
+      "summary": "",
       "source": "NPR",
       "sourceUrl": "https://www.npr.org",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeW52SHRrOWJWSVZ0ZWpCNnd2OTB3dU1GTVBvdjNtLS03TEJPcjBUeUdyUkFZMk1JNE9jeU00eC1GUHplVHlvQkZZSWRXUU8zNDZDS3otZjJFN0RkU0hiUkZEd1o5aXNTSzY4YnVyRWRzQ1NyQ3FvaWtuajRSOWRIbk1vSQ?oc=5",
@@ -2061,7 +2061,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Senegal players face strict security checks after arriving in US for 2026 World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdlNpdDFGQVZwNEVBRXlpUS0tRTlXRHBYTktiSUZ4WWtCZV9aQlBXRENMTVc1eC1oV3hBc0RNR1Vhc1NNd2l0QWdfZms3WGxyUjdXekl0emVtOWFscXVqd05BNEVOczB4NDdwVnBkeE",
+      "summary": "",
       "source": "Anadolu Ajansı",
       "sourceUrl": "https://www.aa.com.tr",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdlNpdDFGQVZwNEVBRXlpUS0tRTlXRHBYTktiSUZ4WWtCZV9aQlBXRENMTVc1eC1oV3hBc0RNR1Vhc1NNd2l0QWdfZms3WGxyUjdXekl0emVtOWFscXVqd05BNEVOczB4NDdwVnBkeEgxYTc3ZDZLLU1NRENmdFJFVE52SENEenp2WlNxenFLcWxCTlpTTFJfMzh4bllWRHJhbkxuLVNGRVA2WFQwSm9rd0lpMEpvN2dxeUhvRHlHOW8?oc=5",
@@ -2071,7 +2071,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Senegal FA Clarifies Viral Airport Security Check Ahead of 2026 World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivwFBVV95cUxOTjJPMzVWVzR5Z1J3dENQVFQzSVMtS215TkZZWGs4RHljMXVicUswck1NSENNVTdSazgxVElvTE04bE1iQkRkX19OSEJNN1RFRFVzaURidk96TmV4NHFrWDZ6clR4TENheU5IbGtPR0",
+      "summary": "",
       "source": "Morocco World News",
       "sourceUrl": "https://www.moroccoworldnews.com",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTjJPMzVWVzR5Z1J3dENQVFQzSVMtS215TkZZWGs4RHljMXVicUswck1NSENNVTdSazgxVElvTE04bE1iQkRkX19OSEJNN1RFRFVzaURidk96TmV4NHFrWDZ6clR4TENheU5IbGtPR05VS1V4WE82cEVRVTllQTg2MjhEbWpxU3dDRFpfLUkwTVNQSVo3ZzFZdnhBbW82YXdzaEdhdkZoZ25hNVhVMnFwSWhVTEhaVHBhd1JacW1aYw?oc=5",
@@ -2081,7 +2081,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "\"Humiliating\": FIFA World Cup Faces Heat After Senegal Players Allegedly Subjected To Extra Security Check At Airport",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi-wFBVV95cUxNME5nTzBlOGRNenlpcnAtMzZYTWJBc01hRXVGZWZDbXFZZTJSTjY2Qkd4QUFLblJqa1VwTXFVcWpCWUVpUWN5cERwZ0UzYXkzSjQ1YVdCZDE3MGdyZ0s4d3plbW1EVWtRcy1ablNGam",
+      "summary": "",
       "source": "NDTV Sports",
       "sourceUrl": "https://sports.ndtv.com",
       "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNME5nTzBlOGRNenlpcnAtMzZYTWJBc01hRXVGZWZDbXFZZTJSTjY2Qkd4QUFLblJqa1VwTXFVcWpCWUVpUWN5cERwZ0UzYXkzSjQ1YVdCZDE3MGdyZ0s4d3plbW1EVWtRcy1ablNGam5qSlplMFdNNVZzVXlQZ1g4VTItdVY4U0RoV2VKcDZBdUt4bndNbndFdW9QWFhaYkQ1NktLOG1NS0U5V3lQT0RpMUR5Mkg4eEtXZHpnME5CUmZ4bGx6N2MyVkgxTUhCZ1phNkVPbFloVVBCNVZHbGtLenJRRUlTN2Z5NnRiQW94V0dzR2NteUY2ZXhSTQ?oc=5",
@@ -2091,7 +2091,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Senegal players face tight airport checks after arriving in US for 2026 World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdTZLREFoMGYzbm1IN3VUdTZNVFpENWUtdFRtMG9RU1lUUUhPWGhYOXBpM2t6QmN4czVxR2hySWh5YUZzdGRmbU9WT3E2LUtRdi1yc1hROUJJTXgzX3VtZEEtLWw2azNjOU96d29Qd2",
+      "summary": "",
       "source": "Türkiye Today",
       "sourceUrl": "https://www.turkiyetoday.com",
       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdTZLREFoMGYzbm1IN3VUdTZNVFpENWUtdFRtMG9RU1lUUUhPWGhYOXBpM2t6QmN4czVxR2hySWh5YUZzdGRmbU9WT3E2LUtRdi1yc1hROUJJTXgzX3VtZEEtLWw2azNjOU96d29Qd21VRlJqMFBhY0Y2Mnl3Uk1ydTdwM0RfSVB5R0p0VGtTNnRQTWYtT2hvN3piOGFTWjlYX1Z2UFVtNWZ3ZHdpYnNPdkFJck14OVJZOGk0OUs1Rm5Tazg?oc=5",
@@ -2101,7 +2101,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "7 Ways the World Cup Is Already a Disaster",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OWjV4c04yUHpXbk5CUC1Kc2dZTnVveU9OY1FqXzI2TlVxcFNxRkxCNXFJYUlsWHo5RzY3WWotZHIzM2I4ZFhOM3pRWE5uVWdoa2c2M0lteUYwd0d4RHJ1RDNLZw?oc=5\" target=\"_",
+      "summary": "",
       "source": "Zeteo",
       "sourceUrl": "https://zeteo.com",
       "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1OWjV4c04yUHpXbk5CUC1Kc2dZTnVveU9OY1FqXzI2TlVxcFNxRkxCNXFJYUlsWHo5RzY3WWotZHIzM2I4ZFhOM3pRWE5uVWdoa2c2M0lteUYwd0d4RHJ1RDNLZw?oc=5",
@@ -2113,7 +2113,7 @@ const NEWS_DATA = {
   "Norway": [
     {
       "headline": "Somali referee denied entry to U.S. ahead of World Cup - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUs5czIxa0UxX1VuQ2lGdEU3aUZFVU1uYkhJWHZUWEdLUUFtWFVtV1dsaWlETWxRNUVfakhwY0hwd2Uzc1JRNEQ0Wkg5RmhpNmltTGJHZ19IZ2hzVDBqX2hGNF83azBkRUZIcTU5M2",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUs5czIxa0UxX1VuQ2lGdEU3aUZFVU1uYkhJWHZUWEdLUUFtWFVtV1dsaWlETWxRNUVfakhwY0hwd2Uzc1JRNEQ0Wkg5RmhpNmltTGJHZ19IZ2hzVDBqX2hGNF83azBkRUZIcTU5M2hoQnhVNGdfUjlDeHAwSURGWU02NERES0FtaHdSV2VmYy1RdTI1Y3pnOHFmY1h2WHdIRmNTOGpxblo?oc=5",
@@ -2123,7 +2123,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Norway label Scotland ‘unprofessional’, Somali referee denied entry to US: football news – as it happened",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVNaei04MFJGcmpNdFA5Q29XOVc2b3JENHlFNVNiNHNwQTBtOG5GTEJvdWdEanNCWVRuWFdid0M2S045WXd4T3NZOG9XTnJzcVk5a1lUY1JuWlBnd05jRVV5NjJ5c192QmhBZFdDUE",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVNaei04MFJGcmpNdFA5Q29XOVc2b3JENHlFNVNiNHNwQTBtOG5GTEJvdWdEanNCWVRuWFdid0M2S045WXd4T3NZOG9XTnJzcVk5a1lUY1JuWlBnd05jRVV5NjJ5c192QmhBZFdDUEZ6cEdieUZFY0toRmN1NkNhSTRqOUtNbzFjdEcyYmZZc3ZLTWh0NGFpTjl2SGdES0RLM2tXRGpOeG56Tno0THZCdEhKaGZ1U1JVSEpsZVdRYTRUMUkzR2JV?oc=5",
@@ -2133,7 +2133,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup Group of Death 2026 Odds, Predictions and Stars to Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipwFBVV95cUxORDVocFk1YWsxSzJiSHU0bHBBRkhGVl9lWl9EYVFZN2lSelR5TXVSelRKdUgyMzRWSG9NYkN5Tko2Q2tZLWc5VllQUGgzc1Z1RmFaTm5sRjF3YkVkNEpTQmtQWXVQTksxNnRhVk1WbU",
+      "summary": "",
       "source": "Bleacher Report",
       "sourceUrl": "https://bleacherreport.com",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxORDVocFk1YWsxSzJiSHU0bHBBRkhGVl9lWl9EYVFZN2lSelR5TXVSelRKdUgyMzRWSG9NYkN5Tko2Q2tZLWc5VllQUGgzc1Z1RmFaTm5sRjF3YkVkNEpTQmtQWXVQTksxNnRhVk1WbU5nQ2hMQ0dZTVVhRFlXZTV3aktBRjQ5MUV4QlR5MHEtVDByb2U5V0UxRWlOajl6T19Yc0xtdnkyYw?oc=5",
@@ -2143,7 +2143,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Norway Squad Wear Childhood Kits Ahead of 2026 World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOd1o2RnFGcHV0UkcxNTA4V3JrWDRaYTc2eXVkLXNoTHRyREV2N1BieHJ6OTRlTWwxQnhUR2VaUG5SY2IxNzZ0MFlJVTlRUEtVT1doenZKWDdMdHlzblg0TUZFRTVJTEpuSHNhdE5qX0",
+      "summary": "",
       "source": "Footy Headlines",
       "sourceUrl": "https://www.footyheadlines.com",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOd1o2RnFGcHV0UkcxNTA4V3JrWDRaYTc2eXVkLXNoTHRyREV2N1BieHJ6OTRlTWwxQnhUR2VaUG5SY2IxNzZ0MFlJVTlRUEtVT1doenZKWDdMdHlzblg0TUZFRTVJTEpuSHNhdE5qX0xMclVoWlVab0JtUHVFMkZxR3Q3akp1TUlMbjB4eFMtWVpYNThZc25CYmxTRzNNbV9jVVBaaWNR?oc=5",
@@ -2153,7 +2153,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "From International Wilderness to Potential Shockwaves: Norway Mean Business at 2026 World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxOa3EyQWdETEVPX3FHajBBb1ZHQkZtb0VTc0JhOU5HZkdxNTM0aWhScC1KRkZFNjNlZHlTT2VVV1h0U1prblJsWmFzYmZpZkpkUnNBcExUT2RDUWlfQWNTU0stNXFvaU5RYXJhQTFwUz",
+      "summary": "",
       "source": "Opta Analyst",
       "sourceUrl": "https://theanalyst.com",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOa3EyQWdETEVPX3FHajBBb1ZHQkZtb0VTc0JhOU5HZkdxNTM0aWhScC1KRkZFNjNlZHlTT2VVV1h0U1prblJsWmFzYmZpZkpkUnNBcExUT2RDUWlfQWNTU0stNXFvaU5RYXJhQTFwUzVIaGlxdW9PMHF0aHh1SWUxQmswOWlEUQ?oc=5",
@@ -2163,7 +2163,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Erling Haaland-Martin Odergaard Effect: Why Norway Is The Team No Top Seed Wants To Draw",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVkRfdjhDYy0yN3BMNTJZV1lCNVBhSDI2akY5bXliMHZiVnVnTllyaW9sVG9IcGp0MHMwcEQtVU1VYkMtdmVqcE9SZ2pScEs1ZEVvQkM2cGVkczZ1c3RxYk0xelQ4UUZ1ZHZkMHdweT",
+      "summary": "",
       "source": "NDTV Sports",
       "sourceUrl": "https://sports.ndtv.com",
       "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVkRfdjhDYy0yN3BMNTJZV1lCNVBhSDI2akY5bXliMHZiVnVnTllyaW9sVG9IcGp0MHMwcEQtVU1VYkMtdmVqcE9SZ2pScEs1ZEVvQkM2cGVkczZ1c3RxYk0xelQ4UUZ1ZHZkMHdweTZxWTVKRlVFWnlHazBpTVhmVEpsUmZReldKaE14VXZUTG9MeGItSUtZRnBjbXRieGFnVW54dUE5VjJYOGVpVGE3RzNTdnBYSXJoTDdSYUplZ0R5b2NmS2QycGF4WGgtektfVFZYSUh6WQ?oc=5",
@@ -2175,7 +2175,7 @@ const NEWS_DATA = {
   "Iraq": [
     {
       "headline": "Iraq World Cup star Aymen Hussein detained at O'Hare International Airport, team photographer denied entry to U.S.",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR0ZEcTVIOFFNUkowOU0wLVBvblRGTF84SF9sNW9CS1UyMF9ESUhTT1lJaTBwczQ1cEd2NGhZQ2FaeE0xbTV6dE5TbmwwMGs5QzI3NVpKbVlQVmZFMUlwQ0V1NkFrTm5PT3I1bEhkT2",
+      "summary": "",
       "source": "CBS News",
       "sourceUrl": "https://www.cbsnews.com",
       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPR0ZEcTVIOFFNUkowOU0wLVBvblRGTF84SF9sNW9CS1UyMF9ESUhTT1lJaTBwczQ1cEd2NGhZQ2FaeE0xbTV6dE5TbmwwMGs5QzI3NVpKbVlQVmZFMUlwQ0V1NkFrTm5PT3I1bEhkT2o1ZjFFSkdRdHA0aG4xRzZfdnZLMVJqVFZVZk9FRWk0N21PZ3RkSkNFUlJ6amZPSGlWVGQ3dmFvZ2VlRUhuQ0FRWFZmc01ZOHNOZkVR?oc=5",
@@ -2185,7 +2185,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -2195,7 +2195,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Iraq World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMihgFBVV95cUxQa1RfRnB0a2h2Y1dmeEMzVzlXUXd6OWY0cWstbzlQLXJZMGppTFRJM2EwN252YklZR3N5eTFoU09POTJOSExuN3J6OW90VUYtTHo4aVlmSGw5amx3NjFSSkFybDlBQmptb203Y2dmak",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQa1RfRnB0a2h2Y1dmeEMzVzlXUXd6OWY0cWstbzlQLXJZMGppTFRJM2EwN252YklZR3N5eTFoU09POTJOSExuN3J6OW90VUYtTHo4aVlmSGw5amx3NjFSSkFybDlBQmptb203Y2dmakh1cUdkQ3B6S3FIRGRkWkhmOGZrZlVqdw?oc=5",
@@ -2205,7 +2205,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup kit ranking: Which teams will look best in 2026?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAJBVV95cUxPWklsR2dXWmlpSHRZbE44N0lMOW0tQkVnUm5xRU1aQ2pTUlBzQVZ6WmpoeGFpR0R0V1NDZ1JTamhjbzJCQTlIdElMbTRqVGp4SDRVUkR5dm5TU1c0Q0RXVDFMcUZnTXF5V0RDazZTR1",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.co.uk",
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWklsR2dXWmlpSHRZbE44N0lMOW0tQkVnUm5xRU1aQ2pTUlBzQVZ6WmpoeGFpR0R0V1NDZ1JTamhjbzJCQTlIdElMbTRqVGp4SDRVUkR5dm5TU1c0Q0RXVDFMcUZnTXF5V0RDazZTR1c1eE1kUUhPMk1URnBmRGpYRUZWUkgtbi1fRmZ4bE5HZnA0ZEdlckNOaUN1T2VJcHNseVhzMU56YXNfeUxEM0NyXzhsSWlzdGxEUkdrOGxXYVgzcDhOSDBsZHJTRjNSc1VYWnhHOS1CYkoxZGFzMERmdWt2RFJ1NHNxOGNFd1VJSy03b0VmMWZsd2NYNTFWZkVE?oc=5",
@@ -2215,7 +2215,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Iraq World Cup star Aymen Hussein questioned for ‘seven hours’ by U.S. immigration officials - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNY2o0MHJpTjJvMVVjVEpDdEItMlBVWTFUZjB4V0dFMmJQam5QSmEtem5DWjdZWUdxMk9YdWtDYVdBdlhFSVByX0Q5U1JYSW9NcUkzd2lWWkVqdmdKT2JSeHJNZHZ1Q191Snd1R0RoWU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY2o0MHJpTjJvMVVjVEpDdEItMlBVWTFUZjB4V0dFMmJQam5QSmEtem5DWjdZWUdxMk9YdWtDYVdBdlhFSVByX0Q5U1JYSW9NcUkzd2lWWkVqdmdKT2JSeHJNZHZ1Q191Snd1R0RoWUhzQWRkeUp1cWlKTE0wOFdzWFg5dV96X2gyeEppTmctYw?oc=5",
@@ -2225,7 +2225,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: How to watch all 104 matches for free",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbFBucTlaaF9wLVJWRWlKMWYyYmV1aFR6TU5rdWU3Z3VQR0ljOXBYVGs4Mk1MRFgwYlFhQ0dWcktKbXhWbmd3RjV0S2JSdnZyX3VxS3JCcV9DY1NJclZ6XzFqQUU0bXhRdUh0dkJmLW",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbFBucTlaaF9wLVJWRWlKMWYyYmV1aFR6TU5rdWU3Z3VQR0ljOXBYVGs4Mk1MRFgwYlFhQ0dWcktKbXhWbmd3RjV0S2JSdnZyX3VxS3JCcV9DY1NJclZ6XzFqQUU0bXhRdUh0dkJmLWlCR1RNTjBQSm5DdzZxTnN2ZjRuSUZlS3lLMmdOdnVScmk0RFhSZDZoWnl4UElqM2pYZ0dfX2pHcFE4eDQ?oc=5",
@@ -2237,7 +2237,7 @@ const NEWS_DATA = {
   "Argentina": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -2247,7 +2247,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: Winners predicted as holders Argentina defend title in USA, Canada, Mexico tournament",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi6AFBVV95cUxNS1NsTEFvajZzdEFVeExiVTJIak1Vb055X0paWURweGYxR1VyOGZnQzh0VnhJb3dJbDhVWFJYc3YyYVBQQVpCb0NmZHFTWURhel9mT0JGUHMyWU5ncXBPTGpvWHFFaU4zSkFwMmVwSn",
+      "summary": "",
       "source": "Sky Sports",
       "sourceUrl": "https://www.skysports.com",
       "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNS1NsTEFvajZzdEFVeExiVTJIak1Vb055X0paWURweGYxR1VyOGZnQzh0VnhJb3dJbDhVWFJYc3YyYVBQQVpCb0NmZHFTWURhel9mT0JGUHMyWU5ncXBPTGpvWHFFaU4zSkFwMmVwSnVlWEctMnFKaHlpclNaNUVKN2l5dGRLSk95MVhfSTMxZzN1VEpmSEZiRnl0bG8yRU1iSjlEQzFPMDVIemxqU0JvTUY2b2xFWV9COWc1SnJTUjk3b25QNXI2eXVWbTJrREYxd3dWVlZhNFJIbTlFWkc0ck1JZWNWOWhF?oc=5",
@@ -2257,7 +2257,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup predictions: Champions, Golden Ball, breakout stars and more",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNaUkxRDFjWHh6SXNXcDFVZ2ZWR01KTmF5aHRxd1h5aXV1Sm53TmtweGFHQk5SQTVvYVNCMThHN2luQlo4Y045blBUd3FUZ0owVzZKLVI5azVpVjZtamkwZWx4aV9CTlV5MHFVUV9qRH",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaUkxRDFjWHh6SXNXcDFVZ2ZWR01KTmF5aHRxd1h5aXV1Sm53TmtweGFHQk5SQTVvYVNCMThHN2luQlo4Y045blBUd3FUZ0owVzZKLVI5azVpVjZtamkwZWx4aV9CTlV5MHFVUV9qRHdqMUlqa1hZNWtGMTZFU0d0VWFBbVEwanBPc0NTM0dheFhrdmxpTk8wQVhtb1JDNWtOS2o3WC14U3Y4WnBfRklKdFp1RFRPc1F4LVlLLTdlSnp5eTZkM1VpbHhFZGxrcE0?oc=5",
@@ -2267,7 +2267,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026 news: Messi returns to Argentina action; UN urges US immigration ‘re-think’ – as it happened",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSEZCdHBPLWxnM1Y2aU5JOHFoSlYwbTU2cS1wNzFPYVJEUGh4VW5OemwwNDBMeVIySUZHZlhCUERYeVVoN3RFLUpPeVQwcHVKT1g3d2tMNzJiTUZ3bTRJbFZFZ3VTUzdRLUtSTHF4T1",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOSEZCdHBPLWxnM1Y2aU5JOHFoSlYwbTU2cS1wNzFPYVJEUGh4VW5OemwwNDBMeVIySUZHZlhCUERYeVVoN3RFLUpPeVQwcHVKT1g3d2tMNzJiTUZ3bTRJbFZFZ3VTUzdRLUtSTHF4T1h5eU5JSzZvVV8yRDYwMzQ2Z1VCdENmbGl2cDkyNGtyczR2ZUZJTFBROW9yeUVKTGx5ZHF2azlMcW02Qkx3RnhWbkNUVWsyc2RtUTU5b1ZteE95NXA0Sl9EdWZDQU9SOXV0Tl9WM3A4Q1hyUnFUTERvRTFuSFpNZVJZN0VCanhCTHc0TnJ3TUFsU3R0UkFVZw?oc=5",
@@ -2277,7 +2277,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Messi comes off the bench to score in Argentina’s final World Cup warm-up",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOX01hLURhUDNNR2Y4MHE2bnNfc3EyQ29NajNlUzJKblVTMHJWMlFTdHRuRDNXWExPRi1DbUVFNkFGX2tyS1o2RkNzM0lqa21kRVRZbU9JTHdMWTRPY2o5aTVWcVQ3UXkxdnU5bExGOE",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOX01hLURhUDNNR2Y4MHE2bnNfc3EyQ29NajNlUzJKblVTMHJWMlFTdHRuRDNXWExPRi1DbUVFNkFGX2tyS1o2RkNzM0lqa21kRVRZbU9JTHdMWTRPY2o5aTVWcVQ3UXkxdnU5bExGOE44Y25JZFdPaERKNnRBVnFBRThtcXBEbFJlREhjX1FpZmRYUmVUakxtbnJNQ2x3ak1hZ082VkpCaGZEY1pNVjUzakFHb0JWQdIBuwFBVV95cUxORkRVX2tZY2hBd195Q3VjeFpDRS1LaEQ0and1QlhoNFBac1hYcDl5YUlMdTlPOVA2bHJGSUlDS0xnNkJiZTZyM2UxbmJ4cjM3Tk5kaXU3NTlMNGZjNGktVlBydjJ1Q1R3MWgwVEdZbnlhR19UUEZZUi1rLXZ6aFJQSmdwSWdBWVhxT0FqMTZlWVFKeUlnTGFFMThZSEJmN0g1U0RpZGZZWVFwcGpuUHRUSVQ5TGZSWThZN2Nv?oc=5",
@@ -2287,7 +2287,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Passion consumes Argentina fans: ‘Nothing else in my life affects me the way the team does’ - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxNdGNkWXpWSlpldnBPQ0RrLXM4OTd4c2M0VHptaEVBaGQ1T3RKSncwOVdZUWJUQTJNUFl4RzFSN3cwV1hGRTMtTzNySV9CbDlwc05iQ0dDa2NSOFFXSk9ucGtBeVhjdGRLOWZSbWZxVG",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNdGNkWXpWSlpldnBPQ0RrLXM4OTd4c2M0VHptaEVBaGQ1T3RKSncwOVdZUWJUQTJNUFl4RzFSN3cwV1hGRTMtTzNySV9CbDlwc05iQ0dDa2NSOFFXSk9ucGtBeVhjdGRLOWZSbWZxVGp3NFN2SzEtX2NFbWNyaENsaEdDQQ?oc=5",
@@ -2299,7 +2299,7 @@ const NEWS_DATA = {
   "Austria": [
     {
       "headline": "A warm World Cup welcome? U.S. immigration policies have chilling effect",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQeW52SHRrOWJWSVZ0ZWpCNnd2OTB3dU1GTVBvdjNtLS03TEJPcjBUeUdyUkFZMk1JNE9jeU00eC1GUHplVHlvQkZZSWRXUU8zNDZDS3otZjJFN0RkU0hiUkZEd1o5aXNTSzY4YnVyRW",
+      "summary": "",
       "source": "NPR",
       "sourceUrl": "https://www.npr.org",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeW52SHRrOWJWSVZ0ZWpCNnd2OTB3dU1GTVBvdjNtLS03TEJPcjBUeUdyUkFZMk1JNE9jeU00eC1GUHplVHlvQkZZSWRXUU8zNDZDS3otZjJFN0RkU0hiUkZEd1o5aXNTSzY4YnVyRWRzQ1NyQ3FvaWtuajRSOWRIbk1vSQ?oc=5",
@@ -2309,7 +2309,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -2319,7 +2319,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup: Each team’s chances - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMz",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMzMyWVYyUmUtZVZJbHFTMG5TbllVRE8tV0w1enNSaUZfSjN5STlNN3lJOGN2MmItX0VPYlYxem9nX3Y0OU5LY1lIWXQ3LUgydw?oc=5",
@@ -2329,7 +2329,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Harder Stadium holds Austria national soccer team during the 2026 FIFA World Cup - Santa Barbara News",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiugFBVV95cUxNbFJLVDh1eENUQmVpelk1UkRGeE1XUExqWTlaQllpcHB1MWZlVHYyTnVMMVZWUDJYVEgtMktBWFJJSnRIc2dXY0d6UWhfWWY3c29walFSeFlKamhaZ2pkLTF1Q09raHVfUW1Tc0JCNW",
+      "summary": "",
       "source": "Santa Barbara News-Press",
       "sourceUrl": "https://www.newspress.com",
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNbFJLVDh1eENUQmVpelk1UkRGeE1XUExqWTlaQllpcHB1MWZlVHYyTnVMMVZWUDJYVEgtMktBWFJJSnRIc2dXY0d6UWhfWWY3c29walFSeFlKamhaZ2pkLTF1Q09raHVfUW1Tc0JCNWtiQmp4Nzh1ekJnRU9ZdWdmUnE2eVR6eGFDb2hSSnI1OVBReTFDa082T2J0dmpxc1gySGVldkUxNGUzcTRUMEIwTFI3THFIZmpyMlE?oc=5",
@@ -2339,7 +2339,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Where to watch Austria in the 2026 FIFA World Cup today? Next game, start time, TV channels and online live streams",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxNX3ZDczMydTBoRkZPSGhxX2x3d2dGVWlIc3F6RVVOeW03MkxTTVRQTlo3dHhobjBsZ09CNS1CNWI0eVdTOEt4WXBOa0VrZGVoODFvX2tKaFY2b3dyYnVQUmZIRXNlTUNBRWJ2czFKc1",
+      "summary": "",
       "source": "Goal.com",
       "sourceUrl": "https://www.goal.com",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNX3ZDczMydTBoRkZPSGhxX2x3d2dGVWlIc3F6RVVOeW03MkxTTVRQTlo3dHhobjBsZ09CNS1CNWI0eVdTOEt4WXBOa0VrZGVoODFvX2tKaFY2b3dyYnVQUmZIRXNlTUNBRWJ2czFKc1cwZ3lYQ3hScXloMTdXMU9xYnlVdTV6TnJXS2pxZ3p1TQ?oc=5",
@@ -2349,7 +2349,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Austria World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQaUVMY1huMHJ6eWc3R20xVzItNldfLUVHYkRWS3pmOUtsNkx0WTItdFlZblpLcjJHajhwcHZDZWZxQjJfZmh3VzhzYkdsWFJEV0tid0xfaGtzUXRiZTF5UWh5S0VJUDFtWkk2M2JFNU",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaUVMY1huMHJ6eWc3R20xVzItNldfLUVHYkRWS3pmOUtsNkx0WTItdFlZblpLcjJHajhwcHZDZWZxQjJfZmh3VzhzYkdsWFJEV0tid0xfaGtzUXRiZTF5UWh5S0VJUDFtWkk2M2JFNURxYWxfcUdaVnpQZzdFVVM0NVA2N2FIMWp4Znc?oc=5",
@@ -2361,7 +2361,7 @@ const NEWS_DATA = {
   "Algeria": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -2371,7 +2371,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Algeria World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQNXVPdUo2N000ZUl2d3pqRjVTa2tBZVJGN2pycEJOV1d0bVhJZjhENlRta3FEWHl3djFHTm5OTWFQejBXcFdvU25raUJFZzJTTnNkZ2g1SGFOQzBuZnRPWEEtbnRoaWU0ZUNQdEFhZj",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQNXVPdUo2N000ZUl2d3pqRjVTa2tBZVJGN2pycEJOV1d0bVhJZjhENlRta3FEWHl3djFHTm5OTWFQejBXcFdvU25raUJFZzJTTnNkZ2g1SGFOQzBuZnRPWEEtbnRoaWU0ZUNQdEFhZjMybnpzdmxWY3BJck5wbHBTZ3doX0hiMXNmM2c?oc=5",
@@ -2381,7 +2381,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Algerian writer shares why KC fans should root for his nation’s team in World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMikgFBVV95cUxOV1lWQnk5T0s2R0wwZnJfMVhUdkZKZjNpaFRHRnJPQjQ2REw4TjQxRXZBajVZdi1DQ19neTRDcl9UWnBTc2ZYN0p3VE9xUk1ZaXh6WEFqVkZaVTloUmlMVG56TE9lbjNRb2NZbGpJR2",
+      "summary": "",
       "source": "Kansas City Star",
       "sourceUrl": "https://www.kansascity.com",
       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOV1lWQnk5T0s2R0wwZnJfMVhUdkZKZjNpaFRHRnJPQjQ2REw4TjQxRXZBajVZdi1DQ19neTRDcl9UWnBTc2ZYN0p3VE9xUk1ZaXh6WEFqVkZaVTloUmlMVG56TE9lbjNRb2NZbGpJR2JhSDZOaXJyd0ZNSWpQNW42VFpXRTFKTUJPOWRmOFdsUWVoQdIBkgFBVV95cUxOYW8yb0FKcmxKMTJhcFlEQ21BdHZqUFUxUEZ4WEQ0Qks2cWd5cVoxRW05VGhoTWhaWFRIUlU4UEVkVE9LUXRpcHN6eE1RbHJmVXJaMzJZamp4ZERJRHY5WG9RMlVEeHBWUDFReHdhcjdwMFpmWGQweW8ta3BVbS00cUJ0WDdGY2F6dTJybXhoUGRXdw?oc=5",
@@ -2391,7 +2391,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Algeria: 2026 World Cup Squad, Fixtures and Schedule",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxORHlMN2JKTVJ4ZWVGVGpRbnRhOVg5cFVaMWcwZ3c4VEZNTHUyeHBKUnhvRlFtQjFjNzMySE5XMzM5S1BteXJrZXFlZEl6a0lQYUtwaGtoZVYxRjhJSWFLajhHRUV2WWk4bXZ4VjQ0d1",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORHlMN2JKTVJ4ZWVGVGpRbnRhOVg5cFVaMWcwZ3c4VEZNTHUyeHBKUnhvRlFtQjFjNzMySE5XMzM5S1BteXJrZXFlZEl6a0lQYUtwaGtoZVYxRjhJSWFLajhHRUV2WWk4bXZ4VjQ0d190Sk82Y3N6VnVfb1NjZ0RBYmxUOA?oc=5",
@@ -2401,7 +2401,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "How to Watch Algeria vs Bolivia Live Today: World Cup Warm-Up Preview, Stats, Team News",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRU9sSHBLWnFiOTFhTDlKMU55Y0pEZG5CZ05aUWZ0RVdCTmQ5QnBnbUhEM25BNGdFMkM3VTRiNW9wNjdCMkE2YmlCUjMzREN2cGg5eFloTk5WNXVFa3ViVGZkRHZyRzg3UnR1bzNyeF",
+      "summary": "",
       "source": "heavy.com",
       "sourceUrl": "https://heavy.com",
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNRU9sSHBLWnFiOTFhTDlKMU55Y0pEZG5CZ05aUWZ0RVdCTmQ5QnBnbUhEM25BNGdFMkM3VTRiNW9wNjdCMkE2YmlCUjMzREN2cGg5eFloTk5WNXVFa3ViVGZkRHZyRzg3UnR1bzNyeFRYSFhUVjBTM19zV2hjd3VMbnVTOEpaaklfN01QRVRLeHVVZWVILWFvNk5DbVhHd2tPRkRuRHloXzQ5aUFhWnhyNDFWT05YcVNR?oc=5",
@@ -2411,7 +2411,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Argentina vs. Algeria: How to watch, stream World Cup Group J match",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUGk1OXpNNFVWa29tOU9IZnVWcWFRbExhNzFkVE8zX1A0UUloOEtVR1QwTU5KTWJWX1ZLMEhxa3dDajRkMG80WU8wMDNITDJobmh5MUZTdmlrb09TVkRvSm5adTNqc2VKTXdlNmpqQ1",
+      "summary": "",
       "source": "MLSsoccer.com",
       "sourceUrl": "https://www.mlssoccer.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNUGk1OXpNNFVWa29tOU9IZnVWcWFRbExhNzFkVE8zX1A0UUloOEtVR1QwTU5KTWJWX1ZLMEhxa3dDajRkMG80WU8wMDNITDJobmh5MUZTdmlrb09TVkRvSm5adTNqc2VKTXdlNmpqQ19jaXZoUVh3Q3NYVFFIOFBzSGRpd250bXI2TDBmU2MxeEY5SFRJd09sVjFTczdIS2tsM2g4TDAtbG1ycVlYazhkeGc5a1dRZHlfbHVjQ1lOUTc?oc=5",
@@ -2423,7 +2423,7 @@ const NEWS_DATA = {
   "Jordan": [
     {
       "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -2433,7 +2433,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Jordan World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLThmVUo4VDhJMDloYkhWT09ETnRGeG9FZ1cyaGVoTTNCMjRQamNwVkJHNkxyVlNxMWlRMzV3MEdfTDJCd2VPNDM2UTBPM240cGVuR3Q2WmhZWGVLZExkSEFHN09kbmRLMUphX0s5NU",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPLThmVUo4VDhJMDloYkhWT09ETnRGeG9FZ1cyaGVoTTNCMjRQamNwVkJHNkxyVlNxMWlRMzV3MEdfTDJCd2VPNDM2UTBPM240cGVuR3Q2WmhZWGVLZExkSEFHN09kbmRLMUphX0s5NUFPRl8teE40NzdOejg0ejR3YXBBb1FEaHpH?oc=5",
@@ -2443,7 +2443,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 FIFA Men's World Cup: How Jordan can reach the Round of 32",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxNNWN0ZEtzcEFSdFhiMUh0YXFyMzFVSVo4VVMtRm1SWFRXSEpWWGMzVVQ4Ml9oeTFhVzh1bzA5LVItZmRDWWhaMlhJMTg3ZTB3dDg0Z3F0cHBrZFpCOWhPZHlqbWRvOWM3eDd4dkZ3cS",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNWN0ZEtzcEFSdFhiMUh0YXFyMzFVSVo4VVMtRm1SWFRXSEpWWGMzVVQ4Ml9oeTFhVzh1bzA5LVItZmRDWWhaMlhJMTg3ZTB3dDg0Z3F0cHBrZFpCOWhPZHlqbWRvOWM3eDd4dkZ3cS1RODJSUVRXdUN5SlJydER2OEpxTUdaRmU3ZGlrU1VSRGlYQmowVzBUSDVqUmk1N21PSk1uSDBYb3lEcC04WWVSQkpWWUNKekk?oc=5",
@@ -2453,7 +2453,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Jordan World Cup 2026 preview: Players to watch, group matches and squad",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxNNGtUSExFZEo0VU54SzAtUW5sOXdmMTc1dTdOX0k3SnV3RWgzbnBOOTgzZTZEam1jbzhqSmRPUnlmeTd3UGFjbVlFcmlkcTVieEdVYnZxUEg3U3ZoeF8zVnNyR1k0RXUtenZHSGVZWE",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNGtUSExFZEo0VU54SzAtUW5sOXdmMTc1dTdOX0k3SnV3RWgzbnBOOTgzZTZEam1jbzhqSmRPUnlmeTd3UGFjbVlFcmlkcTVieEdVYnZxUEg3U3ZoeF8zVnNyR1k0RXUtenZHSGVZWExRMjMxSmROOTVrM2xuX3VxZ3RFLVY3X3NfcjFGYWlSeDhiVWtfMGFDUGRxOFJKeTAtSG5PQ0g0RmlXS3h0aG16LUt30gG3AUFVX3lxTFBnVVBxeGF2YWlZVGl6RVRzTllWREhyRVo2b2cxS0ZRajk5M0VnRWwwVWlQMDlTekxOTFpfWUFSZWo5VHEtbmZKdDZZVFBaVWxScnFDZ2hvWmh0NUZZV0R3WXZfTWxHcTNRcm1GbUI2ODkwdEJINC1HNnh0djlvQ3B0M09KRURLTU52SmljdFV0T2dQc3ZmZGtMemhtV3UwWFBfbDhaSEZnRUhNdmRFcmVubTV0WHB4VQ?oc=5",
@@ -2463,7 +2463,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup kit ranking: Which teams will look best in 2026?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAJBVV95cUxPWklsR2dXWmlpSHRZbE44N0lMOW0tQkVnUm5xRU1aQ2pTUlBzQVZ6WmpoeGFpR0R0V1NDZ1JTamhjbzJCQTlIdElMbTRqVGp4SDRVUkR5dm5TU1c0Q0RXVDFMcUZnTXF5V0RDazZTR1",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.co.uk",
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWklsR2dXWmlpSHRZbE44N0lMOW0tQkVnUm5xRU1aQ2pTUlBzQVZ6WmpoeGFpR0R0V1NDZ1JTamhjbzJCQTlIdElMbTRqVGp4SDRVUkR5dm5TU1c0Q0RXVDFMcUZnTXF5V0RDazZTR1c1eE1kUUhPMk1URnBmRGpYRUZWUkgtbi1fRmZ4bE5HZnA0ZEdlckNOaUN1T2VJcHNseVhzMU56YXNfeUxEM0NyXzhsSWlzdGxEUkdrOGxXYVgzcDhOSDBsZHJTRjNSc1VYWnhHOS1CYkoxZGFzMERmdWt2RFJ1NHNxOGNFd1VJSy03b0VmMWZsd2NYNTFWZkVE?oc=5",
@@ -2473,7 +2473,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "What to know about Jordan ahead of its FIFA World Cup stop in North Texas",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQNFBDcTVieU9TODNXa3B6OXUwRjlPSm9tZUlQS0tuZVItVEcxUWE3QW44cTd5d3oySFJGWGYtYVR1YXRES1dHai11MTRvemVaQkphR3IxcjBWUjBWZE1pa1pCa29uWldGM0JkRFlNa0",
+      "summary": "",
       "source": "Dallas News",
       "sourceUrl": "https://www.dallasnews.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNFBDcTVieU9TODNXa3B6OXUwRjlPSm9tZUlQS0tuZVItVEcxUWE3QW44cTd5d3oySFJGWGYtYVR1YXRES1dHai11MTRvemVaQkphR3IxcjBWUjBWZE1pa1pCa29uWldGM0JkRFlNa0kzOUNBUmJWZVg1RzBObmRWeG5OaDN3MGs0V0ZmVUlBb0h0X3pWVldsYjFOZHZXS1VESE5xRXhELUZtTmVKS1NaWkpR?oc=5",
@@ -2485,7 +2485,7 @@ const NEWS_DATA = {
   "Portugal": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -2495,7 +2495,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "LIVE: Portugal vs Nigeria – World Cup 2026 international friendly",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJmQmJ4OUIzaC0ydXFIRkNtUFFRWmlIWFNHZl9ZQ28yclRHeEQzSXV5ODBQNG45TFNWVmVKeWpMcjE0cm5uR3Brb2ZRb0Fwa2tXVXZadmxXWHY3aXhMMWxSNjBqTjhKZ29hTy1FRW",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPUkJmQmJ4OUIzaC0ydXFIRkNtUFFRWmlIWFNHZl9ZQ28yclRHeEQzSXV5ODBQNG45TFNWVmVKeWpMcjE0cm5uR3Brb2ZRb0Fwa2tXVXZadmxXWHY3aXhMMWxSNjBqTjhKZ29hTy1FRW1GQ2dXWjdOV1o1dnVEX05rVEVkR1k5bGJMRnNmUEtRZVJxVFotcE94anpwSVQ0VDZabzVkSWVXVHJuLUdrS1pqaTVqNm_SAboBQVVfeXFMT3hsOHdrUkFqZmowT3B4bzFnbmFHUEFiVmxQTmFwblpmY2p6TEpnVmo1TF8tRlAzX2RxUzV3UDZ5YVZ2OTBieENONy1seTFQSTVFRXUxeHhRQXRDbnh1R3BtQzZVcTFpOEFyUktmRDNXSVR6cVRrSXNSYXVWcmlPMlI3Ty1vQ3QyQlZUYzVRNDFDTU56S3hQcU9mV1ZwR2E1eE0ybDZmWUM5N1NZY3g1SUlHMnRYbFd6cTVB?oc=5",
@@ -2505,7 +2505,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Portugal World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxORzk5M3B5WDVEU2o1NlU5QkdZTm1TN1JYX2FzTzZoUGFJN052cXNTejBJNzVFLS1DRGloMjc1RmV0SVBwOWYyV0c5cHdrYXFvZmlPTGFxS0tMd3FjTmIwTWVyS05ScTVtb2xDemxKan",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxORzk5M3B5WDVEU2o1NlU5QkdZTm1TN1JYX2FzTzZoUGFJN052cXNTejBJNzVFLS1DRGloMjc1RmV0SVBwOWYyV0c5cHdrYXFvZmlPTGFxS0tMd3FjTmIwTWVyS05ScTVtb2xDemxKanVfeEVudXlUOGh5QVY1MTlDdU1wU0VPbTRiYmdv?oc=5",
@@ -2515,7 +2515,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Time Out Market Brooklyn is transforming into an immersive “Portugal House” fan experience for the World Cup",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMXVFM01GcnlUVGswYXhOV3JDdlcxempScmRiakRocktmanhOamg5T05JR1JqaUtZclBGMDhFem5rSlplU1FXV3k1UU91RjJxUzJjeGs4TzI5OGI4TWx0QXJUdjZ6RmRFTFJ6VFVwVU",
+      "summary": "",
       "source": "Time Out Worldwide",
       "sourceUrl": "https://www.timeout.com",
       "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNMXVFM01GcnlUVGswYXhOV3JDdlcxempScmRiakRocktmanhOamg5T05JR1JqaUtZclBGMDhFem5rSlplU1FXV3k1UU91RjJxUzJjeGs4TzI5OGI4TWx0QXJUdjZ6RmRFTFJ6VFVwVUZTSWZ1WGQ4dEpLNF9UR01iOWFQajhnekVQZzZoWlJPeXJWVnJFWWdBdjhQSFUxcTJFU1VseEU2ekJ3VTdlU0dMR1AyNlp6bGFuYW9GN1VQa1NSMFJhOUs5c1R4MWE4WTFXbWlsVVh5a3FUakxlaW1XZXNnRmM?oc=5",
@@ -2525,7 +2525,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Nigeria plays Portugal in international World Cup friendly: All to know",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisgFBVV95cUxQREdWeDFqUDFEY1hSWHJsY0NVT3RJYnZwNjBhVmJORU0yR0VtOTZCdzRmSVpuMzhpaHMyaUo4XzBxUnVBbmhoTW56OUlHcEFDS1JXSEE3WS1JdEdub1c2dXpMZDU1aS0tMDVhdFMwSy",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQREdWeDFqUDFEY1hSWHJsY0NVT3RJYnZwNjBhVmJORU0yR0VtOTZCdzRmSVpuMzhpaHMyaUo4XzBxUnVBbmhoTW56OUlHcEFDS1JXSEE3WS1JdEdub1c2dXpMZDU1aS0tMDVhdFMwSy11QmxVMnVxbFlMcjdFODNtUlBJMF82T0FVT0VhLU02cWY1VFp6SlZEMjdNcktVQWw5WGVMZ1RBM3lmZEVLMUtIRHJ30gG3AUFVX3lxTE9uemlQTUdTWEc4eEs3d0UxUXB1ZkxDV1p1TVdpdHhiT1BhR3ZpNEc3cFVfcWhtcGVzZEw2d1hNbTl1dHZERUhYLXpzTzQ5UnNXS0g0cmpueVJqLWZvNkQtYW1zZ25ERW53b3AtUDAyOEZqel94QnYxWlFNb1MyQnVTYXBsLW9ZUFpCMElQZU9tUEZtUk5LS0loNk5aTWdPUjBGMXhrTkU2bDVmSnN5TXV3bjZMcjRiQQ?oc=5",
@@ -2535,7 +2535,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Portugal World Cup 2026 preview: Players to watch, group matches and squad",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWFRQzF6SVpCUlRNSU9MR0RpRUVIT0dqLUJoSlBIV01CcjZhY0hteXliMkJoVzVmeUhySVlGeU1ETUhYUnZKbEV4RjJ3aGlwYkdIR2p1WTZLRkdGZE05RHpFalV4UmpzNnNfQ25ieS",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaWFRQzF6SVpCUlRNSU9MR0RpRUVIT0dqLUJoSlBIV01CcjZhY0hteXliMkJoVzVmeUhySVlGeU1ETUhYUnZKbEV4RjJ3aGlwYkdIR2p1WTZLRkdGZE05RHpFalV4UmpzNnNfQ25ieS1Rd0FjMGF2ZWY1S2Z2OVZ5Z19PYVZTaXZGcU5YbmphV0J6Q19maE1qeHlidF9CZ1hFal9TWmUwbWpLWmE4NHJVb2J2eDnSAboBQVVfeXFMUG1XX0V3YlZqalZnUHZrc1lPbEJReDVPUTFBYjI0UFlnYTZTNjU4R0Viem9uMXhfRnZvSFZqY3U0QXFtOHFvNnBfbzVybzR4eXMyRXNJUjlkNFZTdm5Mek9BLXF1Rm1xSDlWeFduZmxmYmN5aXNmQUxuNWRKQURXbHNQdkxVekh4MjlVV0F6NWdYSXhWVW9NZ1hQLVVxMWRSaHZEeGxKUTRJU2Roem1keUFrRVV3NDdwU2dR?oc=5",
@@ -2547,7 +2547,7 @@ const NEWS_DATA = {
   "Colombia": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -2557,7 +2557,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -2567,7 +2567,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Colombia World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcHVfZHVkOG5wQWdBMmtvcEdyWEJwcmpyVllEUklTYU1zTWk5cmNiWTFTcU1VM3p0T3FJSDZRandHYTFTNUJtNVRBYkZLcEYweUNsU0d5SzNGVk5qak5ieFVkX3RoZWM5cDdoRHhsaG",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOcHVfZHVkOG5wQWdBMmtvcEdyWEJwcmpyVllEUklTYU1zTWk5cmNiWTFTcU1VM3p0T3FJSDZRandHYTFTNUJtNVRBYkZLcEYweUNsU0d5SzNGVk5qak5ieFVkX3RoZWM5cDdoRHhsaGdQY3A0XzBNRTRuQTFKcUczckxtTWEyQ0xTX1RB?oc=5",
@@ -2577,7 +2577,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Colombia’s biggest opponents? Colombia. Maybe this World Cup will give their fans true happiness - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiggFBVV95cUxOcHNZaF9qaGFmMzN1UlJrZFdQUzJyYXFXRjhzMm43U0hLZW9yZ3lKSTY3YmdvaG1DM2gzY1VGYmhtYkRGOXJQSEFzSDdZMUZiUGQxSGdMOFVTNGN0MExLRE5EWUVtV3plam5mUVF5eU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcHNZaF9qaGFmMzN1UlJrZFdQUzJyYXFXRjhzMm43U0hLZW9yZ3lKSTY3YmdvaG1DM2gzY1VGYmhtYkRGOXJQSEFzSDdZMUZiUGQxSGdMOFVTNGN0MExLRE5EWUVtV3plam5mUVF5eUVWV2hSazFhcnMtcnNXWHFhd1Fn?oc=5",
@@ -2587,7 +2587,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup schedule: Teams, group s, match dates, fixtures, how to watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbD",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQMDVZSV94S3FPTGFqdWV2cHpJTy1lTzVSNURGaFF0UzFyVk9fVUJWR0dXOTRHRlpOVFZkMlRVY2JBVEwxOUR5WHpBTFBFZmYzeFQwUS1VcnlOZU5zcUJIY0dOdzVFUC1jREJQYVZLbDF4bl9DY29tN3VWUXAycGV3UG04TmRxNVlseUNGOGtvNkY5UXZOMUR3VFRwR3MwcHl6Uzk0eU5keGM2ODRXb1J2dHppSFBDOE9HYm44eTlEMXlFOThuSEdMWUZ3?oc=5",
@@ -2597,7 +2597,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup predictions: Champions, Golden Ball, breakout stars and more",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMizwFBVV95cUxNaUkxRDFjWHh6SXNXcDFVZ2ZWR01KTmF5aHRxd1h5aXV1Sm53TmtweGFHQk5SQTVvYVNCMThHN2luQlo4Y045blBUd3FUZ0owVzZKLVI5azVpVjZtamkwZWx4aV9CTlV5MHFVUV9qRH",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.com",
       "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaUkxRDFjWHh6SXNXcDFVZ2ZWR01KTmF5aHRxd1h5aXV1Sm53TmtweGFHQk5SQTVvYVNCMThHN2luQlo4Y045blBUd3FUZ0owVzZKLVI5azVpVjZtamkwZWx4aV9CTlV5MHFVUV9qRHdqMUlqa1hZNWtGMTZFU0d0VWFBbVEwanBPc0NTM0dheFhrdmxpTk8wQVhtb1JDNWtOS2o3WC14U3Y4WnBfRklKdFp1RFRPc1F4LVlLLTdlSnp5eTZkM1VpbHhFZGxrcE0?oc=5",
@@ -2609,7 +2609,7 @@ const NEWS_DATA = {
   "DR Congo": [
     {
       "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -2619,7 +2619,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026: DR Congo friendly to be played behind closed doors",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xVXk0RVV6MThfUmlZZUdxQXAtdnprMjZMMldkVUV5Qmx3ZkhSTWI4R2hnRFZFZW1tdUk1OHF2b1BkSXV5bVNJSXZTYzRtY2ZRelBPSHlwYWZLUEw2ZzA4elpFYVU1MVU?oc=5\" targ",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.com",
       "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8xVXk0RVV6MThfUmlZZUdxQXAtdnprMjZMMldkVUV5Qmx3ZkhSTWI4R2hnRFZFZW1tdUk1OHF2b1BkSXV5bVNJSXZTYzRtY2ZRelBPSHlwYWZLUEw2ZzA4elpFYVU1MVU?oc=5",
@@ -2629,7 +2629,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "DR Congo World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiiwFBVV95cUxObWtBczVDR0F6Ukp6cGRfWkNIZHZTeWxsdmlaY2NzeUhkZjRqaVBkWENCMWhfWmQtQkpyTDBzRmVkU3ZHS2J4ekZES2JxS3gyVmhVV2h4LTJRNC1Nei1SOXIzZlFKWGV4SG85YkdsbH",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxObWtBczVDR0F6Ukp6cGRfWkNIZHZTeWxsdmlaY2NzeUhkZjRqaVBkWENCMWhfWmQtQkpyTDBzRmVkU3ZHS2J4ekZES2JxS3gyVmhVV2h4LTJRNC1Nei1SOXIzZlFKWGV4SG85YkdsbHFkTVdjNFhHZ1RtbjZ2SXFCZWp0WGx4bWRXcFdr?oc=5",
@@ -2639,7 +2639,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "DR Congo lose to Chile as Ebola concerns force venue switch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxNaHM2VEpveGstSk5TUTAxY2Z0U3ZYM01zRWhPMnBraF9HdmhWNEw1OU9RUDIyblRxUFpGZTZxeFVIeDZ2OXcyQWZZX0I3MHBjYnJmUkRORlpNUmpLeGRyMVJkZG9mZnlhZFVjUi1kMz",
+      "summary": "",
       "source": "Reuters",
       "sourceUrl": "https://www.reuters.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaHM2VEpveGstSk5TUTAxY2Z0U3ZYM01zRWhPMnBraF9HdmhWNEw1OU9RUDIyblRxUFpGZTZxeFVIeDZ2OXcyQWZZX0I3MHBjYnJmUkRORlpNUmpLeGRyMVJkZG9mZnlhZFVjUi1kMzhkVVprdG9lR3paUENlbnhGRHdKUm9qblp4WTZseFJRcTVrV0Foemh2VktxTWZVdThfdjVPTg?oc=5",
@@ -2649,7 +2649,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Africa's finest: Democratic Republic of Congo return renamed",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMivgFBVV95cUxQV0RGMEpMSlJoVVFWdVNxb0pXOHZ4SXpIV3poX2pTN2VnTXNiREdCTzBuS04xRzRfckJmX1hyT2ljdjBqT21EMVZJZElkWFVmWmU1S3ctTC1maFpaZGVhZXVuWFNGN29BUGRDSmVzUW",
+      "summary": "",
       "source": "RFI",
       "sourceUrl": "https://www.rfi.fr",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQV0RGMEpMSlJoVVFWdVNxb0pXOHZ4SXpIV3poX2pTN2VnTXNiREdCTzBuS04xRzRfckJmX1hyT2ljdjBqT21EMVZJZElkWFVmWmU1S3ctTC1maFpaZGVhZXVuWFNGN29BUGRDSmVzUW1WMzZ5TmdwZl83SHNYbEZjbFR0ZElKZzgySFh5SVoyTnlDTmcxcG1EaHNVcFI4M3N2czdLTWhOdEhKa1lZU2N1UHJLemFmNDQtWjdkYXB3?oc=5",
@@ -2659,7 +2659,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Congo DR",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxOUWU5Z3dkOTJfa2tIV0tLeUIwQmdzYmdscWU3VklwMnRwZ0dNa0pzMi1MWk1tUHdYOThsdi1jSWFveDZ5aXVPeGtIb2FSVXpQQWl5c0RRVUJZSUhMUkJQY2tBMWZUNF9OVDFUQ3FoSG",
+      "summary": "",
       "source": "FIFA",
       "sourceUrl": "https://www.fifa.com",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUWU5Z3dkOTJfa2tIV0tLeUIwQmdzYmdscWU3VklwMnRwZ0dNa0pzMi1MWk1tUHdYOThsdi1jSWFveDZ5aXVPeGtIb2FSVXpQQWl5c0RRVUJZSUhMUkJQY2tBMWZUNF9OVDFUQ3FoSGVfWTJZNGRLcEFxVmdnRm1hSERYSUpCNFYxOF9ubFBtNnJMa0VYVVNaMw?oc=5",
@@ -2671,7 +2671,7 @@ const NEWS_DATA = {
   "Uzbekistan": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -2681,7 +2681,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Uzbekistan World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijgFBVV95cUxQd0RYSUR6VHRtdm9BZ0RkZ3RUOXhickg3VklEenFfRUxfV2JrV01PbjJmSDF0eDV0NGE4cUI5S1dpY2dYanNBdkJBM1ZodVZqcGs2eUNqVjRtQTZvOUpyRWN5bzkzbWRsTFRidXdrQn",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQd0RYSUR6VHRtdm9BZ0RkZ3RUOXhickg3VklEenFfRUxfV2JrV01PbjJmSDF0eDV0NGE4cUI5S1dpY2dYanNBdkJBM1ZodVZqcGs2eUNqVjRtQTZvOUpyRWN5bzkzbWRsTFRidXdrQnBRNk9ZTjBlaXhGdzFTNmFya3NSQzdiWGQyZGw0VmVB?oc=5",
@@ -2691,7 +2691,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup: Each team’s chances - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMz",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOdHJ0aEVaZkV1cm96c1RHYnJ2cml5M2FtLUpBNEdnR3ZsSGxuYW5Lay1PYlBkMERlS19tN0UzdDZ2bTl3a0tOTF9lRm5CeXdBcnlJNU56alZOT0l6cmU3UjkzcDY0UEhKbXNEWVEzMzMyWVYyUmUtZVZJbHFTMG5TbllVRE8tV0w1enNSaUZfSjN5STlNN3lJOGN2MmItX0VPYlYxem9nX3Y0OU5LY1lIWXQ3LUgydw?oc=5",
@@ -2701,7 +2701,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Uzbekistan",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilwFBVV95cUxNWTlkb3VIRUtmdG8zdW9ZRF94UVYwOFJSMm5pTEhRQnd2aER4UkVyWnpPSFhyVHFuMGJZY0M5QnZwNmtrSmlLSFlfbjJMREo4SnJZbE1HMWpoY3VBM2pfbS1GcmdTdl93bkx4NVA4OF",
+      "summary": "",
       "source": "FIFA",
       "sourceUrl": "https://www.fifa.com",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWTlkb3VIRUtmdG8zdW9ZRF94UVYwOFJSMm5pTEhRQnd2aER4UkVyWnpPSFhyVHFuMGJZY0M5QnZwNmtrSmlLSFlfbjJMREo4SnJZbE1HMWpoY3VBM2pfbS1GcmdTdl93bkx4NVA4OFZ0UGcxc1RoWk9tY253Skttd2M0QWVHTUNUSDYtenYxVG1PRTFsOXBn?oc=5",
@@ -2711,7 +2711,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Netherlands vs Uzbekistan Extended Highlights | International Friendly",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GNDFDeWlJTDVEZHFtU214WlpDYl9yMUFJcGl0WlE2d0w5VWlQcHF6UjdXb3hWUS1xZFp4ZXJRLThvXzE1VGlzaUcxOGhDdXpUUktNM2tLLVA5SG1QbURDQ1FB?oc=5\" target=\"_bl",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1GNDFDeWlJTDVEZHFtU214WlpDYl9yMUFJcGl0WlE2d0w5VWlQcHF6UjdXb3hWUS1xZFp4ZXJRLThvXzE1VGlzaUcxOGhDdXpUUktNM2tLLVA5SG1QbURDQ1FB?oc=5",
@@ -2721,7 +2721,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Which teams could be dark horses at the 2026 World Cup?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQdU10dlVXYnBsdjFLbWZTaUFuLWVkbFM4OERJckppWUN6TWdaZ3VEZW9vY2JGaXdPU0EyRkRGdnpkSEFNcUpHMzRsVjRGc1hOZ0R2TDYyWHdxTUd2TUZNOHhtNlJLZE15Wk45WEpHVD",
+      "summary": "",
       "source": "DraftKings Network",
       "sourceUrl": "https://dknetwork.draftkings.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdU10dlVXYnBsdjFLbWZTaUFuLWVkbFM4OERJckppWUN6TWdaZ3VEZW9vY2JGaXdPU0EyRkRGdnpkSEFNcUpHMzRsVjRGc1hOZ0R2TDYyWHdxTUd2TUZNOHhtNlJLZE15Wk45WEpHVDRZSHJuMUN4YzdFN3FxejJVdzNBQ1A1QUNlVXJ6UmlVR2xSclFJbUhfc1I1WVUtZ0hG?oc=5",
@@ -2733,7 +2733,7 @@ const NEWS_DATA = {
   "England": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -2743,7 +2743,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "England v Costa Rica: World Cup 2026 warm-up – live",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMipAFBVV95cUxPNllPTG1UeUxWNUtGX25ZQlVweEhJZmR3Z3ItVWxoZjJobmthcUhuTEU1bGh4aVdiVy1od1NkbmM5UFJPLVVfbXhGekh0R0x1UkJPT2dHd0RyYUJBYUFUMDVSQW9PVjdldE9rQWtKNH",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPNllPTG1UeUxWNUtGX25ZQlVweEhJZmR3Z3ItVWxoZjJobmthcUhuTEU1bGh4aVdiVy1od1NkbmM5UFJPLVVfbXhGekh0R0x1UkJPT2dHd0RyYUJBYUFUMDVSQW9PVjdldE9rQWtKNHlaYkdjTmtXZGZaR0JtUFZNRDNMOFlRQ285MWhTUUZxSXpHMmVyZ0V0UzYwUXFGSjZlZ3VwWA?oc=5",
@@ -2753,7 +2753,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "England v Costa Rica kick-off delayed as weather causes havoc at World Cup warm-up - the",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaUhxRTRIbGQ5bmcwdFVicUg4TUhrVnphWG1lMGNEYTQ1SEw3Z0FDXzVoWnVlbm9nT25tYzRldzNYYkJ3QzlFcGZGYlNWdjZNektMWUtBRjlPS0pLZTR0bzdoWGlrbnZRTXp3WG1xeW",
+      "summary": "",
       "source": "the-independent.com",
       "sourceUrl": "https://www.the-independent.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOaUhxRTRIbGQ5bmcwdFVicUg4TUhrVnphWG1lMGNEYTQ1SEw3Z0FDXzVoWnVlbm9nT25tYzRldzNYYkJ3QzlFcGZGYlNWdjZNektMWUtBRjlPS0pLZTR0bzdoWGlrbnZRTXp3WG1xeW9SU3djRUg4OUJXYk9NVkNoLW5MUGdnZ2xYdllnZ210V1k2QTIxLWRWWDhUM2ZCZGhhYTJqTDc2NVBYdW1rSjZwODJUNDM0RlRvMDhkRUJfZWM?oc=5",
@@ -2763,7 +2763,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "England vs Costa Rica live updates: World Cup 2026 warm-up latest score after weather delays kick-off",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVW43TXFPVTB3eThSSENaNzhkeE9JcjJGcG9WdVktNG9wRDJoMHZBNjlxYlU5Y2RTQ2tCaktiMzFJU2JYWVQyNTZoY2xGRG9UeER4SmhiN2g4eFdMaTlhQ2pTZnJsNV9yc2Z6ZEY4Zm",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNVW43TXFPVTB3eThSSENaNzhkeE9JcjJGcG9WdVktNG9wRDJoMHZBNjlxYlU5Y2RTQ2tCaktiMzFJU2JYWVQyNTZoY2xGRG9UeER4SmhiN2g4eFdMaTlhQ2pTZnJsNV9yc2Z6ZEY4ZmRRRUxQanBkYzg4SmNURXNHbEc3SXJiTTItTnNrNS1Sb2lBLWxhOHpwYUpVQnZhOWFkYmFoTnFJQUVCMTctZlVNV2NISDctWUhrempKeHRRM0VHOXJwTlkxeg?oc=5",
@@ -2773,7 +2773,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup warm-up LIVE: England vs Costa Rica: score, radio commentary, text updates &amp; match stats",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiZEFVX3lxTE4yUjdmRS1wak15Nlpud282WktoajJtbHh4M01QRTR4VncxUW1nNXh5TDliZFF1aFBZeXhwcjh6c2stM3RpUUlGenJYS1BjTGZ6ZlFnRWtJQnRyYWdUVVFLZjFvcWY?oc=5\" target=\"",
+      "summary": "",
       "source": "BBC",
       "sourceUrl": "https://www.bbc.co.uk",
       "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4yUjdmRS1wak15Nlpud282WktoajJtbHh4M01QRTR4VncxUW1nNXh5TDliZFF1aFBZeXhwcjh6c2stM3RpUUlGenJYS1BjTGZ6ZlFnRWtJQnRyYWdUVVFLZjFvcWY?oc=5",
@@ -2783,7 +2783,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "England vs Costa Rica live: Match under way after an hour’s rain delay",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSmRxeTZuRDZ3a2JwbVdfR1NHRDZ2RE8tdkxZT1FELWZ1RlpVMmM2WDZES3FoZ1ZtNjctZWNrTzhELW9keDIxd2xxY1hfeWM2YTF5Y09XRWdOYkF5RlA1MEJrelFEeXd5ZUtQdGtmS3",
+      "summary": "",
       "source": "The Telegraph",
       "sourceUrl": "https://www.telegraph.co.uk",
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSmRxeTZuRDZ3a2JwbVdfR1NHRDZ2RE8tdkxZT1FELWZ1RlpVMmM2WDZES3FoZ1ZtNjctZWNrTzhELW9keDIxd2xxY1hfeWM2YTF5Y09XRWdOYkF5RlA1MEJrelFEeXd5ZUtQdGtmS3N4em1zc3QzRTZ1eUtpTzUwVzd0bFptY1Y1azN0c0lsa0dCTjhxZG1kNHZZaTBYb2ZFMUpSTDk3V3RPdw?oc=5",
@@ -2795,7 +2795,7 @@ const NEWS_DATA = {
   "Croatia": [
     {
       "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -2805,7 +2805,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Croatia World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiigFBVV95cUxQa2RkMW4xVUFOWUJmRjROV1dmcWhWcmE4eWV6aUtKbDVkVHE4TzZvV2VHVzZwZnE0X1JJbzVjSk4wakxfM3RpcTFtRE03VGdncGZjR3d0c1VoamgxNWgwS2tpcUp0M1JVQlBGdU5tYU",
+      "summary": "",
       "source": "The Guardian",
       "sourceUrl": "https://www.theguardian.com",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQa2RkMW4xVUFOWUJmRjROV1dmcWhWcmE4eWV6aUtKbDVkVHE4TzZvV2VHVzZwZnE0X1JJbzVjSk4wakxfM3RpcTFtRE03VGdncGZjR3d0c1VoamgxNWgwS2tpcUp0M1JVQlBGdU5tYURJWXAwSWU2N3ZJYl9YUHlEMWlmVWRZWE5qa1E?oc=5",
@@ -2815,7 +2815,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026 base camps: Where national teams will be based during the tournament",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2tBTS01X3BmbDlVUGo0enVpVzE4MmZZWTBXbHBENzM0SElKSkdFYWVPZU5PTzR6VmpJMEc3MmhzenBYWEFkVkZYMlBXM2tyMTBKTGdPYlliLWxObEM4ZWtIYmE1aE9GSW5BNXN0Xz",
+      "summary": "",
       "source": "FOX 5 New York",
       "sourceUrl": "https://www.fox5ny.com",
       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNS2tBTS01X3BmbDlVUGo0enVpVzE4MmZZWTBXbHBENzM0SElKSkdFYWVPZU5PTzR6VmpJMEc3MmhzenBYWEFkVkZYMlBXM2tyMTBKTGdPYlliLWxObEM4ZWtIYmE1aE9GSW5BNXN0XzRscGVFcFJ1c283QTlKYkhDZjY3V1FlakVOcE9XUUFwYkI1RC1pVmZvNWd0cUJBRjdYVlF3ZGFfZTVjaG9sRDI5V9IBtgFBVV95cUxQd1ktZFpNVVJxUHVzWDY4WGhrQURCM05YUUc0V1pFb3FWSHd1a2VIblZfd190M1lkRXdxUDVnMk1oT2ZnSy1VVHFJY1E1RmVvYV9YVUFnS282eUNrSURRVTZQbldOVHhjQ0tjUWowX2JGcHcwclZBUjJtSnlRTVQzQ3Y2ZWs5RHJPRnNmWmMtUDVJTW9ucUU3eVNfY1ZwMEpWbG5NallzekVjWW9TTGsycERYSjR4dw?oc=5",
@@ -2825,7 +2825,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Five unmissable 2026 World Cup group-stage clashes: Brazil-Morocco, England-Croatia, more",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ3otWGFKNmR6RUNua0lwN3FZTEhuM0V4UW5pWEoycFN6bHdHN0pGYjE5QlJrTl9ETkF6bExhSjhPUHRzTlNrRk85THFhU2FwbVE2SmhncTRwcVkwX0t1c0kxMnFFcHlRalN2eHp2Ul",
+      "summary": "",
       "source": "Yahoo Sports",
       "sourceUrl": "https://sports.yahoo.com",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZ3otWGFKNmR6RUNua0lwN3FZTEhuM0V4UW5pWEoycFN6bHdHN0pGYjE5QlJrTl9ETkF6bExhSjhPUHRzTlNrRk85THFhU2FwbVE2SmhncTRwcVkwX0t1c0kxMnFFcHlRalN2eHp2UlUyX1hOVGhqcGFseWxSbHR0YlRKQ0NZdjdKS2tGbUNZckRaZGhlWFNLdkczQ0NGNUlWUTR0UkRpOEhKVE1pdjR4U1dwVnljOXJUUlhhNXlfWU1MMkZualU3WHpJQUFHMVd1?oc=5",
@@ -2835,7 +2835,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Croatia World Cup 2026 Schedule: Locations, Dates, Times",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNcGdIZ3ZSZTBzNjRLTTJ0Nmx0LVY2WDhaTERiTGdLWDZsY01SVTQ1cEJoZTJWbVZjTC0tVURER1diaUlJMThoTXEtNHBYYWdqOUlNQ243RWNhUUhVM0d1SGpicEhLRUtZT0QwR0JMXz",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcGdIZ3ZSZTBzNjRLTTJ0Nmx0LVY2WDhaTERiTGdLWDZsY01SVTQ1cEJoZTJWbVZjTC0tVURER1diaUlJMThoTXEtNHBYYWdqOUlNQ243RWNhUUhVM0d1SGpicEhLRUtZT0QwR0JMXzBsMmxpOVNKUFdJdV9wdXpfeE9aaFFEbk16WllMaEd4RHhhNVBWR2tNWVZn0gGaAUFVX3lxTE5ubjhEZERCd2JscGtuZTBTWm9Da3dnZGVuYkJLUjduZEg4UFJYcGNOdUZGZFBHd09MbjlkUzBwM2t2QXFLc0NnUTh2ZDBUV3d1RmJxbVJvZERXNGd3Q2lCcnpnLW9kM2ZXb1JiNFcxbXdacXRxMnc2cldnSXFLQWpCX2xwTF9uQnlsR05DemQ3WHlORXJoV19HeUE?oc=5",
@@ -2845,7 +2845,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup 2026 Ultimate Guide: Croatia",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMinwFBVV95cUxNaDVrbkRZMnAwZUhqUUxkTDNkQXpTaGloTnp6Tng0LWFSb0xGUVZQQWplcUJHZHZwMlV1d1JlU1JaLUVnRkVNWENTS3FkT3ltOG50cjVuRG9uME1aM3NoZFB3N1hxREJSTi14TndSbG",
+      "summary": "",
       "source": "Goal.com",
       "sourceUrl": "https://www.goal.com",
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaDVrbkRZMnAwZUhqUUxkTDNkQXpTaGloTnp6Tng0LWFSb0xGUVZQQWplcUJHZHZwMlV1d1JlU1JaLUVnRkVNWENTS3FkT3ltOG50cjVuRG9uME1aM3NoZFB3N1hxREJSTi14TndSbGJpdENaY1prTHZ5VkI5ZlFCSjE5dDFYcDJVLW9HNk5qV04zU181M215MmJoM0h0bFk?oc=5",
@@ -2857,7 +2857,7 @@ const NEWS_DATA = {
   "Panama": [
     {
       "headline": "Somali Referee Says His World Cup Dream Is Dashed After U.S. Denies Entry",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNaWpBU2VkVkpXUFhVRlg4OFl0bWkwSDk4X0t3RFRlVUZKVDg1T3dCV0IySE5WSEd2NDJIUVMta3dpT0dxVTAxTXZ1OFNsVVd6d2JXNXBGdTlpbkpDTUI2UnlGWFdMaHlvcXY5UGJ1RU0yZXVoeTV3cFY2QzAySW5kZ3VfYkZFRDc2RTRsTTJDT28xTXRIMEcwTkI5RFlwUQ?oc=5",
@@ -2867,7 +2867,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -2877,7 +2877,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 FIFA Men's World Cup: How Panama can reach the Round of 32",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUhqYzU4dGMtVExLQndzTEtRS1lLY1F1MTFRRWk1RkpoWGdHSVVqYWdjcFM3eHkyVGVWZUh5RnVDUF9NcmZ0Wi1HZEtKLUt2ck1JTXBLT1dSUmN6SjZEbkJiUDBTQ2Z6LWROYlQ1SU",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOQUhqYzU4dGMtVExLQndzTEtRS1lLY1F1MTFRRWk1RkpoWGdHSVVqYWdjcFM3eHkyVGVWZUh5RnVDUF9NcmZ0Wi1HZEtKLUt2ck1JTXBLT1dSUmN6SjZEbkJiUDBTQ2Z6LWROYlQ1SURqUmtwcjd4SUs0MXA4Qi1WcG9aaFhQc2JQRDRFcmd4bzFnRFRTazloNFlIZkthSDVaUi1EUXdyT3lLcUJpVGlFRVhYWmYzQ0k?oc=5",
@@ -2887,7 +2887,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026 Team Profile: Panama",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxObjI3Zl8wa0lsTWdTQTQ0QXcwUEZHTV9kYk1uWTBEaXIzUFc5V0VaeGt4U3ZESFRXX0ZGdm91Q3k5b1BKTW9BSG1nT05yZDhtaG94UkFXZnJqWndQYVpqMy01aGtpQ1REZldMbGI4aj",
+      "summary": "",
       "source": "Concacaf",
       "sourceUrl": "https://www.concacaf.com",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxObjI3Zl8wa0lsTWdTQTQ0QXcwUEZHTV9kYk1uWTBEaXIzUFc5V0VaeGt4U3ZESFRXX0ZGdm91Q3k5b1BKTW9BSG1nT05yZDhtaG94UkFXZnJqWndQYVpqMy01aGtpQ1REZldMbGI4ajRIWFZVMm9HZk5pWDFmcHZEVEFSeWRWc0JCdl9jejBtZ0RFNXhIZDAwNDFPZ3ZzQQ?oc=5",
@@ -2897,7 +2897,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup kit ranking: Which teams will look best in 2026?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAJBVV95cUxPWklsR2dXWmlpSHRZbE44N0lMOW0tQkVnUm5xRU1aQ2pTUlBzQVZ6WmpoeGFpR0R0V1NDZ1JTamhjbzJCQTlIdElMbTRqVGp4SDRVUkR5dm5TU1c0Q0RXVDFMcUZnTXF5V0RDazZTR1",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.co.uk",
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWklsR2dXWmlpSHRZbE44N0lMOW0tQkVnUm5xRU1aQ2pTUlBzQVZ6WmpoeGFpR0R0V1NDZ1JTamhjbzJCQTlIdElMbTRqVGp4SDRVUkR5dm5TU1c0Q0RXVDFMcUZnTXF5V0RDazZTR1c1eE1kUUhPMk1URnBmRGpYRUZWUkgtbi1fRmZ4bE5HZnA0ZEdlckNOaUN1T2VJcHNseVhzMU56YXNfeUxEM0NyXzhsSWlzdGxEUkdrOGxXYVgzcDhOSDBsZHJTRjNSc1VYWnhHOS1CYkoxZGFzMERmdWt2RFJ1NHNxOGNFd1VJSy03b0VmMWZsd2NYNTFWZkVE?oc=5",
@@ -2907,7 +2907,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "St. Louis’ Bosnian and Panamanian communities celebrate cultures in 1-1 World Cup lead-up",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNX1hVMlFJZGVBZkVuOUhHSUJlaUN6OVZ2MzFEMEZkWmtqX2JReFptbzRmRDg5MlZacVIxVWpUNFdjclZYcEN4NmhRWFgyX3hfdWFtSkZlRGZnRzJwY1c2S0Z0YUhOZk9uRGNvQklCSE",
+      "summary": "",
       "source": "STLPR",
       "sourceUrl": "https://www.stlpr.org",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNX1hVMlFJZGVBZkVuOUhHSUJlaUN6OVZ2MzFEMEZkWmtqX2JReFptbzRmRDg5MlZacVIxVWpUNFdjclZYcEN4NmhRWFgyX3hfdWFtSkZlRGZnRzJwY1c2S0Z0YUhOZk9uRGNvQklCSEl4VXd0VTJmQjNMRkwzdlE1REYwdEFxLXpVTk1tUC1TMDBucHpmbmIxUw?oc=5",
@@ -2919,7 +2919,7 @@ const NEWS_DATA = {
   "Ghana": [
     {
       "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+      "summary": "",
       "source": "The New York Times",
       "sourceUrl": "https://www.nytimes.com",
       "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -2929,7 +2929,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "2026 World Cup Schedule: All Games, Dates, Matchups and How To Watch",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLV",
+      "summary": "",
       "source": "FOX Sports",
       "sourceUrl": "https://www.foxsports.com",
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNRUNmdWE4S1RoUllPcE1JS1B2S3VkbXpUYmdLY2xWeFUxb29lRnloVlJDcmFEOHZEY3gwOW1qWkpMaFQzTl9VbFdPcFNRcEZZRlJvcTRDNWZrMENLekhZQ0M0THJ4U0lORGFCWC1tLVQwZ0FHdTM1ZVJ0YUswWm4xNXRhQnZMcXh6QzdvUnZaUzhGZzl0UmRGNEViSnJMdERZ0gGgAUFVX3lxTE4zZFJyV3ZlcGU4c2JCaHJJdUZxdFlUWXVzM2RwSjZuZkJnMnlweWJ1Q2Nsdy0xT3ZNTm0zS1dnRTBrVDBzc2l1S1pHaVUyeVg4WF9uTWVvTGZsaDlaQ2ZjbG1tSjktZ2IxaTVwQjViZjRBbHFSM0pSb3Rqc1FPZGRnN0pmbVRNUW91Q0hyT0ZLUTZHV1hwLWpQYlh6WWpIR0Q?oc=5",
@@ -2939,7 +2939,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "FIFA World Cup 2026 explained in maps and charts",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVhLbnFSRzhxelpEWE10M0JwN0EtZ0M0Q2JqN3ZfblRWYjhJQ3VsMDROQkJMbkNtZy1WWEJsaTE2V0JwWnZ3U04zTnJVZ1g0UDdUeXRxVVY5c3RDd3BONkRQSE4tTkFJZHY4MERtM1",
+      "summary": "",
       "source": "Al Jazeera",
       "sourceUrl": "https://www.aljazeera.com",
       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaVhLbnFSRzhxelpEWE10M0JwN0EtZ0M0Q2JqN3ZfblRWYjhJQ3VsMDROQkJMbkNtZy1WWEJsaTE2V0JwWnZ3U04zTnJVZ1g0UDdUeXRxVVY5c3RDd3BONkRQSE4tTkFJZHY4MERtM1lvSzhtYUVBYjFXQWpEZjQ2ZjNYSnN2ekNBZEw3a2lIZHUzbmJDeUHSAZsBQVVfeXFMTi02bGI5UFhudENGaDBQYlh2TmZNR040VFdIelpTWjctU1hyWHFYZ3hLdWxKdGpBQ2ZHSTU5dl9YeW42bkJmTE9XUVVwRHFFN1VTZHhNRVYwcW1UbnpDMXNPaEdUTWNfZnI5d1I4QUxCeFZyMW51QUVrQldNeEdkQ3hQcWlySWN3Q3NETlpwblBYRGhCNUdzcmFmd1E?oc=5",
@@ -2949,7 +2949,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "Africa's finest: Ghana to seek World Cup redemption under new coach Queiroz",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMif0FVX3lxTE1WcWE4UFNsZDdvcG1ObVBSbWkzb0plRklxcU1CSjJnTEN5b3dRT0RUR19OZ1JMN0hxSEZSU3JjYlh2LUpaUi1BekJLUGdEQnAyQlJycXhZc3M5b1R2aWczSGY0dzFUaXZfR3pvWHFiaj",
+      "summary": "",
       "source": "RFI",
       "sourceUrl": "https://www.rfi.fr",
       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WcWE4UFNsZDdvcG1ObVBSbWkzb0plRklxcU1CSjJnTEN5b3dRT0RUR19OZ1JMN0hxSEZSU3JjYlh2LUpaUi1BekJLUGdEQnAyQlJycXhZc3M5b1R2aWczSGY0dzFUaXZfR3pvWHFiajdObUQtRzRMYmhZc1psZmc?oc=5",
@@ -2959,7 +2959,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "World Cup kit ranking: Which teams will look best in 2026?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMigAJBVV95cUxPWklsR2dXWmlpSHRZbE44N0lMOW0tQkVnUm5xRU1aQ2pTUlBzQVZ6WmpoeGFpR0R0V1NDZ1JTamhjbzJCQTlIdElMbTRqVGp4SDRVUkR5dm5TU1c0Q0RXVDFMcUZnTXF5V0RDazZTR1",
+      "summary": "",
       "source": "ESPN",
       "sourceUrl": "https://www.espn.co.uk",
       "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPWklsR2dXWmlpSHRZbE44N0lMOW0tQkVnUm5xRU1aQ2pTUlBzQVZ6WmpoeGFpR0R0V1NDZ1JTamhjbzJCQTlIdElMbTRqVGp4SDRVUkR5dm5TU1c0Q0RXVDFMcUZnTXF5V0RDazZTR1c1eE1kUUhPMk1URnBmRGpYRUZWUkgtbi1fRmZ4bE5HZnA0ZEdlckNOaUN1T2VJcHNseVhzMU56YXNfeUxEM0NyXzhsSWlzdGxEUkdrOGxXYVgzcDhOSDBsZHJTRjNSc1VYWnhHOS1CYkoxZGFzMERmdWt2RFJ1NHNxOGNFd1VJSy03b0VmMWZsd2NYNTFWZkVE?oc=5",
@@ -2969,7 +2969,7 @@ const NEWS_DATA = {
     },
     {
       "headline": "How and where Hamiltonians — from Ghana, Portugal and beyond — will celebrate FIFA World Cup 2026",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMingFBVV95cUxNRUV1d0hid3hwR3dnWkdqM3h4dUFVN091Zlp3NHNpcGR2bVotSmc4dmtqLUxqa2tfR25UdGVLQWdQZGxmaG01ZzFMMGZmbEhyaExoOExvZkJyWEo4SlA1VzFnVUV6bWEwcThGZzNjZX",
+      "summary": "",
       "source": "CBC",
       "sourceUrl": "https://www.cbc.ca",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNRUV1d0hid3hwR3dnWkdqM3h4dUFVN091Zlp3NHNpcGR2bVotSmc4dmtqLUxqa2tfR25UdGVLQWdQZGxmaG01ZzFMMGZmbEhyaExoOExvZkJyWEo4SlA1VzFnVUV6bWEwcThGZzNjZXpkWDlXZ01vdklWbXp6QXFCUFpza0xIYUlMS1F6YWpEWm5EUnBmUU9VYjg1cFRTQQ?oc=5",
@@ -2984,7 +2984,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Egypt",
     "headline": "Iran players: U.S. visa policies creating World Cup 'tension'",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd2w4a05RWTA2MDBhYTFjZWROeGxpTG81RktaNVRJdVo0TEVGU0VwMzZfd1pjSUpKQWpzN0kteU05S1Nwa0R1eDZCd1hzcFBhUW5jblZhaTFKU25yeXVmcHBqZDFZclBBTFJ5WXFLR3",
+    "summary": "",
     "source": "ESPN",
     "sourceUrl": "https://www.espn.com",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd2w4a05RWTA2MDBhYTFjZWROeGxpTG81RktaNVRJdVo0TEVGU0VwMzZfd1pjSUpKQWpzN0kteU05S1Nwa0R1eDZCd1hzcFBhUW5jblZhaTFKU25yeXVmcHBqZDFZclBBTFJ5WXFLR3RELWd3T1Zxb1h4OW5pVm9GaWVRMnNUdnptOHdNR1R5Mmh4Mzc4ZGZ3UnBNcm53NHFzNURQZzVfQlY0dw?oc=5",
@@ -2995,7 +2995,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Saudi Arabia",
     "headline": "Iran players: U.S. visa policies creating World Cup 'tension'",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd2w4a05RWTA2MDBhYTFjZWROeGxpTG81RktaNVRJdVo0TEVGU0VwMzZfd1pjSUpKQWpzN0kteU05S1Nwa0R1eDZCd1hzcFBhUW5jblZhaTFKU25yeXVmcHBqZDFZclBBTFJ5WXFLR3",
+    "summary": "",
     "source": "ESPN",
     "sourceUrl": "https://www.espn.com",
     "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPd2w4a05RWTA2MDBhYTFjZWROeGxpTG81RktaNVRJdVo0TEVGU0VwMzZfd1pjSUpKQWpzN0kteU05S1Nwa0R1eDZCd1hzcFBhUW5jblZhaTFKU25yeXVmcHBqZDFZclBBTFJ5WXFLR3RELWd3T1Zxb1h4OW5pVm9GaWVRMnNUdnptOHdNR1R5Mmh4Mzc4ZGZ3UnBNcm53NHFzNURQZzVfQlY0dw?oc=5",
@@ -3006,7 +3006,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Japan",
     "headline": "The 2026 World Cup Is Being Decided at Passport Control, Not on the Pitch",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMioAFBVV95cUxQOWdyWEFzUkQyNUxRdGlMNU0xalpncTZQdW1saVpHdGtDT2loaVp1QWpSbEFOQ1ZERndiT2dRb1E2RTlFNFRocFY3QWZUWmtEa2RWSDR6Ym9QTk53TkZoLWlYRERZcnM4WXQ0bWVCek",
+    "summary": "",
     "source": "WIRED Middle East",
     "sourceUrl": "https://www.wired.me",
     "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOWdyWEFzUkQyNUxRdGlMNU0xalpncTZQdW1saVpHdGtDT2loaVp1QWpSbEFOQ1ZERndiT2dRb1E2RTlFNFRocFY3QWZUWmtEa2RWSDR6Ym9QTk53TkZoLWlYRERZcnM4WXQ0bWVCekswZTA3cnpHS3RRc0VMNHYxaWo3Y05KdFk1VEt6MEQ5eGNQTExVUVBiUVpOSzFnQnpo?oc=5",
@@ -3017,7 +3017,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Mexico",
     "headline": "Somali referee denied entry to U.S. ahead of World Cup - The Athletic",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUs5czIxa0UxX1VuQ2lGdEU3aUZFVU1uYkhJWHZUWEdLUUFtWFVtV1dsaWlETWxRNUVfakhwY0hwd2Uzc1JRNEQ0Wkg5RmhpNmltTGJHZ19IZ2hzVDBqX2hGNF83azBkRUZIcTU5M2",
+    "summary": "",
     "source": "The New York Times",
     "sourceUrl": "https://www.nytimes.com",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUs5czIxa0UxX1VuQ2lGdEU3aUZFVU1uYkhJWHZUWEdLUUFtWFVtV1dsaWlETWxRNUVfakhwY0hwd2Uzc1JRNEQ0Wkg5RmhpNmltTGJHZ19IZ2hzVDBqX2hGNF83azBkRUZIcTU5M2hoQnhVNGdfUjlDeHAwSURGWU02NERES0FtaHdSV2VmYy1RdTI1Y3pnOHFmY1h2WHdIRmNTOGpxblo?oc=5",
@@ -3028,7 +3028,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Norway",
     "headline": "Somali referee denied entry to U.S. ahead of World Cup - The Athletic",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUs5czIxa0UxX1VuQ2lGdEU3aUZFVU1uYkhJWHZUWEdLUUFtWFVtV1dsaWlETWxRNUVfakhwY0hwd2Uzc1JRNEQ0Wkg5RmhpNmltTGJHZ19IZ2hzVDBqX2hGNF83azBkRUZIcTU5M2",
+    "summary": "",
     "source": "The New York Times",
     "sourceUrl": "https://www.nytimes.com",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOMUs5czIxa0UxX1VuQ2lGdEU3aUZFVU1uYkhJWHZUWEdLUUFtWFVtV1dsaWlETWxRNUVfakhwY0hwd2Uzc1JRNEQ0Wkg5RmhpNmltTGJHZ19IZ2hzVDBqX2hGNF83azBkRUZIcTU5M2hoQnhVNGdfUjlDeHAwSURGWU02NERES0FtaHdSV2VmYy1RdTI1Y3pnOHFmY1h2WHdIRmNTOGpxblo?oc=5",
@@ -3039,7 +3039,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Haiti",
     "headline": "A warm World Cup welcome? U.S. immigration policies have chilling effect",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQeW52SHRrOWJWSVZ0ZWpCNnd2OTB3dU1GTVBvdjNtLS03TEJPcjBUeUdyUkFZMk1JNE9jeU00eC1GUHplVHlvQkZZSWRXUU8zNDZDS3otZjJFN0RkU0hiUkZEd1o5aXNTSzY4YnVyRW",
+    "summary": "",
     "source": "NPR",
     "sourceUrl": "https://www.npr.org",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeW52SHRrOWJWSVZ0ZWpCNnd2OTB3dU1GTVBvdjNtLS03TEJPcjBUeUdyUkFZMk1JNE9jeU00eC1GUHplVHlvQkZZSWRXUU8zNDZDS3otZjJFN0RkU0hiUkZEd1o5aXNTSzY4YnVyRWRzQ1NyQ3FvaWtuajRSOWRIbk1vSQ?oc=5",
@@ -3050,7 +3050,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Senegal",
     "headline": "A warm World Cup welcome? U.S. immigration policies have chilling effect",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQeW52SHRrOWJWSVZ0ZWpCNnd2OTB3dU1GTVBvdjNtLS03TEJPcjBUeUdyUkFZMk1JNE9jeU00eC1GUHplVHlvQkZZSWRXUU8zNDZDS3otZjJFN0RkU0hiUkZEd1o5aXNTSzY4YnVyRW",
+    "summary": "",
     "source": "NPR",
     "sourceUrl": "https://www.npr.org",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeW52SHRrOWJWSVZ0ZWpCNnd2OTB3dU1GTVBvdjNtLS03TEJPcjBUeUdyUkFZMk1JNE9jeU00eC1GUHplVHlvQkZZSWRXUU8zNDZDS3otZjJFN0RkU0hiUkZEd1o5aXNTSzY4YnVyRWRzQ1NyQ3FvaWtuajRSOWRIbk1vSQ?oc=5",
@@ -3061,7 +3061,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Austria",
     "headline": "A warm World Cup welcome? U.S. immigration policies have chilling effect",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMigwFBVV95cUxQeW52SHRrOWJWSVZ0ZWpCNnd2OTB3dU1GTVBvdjNtLS03TEJPcjBUeUdyUkFZMk1JNE9jeU00eC1GUHplVHlvQkZZSWRXUU8zNDZDS3otZjJFN0RkU0hiUkZEd1o5aXNTSzY4YnVyRW",
+    "summary": "",
     "source": "NPR",
     "sourceUrl": "https://www.npr.org",
     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQeW52SHRrOWJWSVZ0ZWpCNnd2OTB3dU1GTVBvdjNtLS03TEJPcjBUeUdyUkFZMk1JNE9jeU00eC1GUHplVHlvQkZZSWRXUU8zNDZDS3otZjJFN0RkU0hiUkZEd1o5aXNTSzY4YnVyRWRzQ1NyQ3FvaWtuajRSOWRIbk1vSQ?oc=5",
@@ -3072,7 +3072,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "South Korea",
     "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+    "summary": "",
     "source": "The New York Times",
     "sourceUrl": "https://www.nytimes.com",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -3083,7 +3083,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Curaçao",
     "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+    "summary": "",
     "source": "The New York Times",
     "sourceUrl": "https://www.nytimes.com",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -3094,7 +3094,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Sweden",
     "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+    "summary": "",
     "source": "The New York Times",
     "sourceUrl": "https://www.nytimes.com",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -3105,7 +3105,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Belgium",
     "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+    "summary": "",
     "source": "The New York Times",
     "sourceUrl": "https://www.nytimes.com",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -3116,7 +3116,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Uruguay",
     "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+    "summary": "",
     "source": "The New York Times",
     "sourceUrl": "https://www.nytimes.com",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
@@ -3127,7 +3127,7 @@ const OVERVIEW_NEWS = [
   {
     "team": "Jordan",
     "headline": "The World Cup visa mess has its roots in Gianni Infantino’s cosiness to President Trump - The Athletic",
-    "summary": "<a href=\"https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV",
+    "summary": "",
     "source": "The New York Times",
     "sourceUrl": "https://www.nytimes.com",
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOME1nU3d6b0xSZTBSODZVc0NiM2xaUlh0ZkVFQTNHZ3BWdWFuNjVSMnJCZ0tuTHBEbzRjcXItMENlMlBUZm1TRDJQdmw5TnV0VnJud3lqLUowczd0THlSWGFvMUNfcFk5MldfdUozZV8waGoxX3dadTJPQm1DUjJpMFhFcmhGa2lESm9SbQ?oc=5",
