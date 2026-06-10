@@ -20,7 +20,7 @@ jobs:
       - name: Generate fresh news data
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node scripts/generate-news.js
+        run: node scripts/generate-news.cjs
 
       - name: Commit and push if changed
         run: |
