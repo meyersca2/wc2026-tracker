@@ -46,23 +46,17 @@ function getSourceUrl(source, headline) {
 }
 
 function NewsItem({ item }) {
-  const sourceUrl = getSourceUrl(item.source, item.headline);
+  const searchUrl = "https://news.google.com/search?q=" + encodeURIComponent(item.headline + " " + item.source + " World Cup 2026");
   return (
     <div style={{ padding: "14px 0", borderBottom: "1px solid #f0f0f0", display: "flex", flexDirection: "column", gap: "5px" }}>
       <div style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
         <CategoryBadge category={item.category} />
-        <span style={{ fontSize: "11px", color: "#9e9e9e" }}>
-          {item.date} ·{" "}
-          {sourceUrl ? (
-            <a href={sourceUrl} target="_blank" rel="noopener noreferrer"
-              style={{ color: "#cc0000", textDecoration: "none", fontWeight: 600 }}
-              onClick={e => e.stopPropagation()}>
-              {item.source} ↗
-            </a>
-          ) : item.source}
-        </span>
+        <span style={{ fontSize: "11px", color: "#9e9e9e" }}>{item.date} · {item.source}</span>
       </div>
-      <div style={{ fontSize: "14px", fontWeight: 700, color: "#111", lineHeight: 1.3 }}>{item.headline}</div>
+      <a href={searchUrl} target="_blank" rel="noopener noreferrer"
+        style={{ fontSize: "14px", fontWeight: 700, color: "#cc0000", lineHeight: 1.3, textDecoration: "none" }}>
+        {item.headline} ↗
+      </a>
       {item.summary && <div style={{ fontSize: "12px", color: "#555", lineHeight: 1.5, fontFamily: "Georgia,serif" }}>{item.summary}</div>}
     </div>
   );
