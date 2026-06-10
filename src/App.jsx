@@ -219,9 +219,11 @@ export default function App() {
           {/* Grid */}
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))", gap: "10px" }}>
             {filteredTeams.map(team => {
-              // Prefer first non-entry story for card preview
+              // Prefer first non-entry story with a real headline for card preview
               const allStories = NEWS_DATA[team.name] || [];
-              const firstStory = allStories.find(s => s.category !== 'Entry') || allStories[0];
+              const firstStory = allStories.find(s => s.category !== 'Entry' && (s.headline || '').length > 20) || 
+                                 allStories.find(s => s.category !== 'Entry') || 
+                                 allStories[0];
               const rawSummary = firstStory?.headline || "";
               const cleanSummary = cleanText(rawSummary);
               const firstSentence = cleanSummary.split(". ")?.[0];

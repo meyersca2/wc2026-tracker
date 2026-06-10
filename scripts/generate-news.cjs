@@ -201,8 +201,19 @@ function fetchTeamNews(teamName) {
     var filtered = raw.filter(function(item) {
       return isTeamSpecific(item.headline, item.summary, teamName);
     }).slice(0, 5);
-    // Fall back to unfiltered if nothing passes (small/obscure teams)
-    var items = filtered.length > 0 ? filtered : raw.slice(0, 3);
+    // For obscure teams with no specific coverage, use top results but still check headline
+    var items;
+    if (filtered.length > 0) {
+      items = filtered;
+    } else {
+      // Last resort: take any article but strip ones clearly about a different team
+      var otherTeams = TEAMS.map(function(t) { return t.name.toLowerCase(); })
+        .filter(function(n) { return n !== teamName.toLowerCase(); });
+      items = raw.filter(function(item) {
+        var hl = item.headline.toLowerCase();
+        return !otherTeams.some(function(n) { return hl.startsWith(n) || hl.includes(' ' + n + ' '); });
+      }).slice(0, 3);
+    }
     return items.map(function(item) {
       return Object.assign({}, item, { category: categorize(item.headline) });
     });
