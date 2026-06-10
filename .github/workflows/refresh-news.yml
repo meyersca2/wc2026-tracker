@@ -1,0 +1,31 @@
+name: Refresh WC2026 News
+
+on:
+  schedule:
+    - cron: '0 6,18 * * *'   # 6am and 6pm UTC daily (2am/2pm ET)
+  workflow_dispatch:           # also allows manual trigger from GitHub UI
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Generate fresh news data
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node scripts/generate-news.js
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "wc2026-bot"
+          git config user.email "bot@wc2026-tracker"
+          git add src/newsData.js
+          git diff --cached --quiet || git commit -m "Auto-refresh news data $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
