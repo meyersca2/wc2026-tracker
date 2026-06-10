@@ -130,7 +130,16 @@ function parseRSS(xml) {
     }
     items.push({
       headline:  title.replace(/\s*[-|]\s*[^-|]+$/, '').trim(),
-      summary:   desc.replace(/<a[^>]*>[sS]*?</a>/gi, '').replace(/<[^>]+>/g, '').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&[a-z]+;/gi,' ').replace(/s+/g,' ').trim().slice(0, 200),
+      summary: (function(d) {
+        if (!d) return '';
+        if (/^\s*<a\s/i.test(d) || /^\s*a href/i.test(d)) return '';
+        return d.replace(/<a[^>]*>[\s\S]*?<\/a>/gi, '')
+          .replace(/<[^>]+>/g, '')
+          .replace(/&amp;/g, '&').replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+          .replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+          .replace(/&[a-z#0-9]+;/gi, ' ')
+          .replace(/\s+/g, ' ').trim().slice(0, 200);
+      })(desc),
       source:    sourceName || 'News',
       sourceUrl: sourceUrl,
       url:       url,
@@ -233,3 +242,11 @@ async function main() {
     'const OVERVIEW_NEWS = ' + JSON.stringify(overview, null, 2) + ';\n\n' +
     'const TEAMS = [\n' + teamList + ',\n];\n\n' +
     'export { NEWS_DATA, OVERVIEW_NEWS, TEAMS };\n';
+
+  var outPath = path.join(__dirname, '../src/newsData.js');
+  fs.writeFileSync(outPath, output, 'utf8');
+  var total = Object.values(allNews).reduce(function(s, a) { return s + a.length; }, 0);
+  console.log('\n✅ Done — ' + total + ' articles across ' + TEAMS.length + ' teams');
+}
+
+main().catch(function(e) { console.error(e); process.exit(1); });
