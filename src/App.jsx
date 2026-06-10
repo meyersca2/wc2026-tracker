@@ -30,7 +30,15 @@ function CategoryBadge({ category }) {
 
 function cleanText(s) {
   if (!s) return "";
-  return s.replace(/<[^>]+>/g, "").replace(/&amp;/g,"&").replace(/&lt;/g,"<").replace(/&gt;/g,">").replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&[a-z]+;/gi," ").trim();
+  // If the whole string is an anchor tag or starts with a href, discard it
+  if (/^\s*<a[\s>]/i.test(s) || /^\s*a\s+href=/i.test(s)) return "";
+  return s
+    .replace(/<a[^>]*>[\s\S]*?<\/a>/gi, "")
+    .replace(/<[^>]+>/g, "")
+    .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"').replace(/&#39;/g, "'")
+    .replace(/&[a-z#0-9]+;/gi, " ")
+    .replace(/\s+/g, " ").trim();
 }
 function getArticleUrl(url, headline, source) {
   if (!url || url.includes("news.google.com")) {
@@ -174,7 +182,7 @@ export default function App() {
             {filteredTeams.map(team => {
               const firstStory = NEWS_DATA[team.name]?.[0];
               const rawSummary = firstStory?.summary || firstStory?.headline || "";
-              const cleanSummary = rawSummary.replace(/<[^>]+>/g, "").replace(/&amp;/g,"&").replace(/&[a-z]+;/gi," ").replace(/a\s+href="[^"]*"/gi,"").trim();
+              const cleanSummary = cleanText(rawSummary);
               const firstSentence = cleanSummary.split(". ")?.[0];
               const topSummary = firstSentence ? firstSentence.slice(0, 100) + "." : null;
               return (
