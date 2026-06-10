@@ -166,6 +166,28 @@ function categorize(h) {
 
 function sleep(ms) { return new Promise(function(r) { setTimeout(r, ms); }); }
 
+function isTeamSpecific(headline, summary, teamName) {
+  var tl = teamName.toLowerCase();
+  var text = (headline + ' ' + summary).toLowerCase();
+  // Check team name or known aliases
+  var aliases = {
+    'türkiye': ['turkey', 'turkish'],
+    'usa': ['united states', 'usmnt', 'u.s. men', 'american soccer', 'us men'],
+    'south korea': ['korea republic', 'korean national', 'south korean'],
+    'ivory coast': ["ivory coast", "côte d'ivoire", "cote d'ivoire"],
+    'dr congo': ['congo', 'drc'],
+    'bosnia & herzegovina': ['bosnia', 'bosnian'],
+  };
+  var terms = [tl].concat(aliases[tl] || []);
+  // Must appear in headline OR at least twice in text
+  var inHeadline = terms.some(function(t) { return headline.toLowerCase().includes(t); });
+  var inTextCount = terms.reduce(function(n, t) {
+    var re = new RegExp(t, 'gi');
+    return n + (text.match(re) || []).length;
+  }, 0);
+  return inHeadline || inTextCount >= 2;
+}
+
 function fetchTeamNews(teamName) {
   var q = encodeURIComponent(getSearchTerm(teamName));
   var rssUrl = 'https://news.google.com/rss/search?q=' + q + '&hl=en-US&gl=US&ceid=US:en';
@@ -174,8 +196,14 @@ function fetchTeamNews(teamName) {
       console.warn('  ' + teamName + ': HTTP ' + r.status);
       return [];
     }
-    var raw = parseRSS(r.body).slice(0, 5);
-    return raw.map(function(item) {
+    var raw = parseRSS(r.body);
+    // Filter to team-specific articles only
+    var filtered = raw.filter(function(item) {
+      return isTeamSpecific(item.headline, item.summary, teamName);
+    }).slice(0, 5);
+    // Fall back to unfiltered if nothing passes (small/obscure teams)
+    var items = filtered.length > 0 ? filtered : raw.slice(0, 3);
+    return items.map(function(item) {
       return Object.assign({}, item, { category: categorize(item.headline) });
     });
   }).catch(function(e) {
@@ -209,10 +237,26 @@ function fetchEntryNews(teamName) {
   }).catch(function() { return null; });
 }
 
+
+function fetchGeneralNews() {
+  var q = encodeURIComponent('FIFA World Cup 2026');
+  var rssUrl = 'https://news.google.com/rss/search?q=' + q + '&hl=en-US&gl=US&ceid=US:en';
+  return fetchURL(rssUrl).then(function(r) {
+    if (r.status !== 200) return [];
+    var items = parseRSS(r.body).slice(0, 6);
+    return items.map(function(item) {
+      return Object.assign({}, item, { team: 'General', category: categorize(item.headline) });
+    });
+  }).catch(function() { return []; });
+}
 async function main() {
   console.log('Fetching real news for ' + TEAMS.length + ' teams...');
   var allNews = {};
   var overviewItems = [];
+  // Fetch general WC news for the dedicated section
+  process.stdout.write('Fetching general WC news... ');
+  var generalNews = await fetchGeneralNews();
+  console.log(generalNews.length + ' items');
 
   for (var i = 0; i < TEAMS.length; i++) {
     var team = TEAMS[i];
@@ -248,8 +292,9 @@ async function main() {
     '// Last updated: ' + new Date().toISOString() + '\n\n' +
     'const NEWS_DATA = ' + JSON.stringify(allNews, null, 2) + ';\n\n' +
     'const OVERVIEW_NEWS = ' + JSON.stringify(overview, null, 2) + ';\n\n' +
+    'const GENERAL_NEWS = ' + JSON.stringify(generalNews, null, 2) + ';\n\n' +
     'const TEAMS = [\n' + teamList + ',\n];\n\n' +
-    'export { NEWS_DATA, OVERVIEW_NEWS, TEAMS };\n';
+    'export { NEWS_DATA, OVERVIEW_NEWS, GENERAL_NEWS, TEAMS };\n';
 
   var outPath = path.join(__dirname, '../src/newsData.js');
   fs.writeFileSync(outPath, output, 'utf8');

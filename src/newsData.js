@@ -3058,4 +3058,6 @@ const TEAMS = [
   { name: "Ghana", flag: "🇬🇭", group: "L", confederation: "CAF" },
 ];
 
-export { NEWS_DATA, OVERVIEW_NEWS, TEAMS };
+const GENERAL_NEWS = [];
+
+export { NEWS_DATA, OVERVIEW_NEWS, GENERAL_NEWS, TEAMS };

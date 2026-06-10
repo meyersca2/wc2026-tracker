@@ -1,5 +1,6 @@
 import { useState, useMemo } from "react";
-import { NEWS_DATA, OVERVIEW_NEWS, TEAMS } from "./newsData.js";
+import { NEWS_DATA, OVERVIEW_NEWS, GENERAL_NEWS as _GN, TEAMS } from "./newsData.js";
+const GENERAL_NEWS = _GN || [];
 
 const CONF_COLORS = {
   UEFA: "#003399", CONMEBOL: "#006600", CONCACAF: "#cc3300",
@@ -136,6 +137,33 @@ export default function App() {
         <div style={{ padding: "20px" }}>
 
           {/* Overview Panel */}
+          {/* General WC News Panel */}
+          {GENERAL_NEWS.length > 0 && (
+            <div style={{
+              backgroundColor: "#fff", border: "1px solid #e0e0e0", borderRadius: "8px",
+              padding: "16px 20px", marginBottom: "16px", boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
+            }}>
+              <div style={{ marginBottom: "12px" }}>
+                <div style={{ fontSize: "13px", fontWeight: 800, letterSpacing: "0.06em", color: "#111" }}>🌐 WORLD CUP 2026 — GENERAL NEWS</div>
+                <div style={{ fontSize: "11px", color: "#888", marginTop: "2px" }}>Tournament-wide coverage, schedules, previews &amp; analysis</div>
+              </div>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0 24px" }}>
+                {GENERAL_NEWS.slice(0, 6).map((item, i) => (
+                  <div key={i} style={{ borderBottom: "1px solid #f0f0f0", padding: "8px 0" }}>
+                    <div style={{ display: "flex", alignItems: "center", gap: "6px", marginBottom: "3px", flexWrap: "wrap" }}>
+                      <CategoryBadge category={item.category} />
+                      <span style={{ fontSize: "10px", color: "#aaa" }}>{item.date} · {item.source}</span>
+                    </div>
+                    <a href={getArticleUrl(item.url, item.headline, item.source)} target="_blank" rel="noopener noreferrer"
+                      style={{ fontSize: "12px", fontWeight: 700, color: "#cc0000", lineHeight: 1.35, textDecoration: "none", display: "block" }}>
+                      {item.headline} ↗
+                    </a>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
           <div style={{
             backgroundColor: "#fff", border: "1px solid #e0e0e0", borderRadius: "8px",
             padding: "16px 20px", marginBottom: "20px", boxShadow: "0 1px 4px rgba(0,0,0,0.06)",
