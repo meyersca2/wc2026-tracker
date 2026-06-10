@@ -29,18 +29,25 @@ function CategoryBadge({ category }) {
 }
 
 function NewsItem({ item }) {
-  const searchUrl = "https://www.google.com/search?q=" + encodeURIComponent(item.headline + " " + item.source + " World Cup 2026");
+  const articleUrl = item.url || null;
+  const cleanSummary = item.summary ? item.summary.replace(/<[^>]+>/g, "").replace(/&[a-z]+;/gi, " ").trim() : "";
   return (
     <div style={{ padding: "14px 0", borderBottom: "1px solid #f0f0f0", display: "flex", flexDirection: "column", gap: "5px" }}>
       <div style={{ display: "flex", alignItems: "center", gap: "8px", flexWrap: "wrap" }}>
         <CategoryBadge category={item.category} />
-        <span style={{ fontSize: "11px", color: "#9e9e9e" }}>{item.date} · {item.source}</span>
+        <span style={{ fontSize: "11px", color: "#9e9e9e" }}>
+          {item.date}{item.source ? " · " + item.source : ""}
+        </span>
       </div>
-      <a href={searchUrl} target="_blank" rel="noopener noreferrer"
-        style={{ fontSize: "14px", fontWeight: 700, color: "#cc0000", lineHeight: 1.3, textDecoration: "none" }}>
-        {item.headline} ↗
-      </a>
-      {item.summary && <div style={{ fontSize: "12px", color: "#555", lineHeight: 1.5, fontFamily: "Georgia,serif" }}>{item.summary}</div>}
+      {articleUrl ? (
+        <a href={articleUrl} target="_blank" rel="noopener noreferrer"
+          style={{ fontSize: "14px", fontWeight: 700, color: "#cc0000", lineHeight: 1.3, textDecoration: "none", display: "block" }}>
+          {item.headline} ↗
+        </a>
+      ) : (
+        <div style={{ fontSize: "14px", fontWeight: 700, color: "#111", lineHeight: 1.3 }}>{item.headline}</div>
+      )}
+      {cleanSummary && <div style={{ fontSize: "12px", color: "#555", lineHeight: 1.5, fontFamily: "Georgia,serif" }}>{cleanSummary}</div>}
     </div>
   );
 }
@@ -137,7 +144,15 @@ export default function App() {
                       <CategoryBadge category={item.category} />
                       <span style={{ fontSize: "10px", color: "#aaa" }}>{item.date}</span>
                     </div>
-                    <div style={{ fontSize: "12px", fontWeight: 700, color: "#111", lineHeight: 1.35 }}>{item.headline}</div>
+                    {item.url ? (
+                      <a href={item.url} target="_blank" rel="noopener noreferrer"
+                        style={{ fontSize: "12px", fontWeight: 700, color: "#cc0000", lineHeight: 1.35, textDecoration: "none", display: "block" }}
+                        onClick={e => e.stopPropagation()}>
+                        {item.headline} ↗
+                      </a>
+                    ) : (
+                      <div style={{ fontSize: "12px", fontWeight: 700, color: "#111", lineHeight: 1.35 }}>{item.headline}</div>
+                    )}
                   </div>
                 );
               })}
@@ -155,8 +170,10 @@ export default function App() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(160px, 1fr))", gap: "10px" }}>
             {filteredTeams.map(team => {
               const firstStory = NEWS_DATA[team.name]?.[0];
-              const firstSentence = firstStory?.summary?.split(". ")?.[0];
-              const topSummary = firstSentence ? firstSentence + "." : null;
+              const rawSummary = firstStory?.summary || firstStory?.headline || "";
+              const cleanSummary = rawSummary.replace(/<[^>]+>/g, "").replace(/&[a-z]+;/gi, " ").trim();
+              const firstSentence = cleanSummary.split(". ")?.[0];
+              const topSummary = firstSentence ? firstSentence.slice(0, 100) + "." : null;
               return (
                 <TeamCard
                   key={team.name} team={team}
