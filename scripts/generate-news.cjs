@@ -130,7 +130,7 @@ function parseRSS(xml) {
     }
     items.push({
       headline:  title.replace(/\s*[-|]\s*[^-|]+$/, '').trim(),
-      summary:   desc.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').trim().slice(0, 250),
+      summary:   desc.replace(/<a[^>]*>[sS]*?</a>/gi, '').replace(/<[^>]+>/g, '').replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#39;/g,"'").replace(/&[a-z]+;/gi,' ').replace(/s+/g,' ').trim().slice(0, 200),
       source:    sourceName || 'News',
       sourceUrl: sourceUrl,
       url:       url,
