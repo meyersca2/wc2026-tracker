@@ -1,8 +1,11 @@
-// Runs in GitHub Actions — fetches real news via RSS, writes src/newsData.js
-const https = require("https");
-const http = require("http");
-const fs = require("fs");
-const path = require("path");
+#!/usr/bin/env node
+// CommonJS script — runs in GitHub Actions to fetch real RSS news
+'use strict';
+
+const https = require('https');
+const http = require('http');
+const fs = require('fs');
+const path = require('path');
 
 const TEAMS = [
   { name: "Mexico",               flag: "🇲🇽", group: "A", confederation: "CONCACAF" },
@@ -55,219 +58,161 @@ const TEAMS = [
   { name: "Ghana",                flag: "🇬🇭", group: "L", confederation: "CAF" },
 ];
 
-// Search term overrides for teams whose name alone is ambiguous
 const SEARCH_OVERRIDES = {
-  "USA":                  "USMNT World Cup 2026",
-  "South Korea":          "Korea Republic World Cup 2026",
+  "USA":                  "USMNT soccer World Cup 2026",
+  "South Korea":          "Korea Republic football World Cup 2026",
   "Bosnia & Herzegovina": "Bosnia football World Cup 2026",
   "Ivory Coast":          "Ivory Coast football World Cup 2026",
   "DR Congo":             "DR Congo football World Cup 2026",
   "Türkiye":              "Turkey football World Cup 2026",
   "Curaçao":              "Curacao football World Cup 2026",
-  "Scotland":             "Scotland football World Cup 2026",
 };
 
-function getSearchTerm(teamName) {
-  return SEARCH_OVERRIDES[teamName] || `${teamName} football World Cup 2026`;
+function getSearchTerm(name) {
+  return SEARCH_OVERRIDES[name] || (name + " football World Cup 2026");
 }
 
-function fetchURL(url) {
-  return new Promise((resolve, reject) => {
-    const lib = url.startsWith("https") ? https : http;
-    const req = lib.get(url, {
+function fetchURL(url, method) {
+  method = method || 'GET';
+  return new Promise(function(resolve, reject) {
+    var lib = url.startsWith('https') ? https : http;
+    var req = lib.request(url, {
+      method: method,
       headers: {
-        "User-Agent": "Mozilla/5.0 (compatible; WC2026Tracker/1.0)",
-        "Accept": "application/rss+xml, application/xml, text/xml, */*",
+        'User-Agent': 'Mozilla/5.0 (compatible; WC2026Tracker/1.0)',
+        'Accept': 'application/rss+xml, application/xml, text/xml, */*',
       },
-      timeout: 10000,
-    }, (res) => {
+      timeout: 12000,
+    }, function(res) {
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
-        return fetchURL(res.headers.location).then(resolve).catch(reject);
+        var loc = res.headers.location;
+        if (!loc.startsWith('http')) loc = new URL(loc, url).href;
+        return fetchURL(loc, method).then(resolve).catch(reject);
       }
-      let data = "";
-      res.on("data", chunk => data += chunk);
-      res.on("end", () => resolve({ status: res.statusCode, body: data }));
+      var data = '';
+      res.on('data', function(c) { data += c; });
+      res.on('end', function() { resolve({ status: res.statusCode, body: data, headers: res.headers }); });
     });
-    req.on("error", reject);
-    req.on("timeout", () => { req.destroy(); reject(new Error("Timeout")); });
-  });
-}
-
-// Resolve a Google News redirect URL to the actual article URL
-function resolveArticleUrl(url) {
-  return new Promise((resolve) => {
-    if (!url.includes("news.google.com")) return resolve(url);
-    const lib = url.startsWith("https") ? https : http;
-    const req = lib.request(url, {
-      method: "HEAD",
-      headers: { "User-Agent": "Mozilla/5.0 (compatible; WC2026Tracker/1.0)" },
-      timeout: 6000,
-    }, (res) => {
-      const loc = res.headers.location;
-      if (loc && loc.startsWith("http") && !loc.includes("news.google.com")) {
-        resolve(loc);
-      } else if (loc && loc.startsWith("http")) {
-        resolveArticleUrl(loc).then(resolve);
-      } else {
-        resolve(url);
-      }
-    });
-    req.on("error", () => resolve(url));
-    req.on("timeout", () => { req.destroy(); resolve(url); });
+    req.on('error', reject);
+    req.on('timeout', function() { req.destroy(); reject(new Error('Timeout: ' + url)); });
     req.end();
   });
 }
 
+function resolveUrl(url) {
+  if (!url || !url.includes('news.google.com')) return Promise.resolve(url);
+  return fetchURL(url, 'HEAD').then(function(r) { return url; }).catch(function() { return url; });
+}
+
 function parseRSS(xml) {
-  const items = [];
-  const itemBlocks = xml.match(/<item>([\s\S]*?)<\/item>/g) || [];
-  
-  for (const block of itemBlocks) {
-    const getText = (tag) => {
-      const m = block.match(new RegExp(`<${tag}[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/${tag}>|<${tag}[^>]*>([\\s\\S]*?)<\\/${tag}>`));
-      return m ? (m[1] || m[2] || "").trim() : "";
-    };
-
-    // Get link — Google RSS wraps the real URL in a redirect
-    const linkMatch = block.match(/<link>([\s\S]*?)<\/link>/) ||
-                      block.match(/<link\s+href="([^"]+)"/);
-    const rawLink = linkMatch ? linkMatch[1].trim() : "";
-
-    // Extract real URL from Google redirect if present
-    let url = rawLink;
-    const urlMatch = rawLink.match(/url=([^&]+)/);
-    if (urlMatch) {
-      try { url = decodeURIComponent(urlMatch[1]); } catch {}
+  var items = [];
+  var blocks = xml.match(/<item>([\s\S]*?)<\/item>/g) || [];
+  blocks.forEach(function(block) {
+    function getText(tag) {
+      var m = block.match(new RegExp('<' + tag + '[^>]*><!\\[CDATA\\[([\\s\\S]*?)\\]\\]><\\/' + tag + '>|<' + tag + '[^>]*>([\\s\\S]*?)<\\/' + tag + '>'));
+      return m ? (m[1] || m[2] || '').trim() : '';
     }
-
-    const sourceMatch = block.match(/<source[^>]*url="([^"]*)"[^>]*>([\s\S]*?)<\/source>/);
-    const sourceUrl  = sourceMatch ? sourceMatch[1] : "";
-    const sourceName = sourceMatch ? (sourceMatch[2] || "").replace(/<!\[CDATA\[|\]\]>/g, "").trim() : "";
-
-    const pubDate = getText("pubDate");
-    const title   = getText("title");
-    const desc    = getText("description");
-
-    if (!title || !url) continue;
-
-    // Parse date
-    let dateStr = "Recent";
+    var title = getText('title');
+    var desc = getText('description');
+    var pubDate = getText('pubDate');
+    // Get the link — it appears between </title> and <guid>
+    var linkM = block.match(/<link\s*\/?>(https?[^<]+)<\/link>/) ||
+                block.match(/<link>(https?[^<]+)/);
+    var url = linkM ? linkM[1].trim() : '';
+    var srcM = block.match(/<source[^>]*url="([^"]*)"[^>]*>([\s\S]*?)<\/source>/);
+    var sourceName = srcM ? (srcM[2] || '').replace(/<!\[CDATA\[|\]\]>/g, '').trim() : '';
+    var sourceUrl  = srcM ? srcM[1] : '';
+    if (!title || !url) return;
+    var dateStr = 'Recent';
     if (pubDate) {
-      const d = new Date(pubDate);
-      if (!isNaN(d)) {
-        dateStr = d.toLocaleDateString("en-US", { month: "short", day: "numeric" });
-      }
+      var d = new Date(pubDate);
+      if (!isNaN(d)) dateStr = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
     }
-
     items.push({
-      headline:  title.replace(/\s*-\s*[^-]+$/, "").trim(),
-      summary:   desc.replace(/<[^>]+>/g, "").replace(/&[a-z]+;/g, " ").trim().slice(0, 200),
-      source:    sourceName || "News",
-      sourceUrl: sourceUrl || "",
-      url:       url,   // may still be google redirect — resolved below
+      headline:  title.replace(/\s*[-|]\s*[^-|]+$/, '').trim(),
+      summary:   desc.replace(/<[^>]+>/g, '').replace(/&[a-z]+;/gi, ' ').trim().slice(0, 250),
+      source:    sourceName || 'News',
+      sourceUrl: sourceUrl,
+      url:       url,
       date:      dateStr,
-      category:  "Other",
       pubDate:   pubDate,
+      category:  'Other',
     });
-  }
-
+  });
   return items;
 }
 
-function categorize(headline) {
-  const h = headline.toLowerCase();
-  if (/injur|hurt|doubt|miss|ruled out|fitness|hamstring|knee|ankle/.test(h)) return "Injury";
-  if (/squad|call.?up|named|roster|selection|squad list/.test(h)) return "Squad";
-  if (/coach|manager|appoint|sack|resign|tactik|formation/.test(h)) return "Manager";
-  if (/win|beat|defeat|draw|lost|score|goal|result|match/.test(h)) return "Result";
-  if (/transfer|sign|join|contract|deal|move/.test(h)) return "Transfer";
-  if (/preview|predict|preview|face|clash|vs|against|upcoming/.test(h)) return "Preview";
-  if (/visa|cbp|customs|border|entry|state department|passport|travel/.test(h)) return "Entry";
-  if (/form|rank|rating|performance|season|club/.test(h)) return "Form";
-  return "Other";
+function categorize(h) {
+  h = h.toLowerCase();
+  if (/injur|hurt|doubt|miss|ruled.?out|fitness|hamstring|knee|ankle/.test(h)) return 'Injury';
+  if (/squad|call.?up|named|roster|selection/.test(h)) return 'Squad';
+  if (/coach|manager|appoint|sack|resign/.test(h)) return 'Manager';
+  if (/win|beat|defeat|draw|lost|score|goal|result/.test(h)) return 'Result';
+  if (/transfer|sign|join|contract|deal/.test(h)) return 'Transfer';
+  if (/visa|cbp|customs|border|entry|state department|passport/.test(h)) return 'Entry';
+  if (/preview|predict|face|clash|vs\.? |against|upcoming/.test(h)) return 'Preview';
+  if (/form|rank|performance|season/.test(h)) return 'Form';
+  return 'Other';
 }
 
-async function fetchTeamNews(teamName) {
-  const searchTerm = getSearchTerm(teamName);
-  const query = encodeURIComponent(searchTerm);
-  const rssUrl = `https://news.google.com/rss/search?q=${query}&hl=en-US&gl=US&ceid=US:en`;
+function sleep(ms) { return new Promise(function(r) { setTimeout(r, ms); }); }
 
-  try {
-    const { status, body } = await fetchURL(rssUrl);
-    if (status !== 200) {
-      console.warn(`  ${teamName}: HTTP ${status}`);
+function fetchTeamNews(teamName) {
+  var q = encodeURIComponent(getSearchTerm(teamName));
+  var rssUrl = 'https://news.google.com/rss/search?q=' + q + '&hl=en-US&gl=US&ceid=US:en';
+  return fetchURL(rssUrl).then(function(r) {
+    if (r.status !== 200) {
+      console.warn('  ' + teamName + ': HTTP ' + r.status);
       return [];
     }
-    const rawItems = parseRSS(body).slice(0, 5);
-
-    // Resolve Google News redirect URLs to real article URLs in parallel
-    const resolved = await Promise.all(
-      rawItems.map(async (item) => {
-        const realUrl = await resolveArticleUrl(item.url);
-        return { ...item, url: realUrl, category: categorize(item.headline) };
-      })
-    );
-    return resolved;
-  } catch (e) {
-    console.warn(`  ${teamName}: ${e.message}`);
+    var raw = parseRSS(r.body).slice(0, 5);
+    return raw.map(function(item) {
+      return Object.assign({}, item, { category: categorize(item.headline) });
+    });
+  }).catch(function(e) {
+    console.warn('  ' + teamName + ': ' + e.message);
     return [];
-  }
+  });
 }
-
-function sleep(ms) { return new Promise(r => setTimeout(r, ms)); }
 
 async function main() {
-  console.log(`Fetching real news for ${TEAMS.length} teams from Google News RSS...`);
-  const allNews = {};
-  const overviewItems = [];
+  console.log('Fetching real news for ' + TEAMS.length + ' teams...');
+  var allNews = {};
+  var overviewItems = [];
 
-  for (let i = 0; i < TEAMS.length; i++) {
-    const team = TEAMS[i];
-    process.stdout.write(`[${i+1}/${TEAMS.length}] ${team.name}... `);
-    const items = await fetchTeamNews(team.name);
+  for (var i = 0; i < TEAMS.length; i++) {
+    var team = TEAMS[i];
+    process.stdout.write('[' + (i+1) + '/' + TEAMS.length + '] ' + team.name + '... ');
+    var items = await fetchTeamNews(team.name);
     allNews[team.name] = items;
-    console.log(`${items.length} articles`);
-
-    // Add top story to overview
-    if (items.length > 0) {
-      overviewItems.push({ team: team.name, ...items[0] });
-    }
-
-    // Small delay to be polite
-    if (i < TEAMS.length - 1) await sleep(300);
+    console.log(items.length + ' articles');
+    if (items.length > 0) overviewItems.push(Object.assign({ team: team.name }, items[0]));
+    if (i < TEAMS.length - 1) await sleep(400);
   }
 
-  // Sort overview by most recent
-  overviewItems.sort((a, b) => {
-    const toMs = s => { const d = new Date(s); return isNaN(d) ? 0 : d.getTime(); };
-    return toMs(b.pubDate) - toMs(a.pubDate);
+  overviewItems.sort(function(a, b) {
+    var ta = new Date(a.pubDate || 0).getTime();
+    var tb = new Date(b.pubDate || 0).getTime();
+    return tb - ta;
   });
-  const overview = overviewItems.slice(0, 14);
+  var overview = overviewItems.slice(0, 14);
 
-  // Write newsData.js
-  const teamList = TEAMS.map(t =>
-    `  { name: ${JSON.stringify(t.name)}, flag: ${JSON.stringify(t.flag)}, group: ${JSON.stringify(t.group)}, confederation: ${JSON.stringify(t.confederation)} }`
-  ).join(",\n");
+  var teamList = TEAMS.map(function(t) {
+    return '  { name: ' + JSON.stringify(t.name) + ', flag: ' + JSON.stringify(t.flag) +
+           ', group: ' + JSON.stringify(t.group) + ', confederation: ' + JSON.stringify(t.confederation) + ' }';
+  }).join(',\n');
 
-  const output = `// AUTO-GENERATED by GitHub Actions — do not edit manually
-// Last updated: ${new Date().toISOString()}
+  var output = '// AUTO-GENERATED by GitHub Actions — do not edit manually\n' +
+    '// Last updated: ' + new Date().toISOString() + '\n\n' +
+    'const NEWS_DATA = ' + JSON.stringify(allNews, null, 2) + ';\n\n' +
+    'const OVERVIEW_NEWS = ' + JSON.stringify(overview, null, 2) + ';\n\n' +
+    'const TEAMS = [\n' + teamList + ',\n];\n\n' +
+    'export { NEWS_DATA, OVERVIEW_NEWS, TEAMS };\n';
 
-const NEWS_DATA = ${JSON.stringify(allNews, null, 2)};
-
-const OVERVIEW_NEWS = ${JSON.stringify(overview, null, 2)};
-
-const TEAMS = [
-${teamList},
-];
-
-export { NEWS_DATA, OVERVIEW_NEWS, TEAMS };
-`;
-
-  const outPath = path.join(__dirname, "../src/newsData.js");
-  fs.writeFileSync(outPath, output, "utf8");
-
-  const totalArticles = Object.values(allNews).reduce((s, a) => s + a.length, 0);
-  console.log(`\n✅ Done — ${totalArticles} real articles across ${TEAMS.length} teams`);
+  var outPath = path.join(__dirname, '../src/newsData.js');
+  fs.writeFileSync(outPath, output, 'utf8');
+  var total = Object.values(allNews).reduce(function(s, a) { return s + a.length; }, 0);
+  console.log('\n✅ Done — ' + total + ' articles across ' + TEAMS.length + ' teams');
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+main().catch(function(e) { console.error(e); process.exit(1); });
