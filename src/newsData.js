@@ -4,14 +4,14 @@
 const NEWS_DATA = {
   "Mexico": [
     {
-      "headline": "Iran's World Cup team lands in Mexico amid US visa row",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzSC1Vb3NEM1EzM3M0aTdUR2o4NERkOW1HMkFGR2hYUXJGa3hmM2ZVUllJR3lFV0hQbFd5YURLSEE3bWRYOEYxN0dFS2l1Z0RNdk5aM1pvUVlQZw?oc=5\" target=\"_blank\">Iran'",
-      "source": "BBC",
-      "sourceUrl": "https://www.bbc.com",
-      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzSC1Vb3NEM1EzM3M0aTdUR2o4NERkOW1HMkFGR2hYUXJGa3hmM2ZVUllJR3lFV0hQbFd5YURLSEE3bWRYOEYxN0dFS2l1Z0RNdk5aM1pvUVlQZw?oc=5",
-      "date": "Jun 7",
-      "pubDate": "Sun, 07 Jun 2026 13:24:50 GMT",
-      "category": "Entry"
+      "headline": "2026 FIFA Men's World Cup: How Mexico can reach the Round of 32",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQbmZ6bUdRUXBFOHRGcHlSMWZhLXZqVFRNeWxMSDJEX2pXMDd3NURxU2Nxa2Zmd2IwYjVZYl9qQk5NalozY092Z0R3MnI0S3NVZ3QxLVYwRXN6bTk2Mi1YaWNDWURhNnEtU2ZRc2Y1Wm",
+      "source": "The New York Times",
+      "sourceUrl": "https://www.nytimes.com",
+      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbmZ6bUdRUXBFOHRGcHlSMWZhLXZqVFRNeWxMSDJEX2pXMDd3NURxU2Nxa2Zmd2IwYjVZYl9qQk5NalozY092Z0R3MnI0S3NVZ3QxLVYwRXN6bTk2Mi1YaWNDWURhNnEtU2ZRc2Y1Wmh5OVA3aGNEcm94VzBXWlRZTmF6SUItOWZXYXYtSlhoNUJGNWR2bDlfWDFyWWNSeFhBdnZIMnBYYXRXaXItemFTY2t0b3hpcm8?oc=5",
+      "date": "Jun 10",
+      "pubDate": "Wed, 10 Jun 2026 17:17:56 GMT",
+      "category": "Other"
     },
     {
       "headline": "Mexico vs. South Africa - Kick-off time, team news, how to watch FIFA World Cup opener",
@@ -22,16 +22,6 @@ const NEWS_DATA = {
       "date": "Jun 10",
       "pubDate": "Wed, 10 Jun 2026 06:27:00 GMT",
       "category": "Preview"
-    },
-    {
-      "headline": "2026 FIFA Men's World Cup: How Mexico can reach the Round of 32",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitwFBVV95cUxQbmZ6bUdRUXBFOHRGcHlSMWZhLXZqVFRNeWxMSDJEX2pXMDd3NURxU2Nxa2Zmd2IwYjVZYl9qQk5NalozY092Z0R3MnI0S3NVZ3QxLVYwRXN6bTk2Mi1YaWNDWURhNnEtU2ZRc2Y1Wm",
-      "source": "The New York Times",
-      "sourceUrl": "https://www.nytimes.com",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbmZ6bUdRUXBFOHRGcHlSMWZhLXZqVFRNeWxMSDJEX2pXMDd3NURxU2Nxa2Zmd2IwYjVZYl9qQk5NalozY092Z0R3MnI0S3NVZ3QxLVYwRXN6bTk2Mi1YaWNDWURhNnEtU2ZRc2Y1Wmh5OVA3aGNEcm94VzBXWlRZTmF6SUItOWZXYXYtSlhoNUJGNWR2bDlfWDFyWWNSeFhBdnZIMnBYYXRXaXItemFTY2t0b3hpcm8?oc=5",
-      "date": "Jun 10",
-      "pubDate": "Wed, 10 Jun 2026 17:17:56 GMT",
-      "category": "Other"
     },
     {
       "headline": "Mexico and a history of playing in repeat World Cup opening fixtures | The Knowledge",
@@ -54,6 +44,16 @@ const NEWS_DATA = {
       "category": "Other"
     },
     {
+      "headline": "Iran's World Cup team lands in Mexico amid US visa row",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzSC1Vb3NEM1EzM3M0aTdUR2o4NERkOW1HMkFGR2hYUXJGa3hmM2ZVUllJR3lFV0hQbFd5YURLSEE3bWRYOEYxN0dFS2l1Z0RNdk5aM1pvUVlQZw?oc=5\" target=\"_blank\">Iran'",
+      "source": "BBC",
+      "sourceUrl": "https://www.bbc.com",
+      "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFAzSC1Vb3NEM1EzM3M0aTdUR2o4NERkOW1HMkFGR2hYUXJGa3hmM2ZVUllJR3lFV0hQbFd5YURLSEE3bWRYOEYxN0dFS2l1Z0RNdk5aM1pvUVlQZw?oc=5",
+      "date": "Jun 7",
+      "pubDate": "Sun, 07 Jun 2026 13:24:50 GMT",
+      "category": "Entry"
+    },
+    {
       "headline": "Iran 2026 World Cup squad heads to Mexico as US visa dispute erupts",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMirgFBVV95cUxPV2k3ckdScHh4YkJJVW1WT2pmbXdMaklHbDk2bHVjbk9iTm9CN3BHR1d0cmZ6bWZRSEJVOHNwelBVV1Y2aExVTWFNaTl0MjRTYUFTUS04RFpCWlR1UlV4Vnh4RE90LVF1OHlpaUtoa0",
       "source": "Al Jazeera",
@@ -65,6 +65,16 @@ const NEWS_DATA = {
     }
   ],
   "South Africa": [
+    {
+      "headline": "South Africa World Cup 2026 team guide",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNRWwxSHlMZmxxb3hNOXprOHYtTnV6M2RBSnFia2JFMEJ1XzFtd01wQTRMbXJqWHpFZUpMQUFhV0RZRTlQenZsUHc3VDc0dVo0R1FjXzlfbnlHaFRtWjAtTW1qdExsaktiOHdxbVZqTG",
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com",
+      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRWwxSHlMZmxxb3hNOXprOHYtTnV6M2RBSnFia2JFMEJ1XzFtd01wQTRMbXJqWHpFZUpMQUFhV0RZRTlQenZsUHc3VDc0dVo0R1FjXzlfbnlHaFRtWjAtTW1qdExsaktiOHdxbVZqTGJ3dkRxRUVyb04ybVNCVWVmNnp6LXkyNU9rX3NVMXAtS0cydmVPaHF0Y1dB?oc=5",
+      "date": "May 27",
+      "pubDate": "Wed, 27 May 2026 07:00:00 GMT",
+      "category": "Other"
+    },
     {
       "headline": "Mexico vs. South Africa - Kick-off time, team news, how to watch FIFA World Cup opener",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNRjJiTGhsakxzSHNFTGtqYnFOZ25aT0YzWUMxanRzd0hPXzNVSUc5dDhQWndGREFKSmlzNTlCQ2paZmg5cmE3emhEOWFOSFBQbmN2NE9pSEVUM3Zhc05uYUQ4cXdmT1RQNWdYbUEyaV",
@@ -84,16 +94,6 @@ const NEWS_DATA = {
       "date": "Jun 10",
       "pubDate": "Wed, 10 Jun 2026 13:11:17 GMT",
       "category": "Preview"
-    },
-    {
-      "headline": "South Africa World Cup 2026 team guide",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMimgFBVV95cUxNRWwxSHlMZmxxb3hNOXprOHYtTnV6M2RBSnFia2JFMEJ1XzFtd01wQTRMbXJqWHpFZUpMQUFhV0RZRTlQenZsUHc3VDc0dVo0R1FjXzlfbnlHaFRtWjAtTW1qdExsaktiOHdxbVZqTG",
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com",
-      "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNRWwxSHlMZmxxb3hNOXprOHYtTnV6M2RBSnFia2JFMEJ1XzFtd01wQTRMbXJqWHpFZUpMQUFhV0RZRTlQenZsUHc3VDc0dVo0R1FjXzlfbnlHaFRtWjAtTW1qdExsaktiOHdxbVZqTGJ3dkRxRUVyb04ybVNCVWVmNnp6LXkyNU9rX3NVMXAtS0cydmVPaHF0Y1dB?oc=5",
-      "date": "May 27",
-      "pubDate": "Wed, 27 May 2026 07:00:00 GMT",
-      "category": "Other"
     },
     {
       "headline": "Preview: Mexico vs South Africa - prediction, team news, lineups | World Cup 2026",
@@ -190,6 +190,16 @@ const NEWS_DATA = {
   ],
   "Czechia": [
     {
+      "headline": "2026 FIFA World Cup Hobby Preview, Group A: Mexico, South Africa, South Korea, and Czechia",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQc0pZaXpvc21qaE8wREFIQmd5VVBqZS1wMDFPWGpBU2Q1dmFobk1OSU4xbWZnSFcwSGhiZnZaNW5xYnUyMS1XaURyQWlPLXE1RnBDQ3A2c2xhVk8wMzVOZUpoQkFqSFYwUHQ0TGN0WH",
+      "source": "Sports Illustrated",
+      "sourceUrl": "https://www.si.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc0pZaXpvc21qaE8wREFIQmd5VVBqZS1wMDFPWGpBU2Q1dmFobk1OSU4xbWZnSFcwSGhiZnZaNW5xYnUyMS1XaURyQWlPLXE1RnBDQ3A2c2xhVk8wMzVOZUpoQkFqSFYwUHQ0TGN0WHJLS19iMmhBeGMwLTUyNTlfU1pHbjVlcHd6QTFHTEpHeUk0azI2blpLLU1WZ2VHcmk3REhSeVZLWEdDbnRvUDdUQTA0QQ?oc=5",
+      "date": "Jun 10",
+      "pubDate": "Wed, 10 Jun 2026 21:25:00 GMT",
+      "category": "Preview"
+    },
+    {
       "headline": "South Korea vs. Czechia live stream: How to watch FIFA World Cup, predictions, odds and lineups",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeGhmSlE4aF9SVXVIODk1Y21PYkpIUUlYNDc0bW5Ea3lRY0hsM0k4Uzd0eE9SUFNaMTM1d081VEloQVQ4Sm5XcmtPQVJ5SFBHQjEwQldYQVRGSE5GNVJwRU9BTU9DUDVVQXJIYXFjYT",
       "source": "CBS Sports",
@@ -207,16 +217,6 @@ const NEWS_DATA = {
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOc1E3RDMtOVRqNzB1eTE5WU1vX3ZvelE4WmJtb2ZuLWpwSVNZVktiMXVSNzQyNTI4dmlhY1RGWnZsU2FEZHFBaG5CWFE1MWJ6dkNXTl9EM2NhU1VLLVgxX1ZUNkh3b3A5NU8xZ3pCTjhqc0hNdmlwR2Zpd3R4N3dvWWY3VmFXLXhnY2xDc292LTEwMWlHS3JHTGtleklZbjJQTWRIbUNseE5kX08xMU9WX1NZQS1QVm4wclJLWE00VWppME11bzVj?oc=5",
       "date": "Jun 9",
       "pubDate": "Tue, 09 Jun 2026 16:46:00 GMT",
-      "category": "Preview"
-    },
-    {
-      "headline": "2026 FIFA World Cup Hobby Preview, Group A: Mexico, South Africa, South Korea, and Czechia",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiswFBVV95cUxQc0pZaXpvc21qaE8wREFIQmd5VVBqZS1wMDFPWGpBU2Q1dmFobk1OSU4xbWZnSFcwSGhiZnZaNW5xYnUyMS1XaURyQWlPLXE1RnBDQ3A2c2xhVk8wMzVOZUpoQkFqSFYwUHQ0TGN0WH",
-      "source": "Sports Illustrated",
-      "sourceUrl": "https://www.si.com",
-      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc0pZaXpvc21qaE8wREFIQmd5VVBqZS1wMDFPWGpBU2Q1dmFobk1OSU4xbWZnSFcwSGhiZnZaNW5xYnUyMS1XaURyQWlPLXE1RnBDQ3A2c2xhVk8wMzVOZUpoQkFqSFYwUHQ0TGN0WHJLS19iMmhBeGMwLTUyNTlfU1pHbjVlcHd6QTFHTEpHeUk0azI2blpLLU1WZ2VHcmk3REhSeVZLWEdDbnRvUDdUQTA0QQ?oc=5",
-      "date": "Jun 10",
-      "pubDate": "Wed, 10 Jun 2026 21:25:00 GMT",
       "category": "Preview"
     },
     {
@@ -438,16 +438,6 @@ const NEWS_DATA = {
   ],
   "Bosnia & Herzegovina": [
     {
-      "headline": "Canada vs Bosnia &amp; Herzegovina in FIFA World Cup 2026: Kick-off time, how to watch, stats, team news",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQRm53TTVzQ1paWG01dDBYS0t2bFd3eFYxZC1RZkgySFY1c0E4RGMyWXZBSDBIOVM1bWpaS3BRR19yTW9kUU9wLU1nUEtpUExQQU11Q0NtOHh6TEZKNXp4NTQwaWxSeXhYb2pKVlFpM1",
-      "source": "ESPN",
-      "sourceUrl": "https://www.espn.com",
-      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRm53TTVzQ1paWG01dDBYS0t2bFd3eFYxZC1RZkgySFY1c0E4RGMyWXZBSDBIOVM1bWpaS3BRR19yTW9kUU9wLU1nUEtpUExQQU11Q0NtOHh6TEZKNXp4NTQwaWxSeXhYb2pKVlFpM1kyN01fYlhmaUpJd0ppZkpNUmFwYk5wcTV0ZlZBNTdXMU5meG11cHdrdGJnY1J6QmpqOE91WHB0V2pJZnFGN3EwTEpGS2hKVFpOMVV4OUVVWTA2UV9MNE95Y0FR?oc=5",
-      "date": "Jun 10",
-      "pubDate": "Wed, 10 Jun 2026 12:53:00 GMT",
-      "category": "Preview"
-    },
-    {
       "headline": "World Cup 2026: How an old song from Bosnia went viral",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMijwFBVV95cUxORk5oMElna0pZUFA5TDBYNWEtYzdCcmhWSDlWOGYyTkZnRXY2ZUFpOVJzd1RaVFR1WEpRaXRNSjJoVVhTcURZa2l6Sy00dXFFeW1idjFzQUpRNVZTUVhibDg5VXVTLS1DQmNiZlpwM0",
       "source": "DW.com",
@@ -456,6 +446,16 @@ const NEWS_DATA = {
       "date": "Jun 10",
       "pubDate": "Wed, 10 Jun 2026 15:06:55 GMT",
       "category": "Other"
+    },
+    {
+      "headline": "Canada vs Bosnia &amp; Herzegovina in FIFA World Cup 2026: Kick-off time, how to watch, stats, team news",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMiygFBVV95cUxQRm53TTVzQ1paWG01dDBYS0t2bFd3eFYxZC1RZkgySFY1c0E4RGMyWXZBSDBIOVM1bWpaS3BRR19yTW9kUU9wLU1nUEtpUExQQU11Q0NtOHh6TEZKNXp4NTQwaWxSeXhYb2pKVlFpM1",
+      "source": "ESPN",
+      "sourceUrl": "https://www.espn.com",
+      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRm53TTVzQ1paWG01dDBYS0t2bFd3eFYxZC1RZkgySFY1c0E4RGMyWXZBSDBIOVM1bWpaS3BRR19yTW9kUU9wLU1nUEtpUExQQU11Q0NtOHh6TEZKNXp4NTQwaWxSeXhYb2pKVlFpM1kyN01fYlhmaUpJd0ppZkpNUmFwYk5wcTV0ZlZBNTdXMU5meG11cHdrdGJnY1J6QmpqOE91WHB0V2pJZnFGN3EwTEpGS2hKVFpOMVV4OUVVWTA2UV9MNE95Y0FR?oc=5",
+      "date": "Jun 10",
+      "pubDate": "Wed, 10 Jun 2026 12:53:00 GMT",
+      "category": "Preview"
     },
     {
       "headline": "Bosnia and Herzegovina World Cup 2026 Schedule: Locations, Dates, Times",
@@ -614,16 +614,6 @@ const NEWS_DATA = {
   ],
   "Scotland": [
     {
-      "headline": "World Cup 2026: Norway label Scotland ‘unprofessional’, Somali referee denied entry to US: football news – as it happened",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVNaei04MFJGcmpNdFA5Q29XOVc2b3JENHlFNVNiNHNwQTBtOG5GTEJvdWdEanNCWVRuWFdid0M2S045WXd4T3NZOG9XTnJzcVk5a1lUY1JuWlBnd05jRVV5NjJ5c192QmhBZFdDUE",
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVNaei04MFJGcmpNdFA5Q29XOVc2b3JENHlFNVNiNHNwQTBtOG5GTEJvdWdEanNCWVRuWFdid0M2S045WXd4T3NZOG9XTnJzcVk5a1lUY1JuWlBnd05jRVV5NjJ5c192QmhBZFdDUEZ6cEdieUZFY0toRmN1NkNhSTRqOUtNbzFjdEcyYmZZc3ZLTWh0NGFpTjl2SGdES0RLM2tXRGpOeG56Tno0THZCdEhKaGZ1U1JVSEpsZVdRYTRUMUkzR2JV?oc=5",
-      "date": "Jun 8",
-      "pubDate": "Mon, 08 Jun 2026 17:57:35 GMT",
-      "category": "Entry"
-    },
-    {
       "headline": "FIFA World Cup 2026 – How to watch Haiti vs Scotland on TV and BBC iPlayer and follow across the BBC",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMimAFBVV95cUxNemJXVlhQWFBqRjNVZXdoeEEyLTEybU1hVmFFX1Zkc0oyeGgtU2RPZFdzeVFEa2ZWMi1nVVRZbjR4a0hNa1dRejROd09NZWZBNXdBeTRMNGZNcG1MM1FuZkNkRWk4SHFDN0U1ZERLT1",
       "source": "BBC",
@@ -662,6 +652,16 @@ const NEWS_DATA = {
       "date": "Jun 6",
       "pubDate": "Sat, 06 Jun 2026 18:00:00 GMT",
       "category": "Other"
+    },
+    {
+      "headline": "World Cup 2026: Norway label Scotland ‘unprofessional’, Somali referee denied entry to US: football news – as it happened",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVNaei04MFJGcmpNdFA5Q29XOVc2b3JENHlFNVNiNHNwQTBtOG5GTEJvdWdEanNCWVRuWFdid0M2S045WXd4T3NZOG9XTnJzcVk5a1lUY1JuWlBnd05jRVV5NjJ5c192QmhBZFdDUE",
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVNaei04MFJGcmpNdFA5Q29XOVc2b3JENHlFNVNiNHNwQTBtOG5GTEJvdWdEanNCWVRuWFdid0M2S045WXd4T3NZOG9XTnJzcVk5a1lUY1JuWlBnd05jRVV5NjJ5c192QmhBZFdDUEZ6cEdieUZFY0toRmN1NkNhSTRqOUtNbzFjdEcyYmZZc3ZLTWh0NGFpTjl2SGdES0RLM2tXRGpOeG56Tno0THZCdEhKaGZ1U1JVSEpsZVdRYTRUMUkzR2JV?oc=5",
+      "date": "Jun 8",
+      "pubDate": "Mon, 08 Jun 2026 17:57:35 GMT",
+      "category": "Entry"
     },
     {
       "headline": "Scotland fan has US visa revoked an hour before flying to World Cup",
@@ -1534,16 +1534,6 @@ const NEWS_DATA = {
       "category": "Other"
     },
     {
-      "headline": "World Cup 2026 visa chaos: from referee Omar Artan to Iranian officials – who is affected?",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjJWcnJZWlpVLUs1Vll2dmt4cWU5QTQzTkFPU0JRaUx5TzR2UVpPdHVlWTFkeERqTDZxSWxacW1tQmNzcDJwek5vLTNxcjhJSTRPTnRxeGdoN181Ym9qSEVETWR5aXlmckRTVHN3OW",
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjJWcnJZWlpVLUs1Vll2dmt4cWU5QTQzTkFPU0JRaUx5TzR2UVpPdHVlWTFkeERqTDZxSWxacW1tQmNzcDJwek5vLTNxcjhJSTRPTnRxeGdoN181Ym9qSEVETWR5aXlmckRTVHN3OWNMZnA0M21MOW44TlZKZTZiTnZHallyUTFnZ0p3RnY0UGs1R0RsS1NiWksxREp0c2xRaXFqazN4MTQ1TW5HQ3JMTEVEVkxmZw?oc=5",
-      "date": "Jun 9",
-      "pubDate": "Tue, 09 Jun 2026 13:45:00 GMT",
-      "category": "Entry"
-    },
-    {
       "headline": "Iran threatens to stop World Cup games if faced with unauthorised flags or slogans",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMiyAFBVV95cUxPRFI1QzFrdGxzMzdaSks1VWhIYV9GbWR2RkFEZXBwSmU3QWphd3BYU0xKQnFIYWRNUk55Z09KX0NsU2ZRTkF6TEJ0YzMtbUx3MnFuYkM2bFVEY2htYlk0TlVZWGZoeFZaTGFtZFRyQk",
       "source": "Reuters",
@@ -1572,6 +1562,16 @@ const NEWS_DATA = {
       "date": "Jun 7",
       "pubDate": "Sun, 07 Jun 2026 16:47:40 GMT",
       "category": "Other"
+    },
+    {
+      "headline": "World Cup 2026 visa chaos: from referee Omar Artan to Iranian officials – who is affected?",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjJWcnJZWlpVLUs1Vll2dmt4cWU5QTQzTkFPU0JRaUx5TzR2UVpPdHVlWTFkeERqTDZxSWxacW1tQmNzcDJwek5vLTNxcjhJSTRPTnRxeGdoN181Ym9qSEVETWR5aXlmckRTVHN3OW",
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNcjJWcnJZWlpVLUs1Vll2dmt4cWU5QTQzTkFPU0JRaUx5TzR2UVpPdHVlWTFkeERqTDZxSWxacW1tQmNzcDJwek5vLTNxcjhJSTRPTnRxeGdoN181Ym9qSEVETWR5aXlmckRTVHN3OWNMZnA0M21MOW44TlZKZTZiTnZHallyUTFnZ0p3RnY0UGs1R0RsS1NiWksxREp0c2xRaXFqazN4MTQ1TW5HQ3JMTEVEVkxmZw?oc=5",
+      "date": "Jun 9",
+      "pubDate": "Tue, 09 Jun 2026 13:45:00 GMT",
+      "category": "Entry"
     },
     {
       "headline": "Iran players: U.S. visa policies creating World Cup 'tension'",
@@ -2072,16 +2072,6 @@ const NEWS_DATA = {
   ],
   "Norway": [
     {
-      "headline": "World Cup 2026: Norway label Scotland ‘unprofessional’, Somali referee denied entry to US: football news – as it happened",
-      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVNaei04MFJGcmpNdFA5Q29XOVc2b3JENHlFNVNiNHNwQTBtOG5GTEJvdWdEanNCWVRuWFdid0M2S045WXd4T3NZOG9XTnJzcVk5a1lUY1JuWlBnd05jRVV5NjJ5c192QmhBZFdDUE",
-      "source": "The Guardian",
-      "sourceUrl": "https://www.theguardian.com",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVNaei04MFJGcmpNdFA5Q29XOVc2b3JENHlFNVNiNHNwQTBtOG5GTEJvdWdEanNCWVRuWFdid0M2S045WXd4T3NZOG9XTnJzcVk5a1lUY1JuWlBnd05jRVV5NjJ5c192QmhBZFdDUEZ6cEdieUZFY0toRmN1NkNhSTRqOUtNbzFjdEcyYmZZc3ZLTWh0NGFpTjl2SGdES0RLM2tXRGpOeG56Tno0THZCdEhKaGZ1U1JVSEpsZVdRYTRUMUkzR2JV?oc=5",
-      "date": "Jun 8",
-      "pubDate": "Mon, 08 Jun 2026 17:57:35 GMT",
-      "category": "Entry"
-    },
-    {
       "headline": "Norway Squad Wear Childhood Kits Ahead of 2026 World Cup",
       "summary": "<a href=\"https://news.google.com/rss/articles/CBMipgFBVV95cUxOd1o2RnFGcHV0UkcxNTA4V3JrWDRaYTc2eXVkLXNoTHRyREV2N1BieHJ6OTRlTWwxQnhUR2VaUG5SY2IxNzZ0MFlJVTlRUEtVT1doenZKWDdMdHlzblg0TUZFRTVJTEpuSHNhdE5qX0",
       "source": "Footy Headlines",
@@ -2120,6 +2110,16 @@ const NEWS_DATA = {
       "date": "Jun 8",
       "pubDate": "Mon, 08 Jun 2026 14:23:55 GMT",
       "category": "Other"
+    },
+    {
+      "headline": "World Cup 2026: Norway label Scotland ‘unprofessional’, Somali referee denied entry to US: football news – as it happened",
+      "summary": "<a href=\"https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVNaei04MFJGcmpNdFA5Q29XOVc2b3JENHlFNVNiNHNwQTBtOG5GTEJvdWdEanNCWVRuWFdid0M2S045WXd4T3NZOG9XTnJzcVk5a1lUY1JuWlBnd05jRVV5NjJ5c192QmhBZFdDUE",
+      "source": "The Guardian",
+      "sourceUrl": "https://www.theguardian.com",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbVNaei04MFJGcmpNdFA5Q29XOVc2b3JENHlFNVNiNHNwQTBtOG5GTEJvdWdEanNCWVRuWFdid0M2S045WXd4T3NZOG9XTnJzcVk5a1lUY1JuWlBnd05jRVV5NjJ5c192QmhBZFdDUEZ6cEdieUZFY0toRmN1NkNhSTRqOUtNbzFjdEcyYmZZc3ZLTWh0NGFpTjl2SGdES0RLM2tXRGpOeG56Tno0THZCdEhKaGZ1U1JVSEpsZVdRYTRUMUkzR2JV?oc=5",
+      "date": "Jun 8",
+      "pubDate": "Mon, 08 Jun 2026 17:57:35 GMT",
+      "category": "Entry"
     },
     {
       "headline": "WATCH: Switzerland And Norway Arrive In USA For World Cup 2026, Embolo Faces Visa Issue | AD1B (5GKKpOegRO)",

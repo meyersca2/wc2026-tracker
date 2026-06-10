@@ -209,6 +209,52 @@ export default function App() {
             </div>
           </div>
 
+          {/* Entry / CBP / Visa News Section */}
+          {(() => {
+            const entryItems = [];
+            TEAMS.forEach(t => {
+              (NEWS_DATA[t.name] || []).forEach(item => {
+                if (item.category === 'Entry') entryItems.push({ ...item, team: t.name, flag: t.flag });
+              });
+            });
+            entryItems.sort((a, b) => {
+              const toMs = s => { const d = new Date(s + ' 2026'); return isNaN(d) ? 0 : d.getTime(); };
+              return toMs(b.date) - toMs(a.date);
+            });
+            if (entryItems.length === 0) return null;
+            return (
+              <div style={{
+                backgroundColor: "#fff", border: "1px solid #f9a825", borderRadius: "8px",
+                padding: "16px 20px", marginBottom: "20px", boxShadow: "0 1px 4px rgba(249,168,37,0.15)",
+              }}>
+                <div style={{ marginBottom: "12px" }}>
+                  <div style={{ fontSize: "13px", fontWeight: 800, letterSpacing: "0.06em", color: "#7b4f00" }}>🛂 ENTRY, VISA &amp; BORDER NEWS</div>
+                  <div style={{ fontSize: "11px", color: "#888", marginTop: "2px" }}>Real reports on US entry, CBP, visa issues &amp; travel advisories</div>
+                </div>
+                <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0 24px" }}>
+                  {entryItems.slice(0, 12).map((item, i) => {
+                    const team = TEAMS.find(t => t.name === item.team);
+                    return (
+                      <div key={i} onClick={() => { if(team){setSelectedTeam(team);setView('team');} }}
+                        style={{ borderBottom: "1px solid #fef9e7", padding: "8px 0", cursor: team ? "pointer" : "default" }}>
+                        <div style={{ display: "flex", alignItems: "center", gap: "6px", marginBottom: "3px", flexWrap: "wrap" }}>
+                          {team && <span style={{ fontSize: "14px" }}>{team.flag}</span>}
+                          <span style={{ fontSize: "10px", fontWeight: 700, color: "#7b4f00", letterSpacing: "0.04em", textTransform: "uppercase" }}>{item.team}</span>
+                          <span style={{ fontSize: "10px", color: "#aaa" }}>{item.date} · {item.source}</span>
+                        </div>
+                        <a href={getArticleUrl(item.url, item.headline, item.source)} target="_blank" rel="noopener noreferrer"
+                          style={{ fontSize: "12px", fontWeight: 700, color: "#7b4f00", lineHeight: 1.35, textDecoration: "none", display: "block" }}
+                          onClick={e => e.stopPropagation()}>
+                          {item.headline} ↗
+                        </a>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
+            );
+          })()}
+
           {/* Search */}
           <div style={{ display: "flex", gap: "8px", alignItems: "center", marginBottom: "14px" }}>
             <input placeholder="Search team..." value={searchQuery} onChange={e => setSearchQuery(e.target.value)}
@@ -221,7 +267,7 @@ export default function App() {
             {filteredTeams.map(team => {
               // Prefer first non-entry story with a real headline for card preview
               const allStories = NEWS_DATA[team.name] || [];
-              const isBadHeadline = (h) => !h || h.length < 20 || /\bvs\.?\s*$/.test(h) || /^[\w\s]+ vs\.?\s*$/.test(h);
+              const isBadHeadline = (h) => !h || h.length < 25 || /^\S[\w\s]+ vs\.?\s/i.test(h) || /vs\.?\s*$/.test(h);
               const firstStory = allStories.find(s => s.category !== 'Entry' && !isBadHeadline(s.headline)) || 
                                  allStories.find(s => s.category !== 'Entry') || 
                                  allStories[0];
