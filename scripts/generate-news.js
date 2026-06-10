@@ -81,7 +81,6 @@ function fetchURL(url) {
       },
       timeout: 10000,
     }, (res) => {
-      // Follow redirects
       if (res.statusCode >= 300 && res.statusCode < 400 && res.headers.location) {
         return fetchURL(res.headers.location).then(resolve).catch(reject);
       }
@@ -91,6 +90,31 @@ function fetchURL(url) {
     });
     req.on("error", reject);
     req.on("timeout", () => { req.destroy(); reject(new Error("Timeout")); });
+  });
+}
+
+// Resolve a Google News redirect URL to the actual article URL
+function resolveArticleUrl(url) {
+  return new Promise((resolve) => {
+    if (!url.includes("news.google.com")) return resolve(url);
+    const lib = url.startsWith("https") ? https : http;
+    const req = lib.request(url, {
+      method: "HEAD",
+      headers: { "User-Agent": "Mozilla/5.0 (compatible; WC2026Tracker/1.0)" },
+      timeout: 6000,
+    }, (res) => {
+      const loc = res.headers.location;
+      if (loc && loc.startsWith("http") && !loc.includes("news.google.com")) {
+        resolve(loc);
+      } else if (loc && loc.startsWith("http")) {
+        resolveArticleUrl(loc).then(resolve);
+      } else {
+        resolve(url);
+      }
+    });
+    req.on("error", () => resolve(url));
+    req.on("timeout", () => { req.destroy(); resolve(url); });
+    req.end();
   });
 }
 
@@ -136,14 +160,14 @@ function parseRSS(xml) {
     }
 
     items.push({
-      headline: title.replace(/\s*-\s*[^-]+$/, "").trim(), // strip "- Source Name" suffix
-      summary:  desc.replace(/<[^>]+>/g, "").replace(/&[a-z]+;/g, " ").trim().slice(0, 200),
-      source:   sourceName || "News",
-      sourceUrl: sourceUrl || url,
-      url:      url,
-      date:     dateStr,
-      category: "Other",
-      pubDate:  pubDate,
+      headline:  title.replace(/\s*-\s*[^-]+$/, "").trim(),
+      summary:   desc.replace(/<[^>]+>/g, "").replace(/&[a-z]+;/g, " ").trim().slice(0, 200),
+      source:    sourceName || "News",
+      sourceUrl: sourceUrl || "",
+      url:       url,   // may still be google redirect — resolved below
+      date:      dateStr,
+      category:  "Other",
+      pubDate:   pubDate,
     });
   }
 
@@ -174,11 +198,16 @@ async function fetchTeamNews(teamName) {
       console.warn(`  ${teamName}: HTTP ${status}`);
       return [];
     }
-    const items = parseRSS(body);
-    return items.slice(0, 5).map(item => ({
-      ...item,
-      category: categorize(item.headline),
-    }));
+    const rawItems = parseRSS(body).slice(0, 5);
+
+    // Resolve Google News redirect URLs to real article URLs in parallel
+    const resolved = await Promise.all(
+      rawItems.map(async (item) => {
+        const realUrl = await resolveArticleUrl(item.url);
+        return { ...item, url: realUrl, category: categorize(item.headline) };
+      })
+    );
+    return resolved;
   } catch (e) {
     console.warn(`  ${teamName}: ${e.message}`);
     return [];
