@@ -119,7 +119,10 @@ export default function App() {
               <div style={{ fontSize: "11px", color: "#888", marginTop: "2px" }}>Click any headline to jump to that team's full coverage</div>
             </div>
             <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0 24px" }}>
-              {OVERVIEW_NEWS.map((item, i) => {
+              {[...OVERVIEW_NEWS].sort((a, b) => {
+                const toMs = s => { const d = new Date(`${s} 2026`); return isNaN(d) ? 0 : d.getTime(); };
+                return toMs(b.date) - toMs(a.date);
+              }).map((item, i) => {
                 const team = TEAMS.find(t => t.name === item.team);
                 return (
                   <div key={i} onClick={() => { if (team) { setSelectedTeam(team); setView("team"); } }}
